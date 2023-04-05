@@ -1,0 +1,148 @@
+Description:
+1. Add the production of a series of crops and their agricultural by-products (mainly).
+2. Add "Blessing of the Spirits" to resist the apocalypse (it doesn't have much effect).
+3. Add a little architecture.
+4. Carry a series of functional changes, all of which can be configured in config (mainly).
+
+Body:
+Requires ModLoader as a frontend.
+
+1. Rapeseed and vegetable oil:
+1. "Rapeseed" can be found on the edge of the jungle
+2. Unlock the blueprint "vegetable oil" after discovery
+3. "Vegetable oil" will not rot and evaporate
+4. "Vegetable oil" can be processed into "oil"
+5. 'Canola' can be grown in fields
+6. "Rapeseed" itself is a vegetable that can be eaten and perhaps cooked
+
+2. Cotton and Textile:
+1. "Cotton" can be found in the Western Highlands
+2. After "cotton" is picked, more "fiber" can be obtained directly
+3. "Cotton" can be grown in fields
+4. Added "Advanced Spinning Machine": 50% of textiles are unlocked,
+Can put 6 fibers/2 thread balls to produce 4 thin threads/2 thread balls/1 rope,
+You can put 3 palm leaves to make 2 palm braids.
+5. Newly added "Advanced Loom": 50% of textiles are unlocked,
+You can put up to 4 thread balls, and then consume the original thread balls to weave various kinds of cloth.
+Both of the above machines can be dismantled
+6. Bedding: Unlock 50% of textiles, made of cotton (or hemp), bows, long wooden sticks, and flint slabs, which can be laid on wooden beds to become comfortable beds
+7. Comfortable bed: further increase comfort, reduce a little pressure, sleep time * 0.75, and no back pain
+ex: New trait: Realism
+You won't find canola or cotton, but oil palm and hemp.
+
+3. Useful tools:
+1. Evaporative Refrigerator: Crafted using "Wood" and "Big Cloth", found through "Big Cloth"
+Add water to work, you can reduce the ambient temperature, the reduction value = 1.5 campfires, only effective indoors
+You can pour the water out so you don't freeze to death
+2. Swing: It can be played on a swing outdoors, and the effect is the same as that of a sandcastle.
+3. Black gunpowder: It is made of one sulfur, two nitrates and three charcoals, and then sugar can be added to make explosives.
+4. Add a new blueprint: plank (half log)
+Produces 4 planks using half a log in half the time
+5. New props: wooden barrel
+The water container that can be placed on it can be converted into a fermentation barrel (need to be used in conjunction with technology first)
+
+4. Strawberries and Juice:
+1. New crop strawberries, eating can reduce stress, can be planted in the field
+2. It can be squeezed into strawberry juice, which has a stronger stress-relieving effect
+3. You can use the brewing stand to squeeze the juice, but the strawberry juice should be turned out in time
+
+5. The Blessing of All Spirits
+1. Add the trait "Blessing of All Souls", difficulty -5000, this trait can trigger the following events:
+
+2. You can find the "Spirit of Ifrit" after exploring 40% of the "Eastern Highlands":
+1) You can use "burn" 100 points to add 1 point of fire magic point
+2) When it has 10 fire magic points, it will trigger "Ifrit Comes"
+You can pray to it for explosives or spear skills
+3) You can pray to the "Spirit of Ifrit" for blessing to speed up the recovery of burns, and the next blessing can only be given after the blessing disappears.
+
+3. You can find the "Spirit of Liviasan" after exploring 40% of the "Beach":
+You can use "Shark Jaws" to add 1 water magic point:
+1) Learning to surf: You need 10 water magic points to exchange for 1 water god token. The token lasts for 10 days. When you have the token, you can go to and from Bird Rock Island to surf.
+2) Pray for blessings: Exchange 1 water magic point and get 2 points of "swimming skill"
+4. "Titan's Spirit" can be found after exploring 40% of the "Desolate Beach":
+You can use "Boar Teeth" to add 3 earth magic points:
+You can consume 2 earth magic points to exchange for 1 "Flint Slab"
+Can consume 4 earth magic points + 15 minutes to make masonry skills +1
+It can consume 4 earth magic points + 15 minutes to make metalworking skills +1
+
+5. In the "Bay" to explore to 40%, you can find the "Spirit of Garuda":
+You can use "feather" to make it increase 1 wind magic point:
+Can consume 3 wind magic points + 15 minutes, + trap skills
+Can consume 3 wind magic points + 15 minutes, + bow skills
+
+6. In the "Eastern Grassland" to explore to 40%, you can find "Sophia's Spirit":
+You can use "Bone"/"Bird Bone" to add 1 balance magic point:
+Can consume 3 balance magic points + 15 minutes, + drumming skills
+Can consume 3 balance magic points + 15 minutes to reduce loneliness
+
+7. The Spirit of Safilot has been deleted (Apocalypse has no volcanic ash bombing)
+6. Xianghe Valley (formerly Hidden Canyon):
+Added a new location: Harmonious Valley, 95% discovery of Jungle Highland Exploration
+Special findings:
+Wheat, corn, jasmine, honeycomb
+landmark:
+1. A waterfall with a stream
+Can dig mud, fish, fry fish, catch fish + unlimited unsafe water
+2. Valley Cave (formerly Canyon Cave)
+There is a rotten log in the cave (explore 50%), you can pick miscellaneous fungi,
+There is a spring in the cave (100% explored) with clean water
+Stones, fungi, magnetite mines, and flint plates can be found in caves. Magnetite mines can mine magnetite, and each mine produces 3
+Exclusive construction here: mill, hydroelectric generator (requires technology first)
+7. Wheat and corn:
+1. Wheat can be found in "Xianghe Valley", and wheat can be ground into flour
+2. You can find corn in "Xianghe Valley", and the corn can be cooked into "roasted corn". If there is unlimited roasted corn, please update modloader to 1.3.2
+3. Can be put into "stone mill"/"mill" to grind into "flour"
+Added stone mill transformation box, unlocked with 50 cooking points
+It can consume 20 points of electricity (technology first) to transform the stone mill into a mill
+Linked Crom-soybean process
+4. "Flour" can be used to make "steamed bread" and "baozi"
+5. New blueprint "steamer", if there are a lot of steamer, please delete the dll
+6. Added blueprint "Stone Mill"
+Stone mills and mills can grind soybeans to get coarse soybean powder, and grind 1 dry bean to get 1/3 of oil
+Eight, Dll function:
+Farming Return: Whether the original crop will be returned to the field after it matures. If it is true, it will be returned. The default is true (PS: If you want to return the mod, just change the name of the field to CropPlotXXX)
+Leaves are not rotten: Whether the leaves will be corrupted, if it is true, it will not be corrupted, the default is true
+Palm does not rot: Whether the palm leaves will be corrupted, if it is true, it will not be corrupted, the default is true
+Monkey savior: Injured monkeys and monkey friends do not bite, enabled when true, default is true
+Bee mute: remove the background sound effect of the beehive, enable it when it is true, the default is true
+Pumpkin time: the duration of a pumpkin lantern with a candle, the unit is days, the default is 3 days
+Remove debuff: remove skill training debuff, enable when true, default is true
+Nine, sugar cane:
+Sugarcane bushes can be found in jungles
+Can chop sugar cane with an ax
+Sugarcane can be squeezed for sugarcane juice, which can be completed with blueprints or in the brewing stand (requires technology first)
+Sugar cane juice can be used to refine sugar (directly, or roasted by fire)
+
+10. Pumpkin:
+Pumpkin bushes can be found at the edge of the jungle
+Pumpkin bushes can pick pumpkins
+Pumpkins can be planted to produce pumpkin fields, and return to a field when they are mature.
+Pumpkins can be carved out of jack-o-lanterns with a knife-empty
+Pumpkin Lantern - Empty You can put a lit candle into a pumpkin lantern. The pumpkin lantern lasts for 3 days and can be placed. After it burns out, it will turn back into a pumpkin lantern - Empty
+Pumpkins can be placed directly into the stove to get Steamed Pumpkins
+Added another blueprint: Tamaled Pork
+Requires pumpkin (as a bowl) + corn (as raw flour) + pork*2
+Get uncooked tamales which need to be steamed in the stove
+Because the pumpkin will be roasted, it cannot be cooked with a campfire!
+Added new trait: Pumpkin Lantern
+Start with a jack-o-lantern
+Carve the jack-o'-lantern further:
+Condition: Carpentry skill reaches 50 points (not a percentage)
+Operation: Drag the handle to the bright jack-o-lantern (note that it is bright)
+Effect: Turn the jack-o-lantern into a beautiful jack-o-lantern, providing 25 points of comfort
+
+11. Cocoa and Chocolate
+Cocoa bushes can be found in East Grass
+3 cocoa beans make 1 chocolate
+cocoa beans can be farmed
+
+12. Sling and sling
+Integrate and fix "Slings and Slings"
+
+Thank you very much @李嘉 for the stickers,
+Linkage Warm Soup:
+Vegetables: pumpkin, corn, rapeseed
+Fruits: strawberries
+Starches: Flour
+Oil bases: vegetable oil, palm oil
+Sugar base: sugar cane juice

@@ -1,0 +1,57 @@
+{
+    "LiquidImagesWarpData": [
+        {
+            "LiquidCards": [],
+            "LiquidCardsWarpData": [
+                "86975997954b11edb0a3047c16184f06"
+            ],
+            "LiquidCardsWarpType": 3,
+            "LiquidImage": {
+                "m_FileID": 0,
+                "m_PathID": 0
+            },
+            "LiquidImageWarpData": "\u8349\u8393\u679c\u6c41",
+            "LiquidImageWarpType": 3
+        },
+        {
+            "LiquidCards": [],
+            "LiquidCardsWarpData": [
+                "05af7b1e965011eda42d047c16184f06"
+            ],
+            "LiquidCardsWarpType": 3,
+            "LiquidImage": {
+                "m_FileID": 0,
+                "m_PathID": 0
+            },
+            "LiquidImageWarpData": "\u7518\u8517\u6c41",
+            "LiquidImageWarpType": 3
+        },
+        {
+            "LiquidCards": [],
+            "LiquidCardsWarpData": [
+                "5d14818a949d11ed95be047c16184f06"
+            ],
+            "LiquidCardsWarpType": 3,
+            "LiquidImage": {
+                "m_FileID": 0,
+                "m_PathID": 0
+            },
+            "LiquidImageWarpData": "\u6cb9\u68d5\u6cb9",
+            "LiquidImageWarpType": 3
+        },
+        {
+            "LiquidCards": [],
+            "LiquidCardsWarpData": [
+                "eab24fb48f6311edb048c475ab46ec3f"
+            ],
+            "LiquidCardsWarpType": 3,
+            "LiquidImage": {
+                "m_FileID": 0,
+                "m_PathID": 0
+            },
+            "LiquidImageWarpData": "GuilMod_Caiyou2",
+            "LiquidImageWarpType": 3
+        }
+    ],
+    "LiquidImagesWarpType": 4
+}

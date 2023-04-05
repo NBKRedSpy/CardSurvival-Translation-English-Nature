@@ -1,0 +1,83 @@
+{
+    "ActionModifiers": [],
+    "ActionObjectives": [],
+    "AddedCards": [],
+    "AddedStartingHours": 0,
+    "CardsOnBoardObjectives": [],
+    "CheckingNotificationDetails": 0,
+    "CompleteOnLose": false,
+    "CompleteOnWin": false,
+    "DifficultyRating": "0",
+    "DisplayPriority": "95",
+    "EditorOnly": false,
+    "EquippedCards": [],
+    "HiddenUntilUnlocked": false,
+    "MoonsCost": 0,
+    "NestedObjectives": [],
+    "NoSafetyMode": false,
+    "NotifyWhenNotChecked": false,
+    "OverrideEnvironment": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "OverrideEquipment": false,
+    "OverrideWeather": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "PassiveStatModifiers": [
+        {
+            "ApplyEachTick": false,
+            "InstantModifier": false,
+            "IsInverse": false,
+            "RateModifier": {
+                "x": 0,
+                "y": 0
+            },
+            "Stat": {
+                "m_FileID": 0,
+                "m_PathID": 0
+            },
+            "StatWarpData": "bfbef12194a111ed9c2f047c16184f06",
+            "StatWarpType": 3,
+            "ValueModifier": {
+                "x": "1",
+                "y": "1"
+            }
+        }
+    ],
+    "PerkDescription": {
+        "DefaultText": "\u4f60\u662f\u4e00\u4e2a\u5199\u5b9e\u6d3e\u7684\u4eba\uff0c\u4f60\u4e0d\u4f1a\u53d1\u73b0\u68c9\u82b1\u6216\u6cb9\u83dc\uff0c\u800c\u4f1a\u53d1\u73b0\u9ebb\u548c\u6cb9\u68d5\u3002",
+        "LocalizationKey": "",
+        "ParentObjectID": "ac91078494a111edbae2047c16184f06"
+    },
+    "PerkIcon": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "PerkIconWarpData": "Digi-\u5199\u5b9e\u6d3e",
+    "PerkIconWarpType": 3,
+    "PerkName": {
+        "DefaultText": "\u5199\u5b9e\u6d3e",
+        "LocalizationKey": "",
+        "ParentObjectID": "ac91078494a111edbae2047c16184f06"
+    },
+    "PerkUnlockConditions": {
+        "DefaultText": "",
+        "LocalizationKey": "",
+        "ParentObjectID": ""
+    },
+    "PlayedCharacter": [],
+    "RequiredDifficultyScore": {
+        "x": 0,
+        "y": 0
+    },
+    "ResetLockInEditor": false,
+    "StartUnlocked": false,
+    "StartingStatModifiers": [],
+    "StatsObjectives": [],
+    "SunsCost": "1",
+    "TagsOnBoardObjectives": [],
+    "TimeObjectives": [],
+    "UniqueID": "ac91078494a111edbae2047c16184f06"
+}

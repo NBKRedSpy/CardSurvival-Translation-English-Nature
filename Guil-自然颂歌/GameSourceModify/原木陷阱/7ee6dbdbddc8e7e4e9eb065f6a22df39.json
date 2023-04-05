@@ -1,0 +1,123 @@
+{
+    "CookingRecipesWarpType": 5,
+    "CookingRecipesWarpData": [
+        {
+            "DropsAsCollectionWarpType": 5,
+            "DropsAsCollectionWarpData": [
+                {},
+                {},
+                {},
+                {
+                    "CardDropChanceModifiersWarpType": 4,
+                    "CardDropChanceModifiersWarpData": [
+                        {
+                            "AddedStatModifiers": [
+                                {
+                                    "InterpWeightRange": {
+                                        "x": 0,
+                                        "y": 20
+                                    },
+                                    "Stat": {
+                                        "m_FileID": 0,
+                                        "m_PathID": 0
+                                    },
+                                    "StatRange": {
+                                        "x": 1000,
+                                        "y": 12000
+                                    },
+                                    "StatWarpData": "dae1985413bb79646bea8b12ade8d9e9",
+                                    "StatWarpType": 3,
+                                    "WhenOutOfRange": 1
+                                }
+                            ],
+                            "CardOnBoard": {
+                                "m_FileID": 0,
+                                "m_PathID": 0
+                            },
+                            "CardOnBoardWarpData": "eeb5f39f932d11ed8192c475ab46ec3f",
+                            "CardOnBoardWarpType": 3,
+                            "ExcludeInventory": false,
+                            "FuelCapacity": false,
+                            "MaxStack": 0,
+                            "MaxWeightPerCard": 0,
+                            "MultiplyByStacks": false,
+                            "NotInHand": false,
+                            "OnlyInHand": false,
+                            "Progress": false,
+                            "Special1": false,
+                            "Special2": false,
+                            "Special3": false,
+                            "Special4": false,
+                            "SpoilageTime": false,
+                            "TagOnBoard": {
+                                "m_FileID": 0,
+                                "m_PathID": 0
+                            },
+                            "UsageDurability": false
+                        }
+                    ]
+                },
+                {}
+            ]
+        },
+        {
+            "DropsAsCollectionWarpType": 5,
+            "DropsAsCollectionWarpData": [
+                {},
+                {},
+                {},
+                {},
+                {
+                    "CardDropChanceModifiersWarpType": 4,
+                    "CardDropChanceModifiersWarpData": [
+                        {
+                            "AddedStatModifiers": [
+                                {
+                                    "InterpWeightRange": {
+                                        "x": 0,
+                                        "y": 20
+                                    },
+                                    "Stat": {
+                                        "m_FileID": 0,
+                                        "m_PathID": 0
+                                    },
+                                    "StatRange": {
+                                        "x": 1000,
+                                        "y": 12000
+                                    },
+                                    "StatWarpData": "dae1985413bb79646bea8b12ade8d9e9",
+                                    "StatWarpType": 3,
+                                    "WhenOutOfRange": 1
+                                }
+                            ],
+                            "CardOnBoard": {
+                                "m_FileID": 0,
+                                "m_PathID": 0
+                            },
+                            "CardOnBoardWarpData": "eeb5f39f932d11ed8192c475ab46ec3f",
+                            "CardOnBoardWarpType": 3,
+                            "ExcludeInventory": false,
+                            "FuelCapacity": false,
+                            "MaxStack": 0,
+                            "MaxWeightPerCard": 0,
+                            "MultiplyByStacks": false,
+                            "NotInHand": false,
+                            "OnlyInHand": false,
+                            "Progress": false,
+                            "Special1": false,
+                            "Special2": false,
+                            "Special3": false,
+                            "Special4": false,
+                            "SpoilageTime": false,
+                            "TagOnBoard": {
+                                "m_FileID": 0,
+                                "m_PathID": 0
+                            },
+                            "UsageDurability": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
