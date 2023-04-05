@@ -1,0 +1,1539 @@
+---- Errors -----
+Error: Multiple keys exist with different text
+
+Key: "GJFZQ_CardInteractions[1].RequiredReceivingDurabilities.FailMessage"
+	Text: 01
+	File: .\CardData\众灵\众灵-利维亚桑之灵.json
+	JSON Path: CardInteractions[0].RequiredGivenDurabilities.FailMessage
+
+	Text: Not hungry yet.
+	File: .\CardData\纺织\高级织布机.json
+	JSON Path: CardInteractions[0].RequiredReceivingDurabilities.FailMessage
+
+Key: "HoneyGlazedPork_CardDescription"
+	Text: Tasty and rich!
+	File: .\CardData\南瓜\粉蒸肉-蓝图.json
+	JSON Path: CardDescription
+
+	Text: So tasty! Wow!
+	File: .\CardData\南瓜\粉蒸肉.json
+	JSON Path: CardDescription
+
+Key: "MuTong_CardDescription"
+	Text: A sealed container strong enough to hold acids.
+	File: .\CardData\工具\木桶-拿起.json
+	JSON Path: CardDescription
+
+	Text: A chair to sit on.
+	File: .\CardData\蓝图\Bp_木桶.json
+	JSON Path: CardDescription
+
+Key: "MuTong_CardName"
+	Text: Glazed Vase
+	File: .\CardData\工具\木桶-拿起.json
+	JSON Path: CardName
+
+	Text: Chair
+	File: .\CardData\蓝图\Bp_木桶.json
+	JSON Path: CardName
+
+Key: "Mianbei_CardDescription"
+	Text: Edible, would taste better cooked.
+	File: .\CardData\工具\棉被.json
+	JSON Path: CardDescription
+
+	Text: A copper axe. A proper axe!
+	File: .\CardData\蓝图\Bp_棉被.json
+	JSON Path: CardDescription
+
+Key: "GJFZQ_CardDescription"
+	Text: Your grandfather is sick. You should provide him with food and drink.
+	File: .\CardData\纺织\高级纺纱机.json
+	JSON Path: CardDescription
+
+	Text: I can turn fibers into cord here.
+	File: .\CardData\蓝图\Bp_高级纺纱机.json
+	JSON Path: CardDescription
+
+Key: "GJFZQ_CardName"
+	Text: GJFZQ
+	File: .\CardData\纺织\高级纺纱机.json
+	JSON Path: CardName
+
+	Text: GJFSJ
+	File: .\CardData\蓝图\Bp_高级纺纱机.json
+	JSON Path: CardName
+
+Key: "GJZBJ_CardDescription"
+	Text: Your grandfather is sick. You should provide him with food and drink.
+	File: .\CardData\纺织\高级织布机.json
+	JSON Path: CardDescription
+
+	Text: I can turn fibers into cord here.
+	File: .\CardData\蓝图\Bp_高级织布机.json
+	JSON Path: CardDescription
+
+Key: "GJZBJ_CardName"
+	Text: GJZBJ
+	File: .\CardData\纺织\高级织布机.json
+	JSON Path: CardName
+
+	Text: GJFSJ
+	File: .\CardData\蓝图\Bp_高级织布机.json
+	JSON Path: CardName
+
+---- Warnings -----
+New Keys Created.  JSON was updated.
+
+	New Key: "translate-425ecd39-b7a7-4758-a318-26ead31e169d"
+	Text: 用石头打水漂（会消耗石头）
+
+	File: .\CardData\空白-打水漂模板.json
+	JSON Path: CardInteractions[0].ActionDescription
+
+	New Key: "translate-0d6f4122-0081-490a-9738-d2db658b6f4f"
+	Text: 打水漂
+
+	File: .\CardData\空白-打水漂模板.json
+	JSON Path: CardInteractions[0].ActionName
+
+	New Key: "translate-7d49f64d-ecc8-4fdf-b92f-374e14f3b5c1"
+	Text: 你是一个写实派的人，你不会发现棉花或油菜，而会发现麻和油棕。
+
+	File: .\CharacterPerk\写实派-特质.json
+	JSON Path: PerkDescription
+
+	New Key: "translate-d89e4b3a-bb01-417a-a16d-10a9e3448a6b"
+	Text: 写实派
+
+	File: .\CharacterPerk\写实派-特质.json
+	JSON Path: PerkName
+
+	File: .\GameStat\写实派-状态.json
+	JSON Path: GameName
+
+	New Key: "translate-026eb47a-d70a-4cab-99d4-75e7c672772d"
+	Text: 开局自带一个点亮的南瓜灯。
+
+	File: .\CharacterPerk\南瓜灯.json
+	JSON Path: PerkDescription
+
+	New Key: "translate-7c153f6b-dad3-4b3f-bad8-b1774a38a9f3"
+	Text: 南瓜灯
+
+	File: .\CharacterPerk\南瓜灯.json
+	JSON Path: PerkName
+
+	File: .\CardData\南瓜\南瓜灯-亮-放置.json
+	JSON Path: CardName
+
+	File: .\CardData\南瓜\南瓜灯-亮.json
+	JSON Path: CardName
+
+	New Key: "translate-6aa2e28b-22ed-49d0-ab5a-a89d45fa3783"
+	Text: 你擅长投石索，开局解锁投石索。
+
+	File: .\CharacterPerk\投石精通.json
+	JSON Path: PerkDescription
+
+	New Key: "translate-c7fa1e78-4462-43f9-8842-9453484ae24e"
+	Text: 投石索精通
+
+	File: .\CharacterPerk\投石精通.json
+	JSON Path: PerkName
+
+	New Key: "translate-acd7b2ad-a774-4d73-af0b-f9f200eaa12d"
+	Text: 你擅长投石。
+
+	File: .\CharacterPerk\投石精通2.json
+	JSON Path: PerkDescription
+
+	New Key: "translate-95683e8b-cf1d-4c3c-afbb-159bf800c8e1"
+	Text: 投石精通
+
+	File: .\CharacterPerk\投石精通2.json
+	JSON Path: PerkName
+
+	New Key: "translate-ae23d3e0-2dda-4ecf-afaa-f811f14d4a28"
+	Text: 冲浪术
+
+	File: .\GameStat\冲浪术.json
+	JSON Path: GameName
+
+	New Key: "translate-ab59fa8d-334e-4934-9080-8c19368befc7"
+	Text: 火魔法点
+
+	File: .\CardData\众灵\众灵-伊弗利特之灵.json
+	JSON Path: UsageDurability.CardStatName
+
+	New Key: "translate-ee7ebd71-f234-41a6-9154-98b22984b152"
+	Text: 利维亚桑之灵，是司掌海洋的神灵。（献上鲨鱼下颚以获得水魔法点数）
+
+	File: .\CardData\众灵\众灵-利维亚桑之灵.json
+	JSON Path: CardDescription
+
+	New Key: "translate-6d6e8db0-0bf1-4aa6-8ee9-fdc98df4c627"
+	Text: 利维亚桑之灵
+
+	File: .\CardData\众灵\众灵-利维亚桑之灵.json
+	JSON Path: CardName
+
+	New Key: "translate-a4c20444-f0f3-4cfd-ab2c-4b4d2a4704c5"
+	Text: 祈求信物
+
+	File: .\CardData\众灵\众灵-利维亚桑之灵.json
+	JSON Path: DismantleActions[0].ActionName
+
+	New Key: "translate-e5625e54-e3d8-458d-948b-387543e2adae"
+	Text: 需要水魔法点
+
+	File: .\CardData\众灵\众灵-利维亚桑之灵.json
+	JSON Path: DismantleActions[0].RequiredReceivingDurabilities.FailMessage
+
+	File: .\CardData\众灵\众灵-利维亚桑之灵.json
+	JSON Path: DismantleActions[1].RequiredReceivingDurabilities.FailMessage
+
+	New Key: "translate-c117a6e6-5fc1-47ac-9ff9-8ee127247799"
+	Text: 水魔法点
+
+	File: .\CardData\众灵\众灵-利维亚桑之灵.json
+	JSON Path: UsageDurability.CardStatName
+
+	New Key: "translate-604b4727-91d3-4f65-8657-c5779c21cf58"
+	Text: 泰坦之灵，是司掌大地之力的神灵。
+
+	File: .\CardData\众灵\众灵-泰坦之灵.json
+	JSON Path: CardDescription
+
+	New Key: "translate-fdd11ead-b8c3-418c-a8b9-b7a36d2308b8"
+	Text: 生命魔法点已满
+
+	File: .\CardData\众灵\众灵-泰坦之灵.json
+	JSON Path: CardInteractions[0].RequiredReceivingDurabilities.FailMessage
+
+	New Key: "translate-a7f21b99-8783-44a0-a092-5fd39e6f4fe6"
+	Text: 祈求燧石板
+
+	File: .\CardData\众灵\众灵-泰坦之灵.json
+	JSON Path: DismantleActions[0].ActionName
+
+	New Key: "translate-564cbbf2-cddd-40e9-afac-cd7bee2fbdad"
+	Text: 土魔法点不足
+
+	File: .\CardData\众灵\众灵-泰坦之灵.json
+	JSON Path: DismantleActions[0].RequiredReceivingDurabilities.FailMessage
+
+	File: .\CardData\众灵\众灵-泰坦之灵.json
+	JSON Path: DismantleActions[1].RequiredReceivingDurabilities.FailMessage
+
+	File: .\CardData\众灵\众灵-泰坦之灵.json
+	JSON Path: DismantleActions[2].RequiredReceivingDurabilities.FailMessage
+
+	New Key: "translate-dcf505ae-3c00-46fa-8225-e0ad007ccf8d"
+	Text: 学习石工
+
+	File: .\CardData\众灵\众灵-泰坦之灵.json
+	JSON Path: DismantleActions[1].ActionName
+
+	New Key: "translate-ebd813dd-944b-4ad4-a0bf-c9cd7bed7ffe"
+	Text: 学习金工
+
+	File: .\CardData\众灵\众灵-泰坦之灵.json
+	JSON Path: DismantleActions[2].ActionName
+
+	New Key: "translate-7ea529e5-15c2-44aa-8c96-dbb10b8e355e"
+	Text: 土魔法点
+
+	File: .\CardData\众灵\众灵-泰坦之灵.json
+	JSON Path: UsageDurability.CardStatName
+
+	New Key: "translate-393e8f8a-8df0-4f4d-8879-92a358afda68"
+	Text: 索菲娅之灵，是司掌平衡与智慧的神灵。
+
+	File: .\CardData\众灵\众灵-索菲娅之灵.json
+	JSON Path: CardDescription
+
+	New Key: "translate-d162fb00-1cb7-41fa-a2e4-12c0756bd7f1"
+	Text: 献祭骨头
+
+	File: .\CardData\众灵\众灵-索菲娅之灵.json
+	JSON Path: CardInteractions[0].ActionName
+
+	New Key: "translate-6cefe35c-09c3-40ee-8ef4-56df0773d660"
+	Text: 平衡魔法点满了
+
+	File: .\CardData\众灵\众灵-索菲娅之灵.json
+	JSON Path: CardInteractions[0].RequiredReceivingDurabilities.FailMessage
+
+	New Key: "translate-3b069e1e-a633-4364-8f84-64318085f01b"
+	Text: 索菲娅之灵
+
+	File: .\CardData\众灵\众灵-索菲娅之灵.json
+	JSON Path: CardName
+
+	File: .\GameSourceModify\东部草原发现索菲娅\069b4c17f9d7634479e1bde8c256f89a.json
+	JSON Path: ExplorationResultsWarpData[0].Action.ActionName
+
+	New Key: "translate-8218455a-51f5-4d9e-bfc1-bcf468a81246"
+	Text: 降低孤独感
+
+	File: .\CardData\众灵\众灵-索菲娅之灵.json
+	JSON Path: DismantleActions[0].ActionDescription
+
+	New Key: "translate-b5ad6737-b1de-4614-893c-83cb6ca7aa40"
+	Text: 汲取智慧
+
+	File: .\CardData\众灵\众灵-索菲娅之灵.json
+	JSON Path: DismantleActions[0].ActionName
+
+	New Key: "translate-db85fa21-d361-4209-9895-650b44ed2dec"
+	Text: 需要风魔法点
+
+	File: .\CardData\众灵\众灵-索菲娅之灵.json
+	JSON Path: DismantleActions[0].RequiredReceivingDurabilities.FailMessage
+
+	File: .\CardData\众灵\众灵-索菲娅之灵.json
+	JSON Path: DismantleActions[1].RequiredReceivingDurabilities.FailMessage
+
+	File: .\CardData\众灵\众灵-迦楼罗之灵.json
+	JSON Path: CardInteractions[0].RequiredReceivingDurabilities.FailMessage
+
+	File: .\CardData\众灵\众灵-迦楼罗之灵.json
+	JSON Path: DismantleActions[0].RequiredReceivingDurabilities.FailMessage
+
+	File: .\CardData\众灵\众灵-迦楼罗之灵.json
+	JSON Path: DismantleActions[1].RequiredReceivingDurabilities.FailMessage
+
+	New Key: "translate-553229c0-2f44-422b-b5e0-b0ce63139625"
+	Text: 学习击鼓
+
+	File: .\CardData\众灵\众灵-索菲娅之灵.json
+	JSON Path: DismantleActions[1].ActionName
+
+	New Key: "translate-7d8679f4-79aa-41ee-bc19-774c340639cf"
+	Text: 平衡魔法点
+
+	File: .\CardData\众灵\众灵-索菲娅之灵.json
+	JSON Path: UsageDurability.CardStatName
+
+	New Key: "translate-c15bf408-d20b-402d-92be-d92624bda038"
+	Text: 迦楼罗之灵，是司掌风暴的圣灵。
+
+	File: .\CardData\众灵\众灵-迦楼罗之灵.json
+	JSON Path: CardDescription
+
+	New Key: "translate-dc234b2a-90ab-4422-9245-312e6f0be1db"
+	Text: 献祭羽毛
+
+	File: .\CardData\众灵\众灵-迦楼罗之灵.json
+	JSON Path: CardInteractions[0].ActionName
+
+	New Key: "translate-472ce8de-7a37-45de-a8a0-58dce8ff3c2f"
+	Text: 迦楼罗之灵
+
+	File: .\CardData\众灵\众灵-迦楼罗之灵.json
+	JSON Path: CardName
+
+	New Key: "translate-53733e7e-fcd2-453a-a1fb-7d65fd913e63"
+	Text: 学习陷阱
+
+	File: .\CardData\众灵\众灵-迦楼罗之灵.json
+	JSON Path: DismantleActions[0].ActionName
+
+	New Key: "translate-0514590c-77de-45cf-9443-ce27f3c7230c"
+	Text: 学习弓箭
+
+	File: .\CardData\众灵\众灵-迦楼罗之灵.json
+	JSON Path: DismantleActions[1].ActionName
+
+	New Key: "translate-e9455c0d-ec05-4f8d-a150-84f01a1e8a78"
+	Text: 风魔法点
+
+	File: .\CardData\众灵\众灵-迦楼罗之灵.json
+	JSON Path: UsageDurability.CardStatName
+
+	New Key: "translate-07811f0e-584f-428d-a124-30e5b759fe5b"
+	Text: 水神的信物，有了它我可以冲浪。
+
+	File: .\CardData\众灵\水神信物.json
+	JSON Path: CardDescription
+
+	New Key: "translate-554a79f4-de71-4bb7-8cdc-ebaaf8e41a57"
+	Text: 水神信物
+
+	File: .\CardData\众灵\水神信物.json
+	JSON Path: CardName
+
+	New Key: "translate-e3df8ec4-9a3e-47a8-b4f6-74c2a8cf44d1"
+	Text: 水神信物剩余时间
+
+	File: .\CardData\众灵\水神信物.json
+	JSON Path: SpoilageTime.CardStatName
+
+	New Key: "translate-cf870f00-1c54-493e-95e8-ed0a5015f8c8"
+	Text: 一种可榨油的作物，并不可食用，但不会坏。
+
+	File: .\CardData\作物与田\油棕.json
+	JSON Path: CardDescription
+
+	New Key: "translate-5a4d6200-a5c7-4ac2-8682-dafdc36a5e70"
+	Text: 油棕
+
+	File: .\CardData\作物与田\油棕.json
+	JSON Path: CardName
+
+	New Key: "translate-a3c56fe5-2100-4fc4-a567-1861c9b5b87e"
+	Text: 一棵小树，它会长成油棕树的。
+
+	File: .\CardData\作物与田\油棕树-小.json
+	JSON Path: CardDescription
+
+	New Key: "translate-4d9e7b77-6536-4037-9c0e-19f48bb5fd80"
+	Text: 小油棕树
+
+	File: .\CardData\作物与田\油棕树-小.json
+	JSON Path: CardName
+
+	New Key: "translate-f1812f09-3974-4c42-a43f-ba80e66cf02d"
+	Text: 小油棕树长成了！
+
+	File: .\CardData\作物与田\油棕树-小.json
+	JSON Path: Progress.OnFull.ActionDescription
+
+	New Key: "translate-ef79b4fe-0b82-4943-8ef0-e8e12eeddc2d"
+	Text: 它会再长出油棕的
+
+	File: .\CardData\作物与田\油棕树-摘光.json
+	JSON Path: CardDescription
+
+	New Key: "translate-0bf1fb6b-61ec-4d17-b799-f361f588d441"
+	Text: 摘光的油棕树
+
+	File: .\CardData\作物与田\油棕树-摘光.json
+	JSON Path: CardName
+
+	New Key: "translate-a6bbb5ac-0135-4f94-83a2-f480470e2105"
+	Text: 油棕生长
+
+	File: .\CardData\作物与田\油棕树-摘光.json
+	JSON Path: FuelCapacity.CardStatName
+
+	New Key: "translate-46324736-360d-4563-a381-134a5d309b8c"
+	Text: 油棕长出来了
+
+	File: .\CardData\作物与田\油棕树-摘光.json
+	JSON Path: FuelCapacity.OnFull.ActionDescription
+
+	New Key: "translate-b433f06c-e652-4608-a347-e27b884884c9"
+	Text: 我可以在这里采摘油棕
+
+	File: .\CardData\作物与田\油棕树.json
+	JSON Path: CardDescription
+
+	New Key: "translate-c77af919-7eac-4cab-9b64-9e7b5c7022ef"
+	Text: 油棕树
+
+	File: .\CardData\作物与田\油棕树.json
+	JSON Path: CardName
+
+	New Key: "translate-025c4fb5-b570-40e7-bc5b-84da059205bd"
+	Text: 采摘油棕
+
+	File: .\CardData\作物与田\油棕树.json
+	JSON Path: DismantleActions[0].ActionName
+
+	New Key: "translate-347085f3-42e2-4d39-ae56-99775f9a627d"
+	Text: 生的玉米，我应该把它烤熟。
+
+	File: .\CardData\作物与田\玉米.json
+	JSON Path: CardDescription
+
+	New Key: "translate-516ab8b8-26a5-4af8-8347-5f9a38ca0fb2"
+	Text: 一种麻草，可以从中方便的提取纤维。
+
+	File: .\CardData\作物与田\麻草.json
+	JSON Path: CardDescription
+
+	New Key: "translate-02bc6707-6688-464d-b7e4-edea8cce358d"
+	Text: 马尼拉麻
+
+	File: .\CardData\作物与田\麻草.json
+	JSON Path: CardName
+
+	New Key: "translate-6ec23c53-a2d9-4dba-9118-81bb9fd62ef1"
+	Text: 一片马尼拉麻丛，可以采集马尼拉麻。
+
+	File: .\CardData\作物与田\麻草丛.json
+	JSON Path: CardDescription
+
+	New Key: "translate-5618c71b-b28b-4894-be96-0fc85ea93fa5"
+	Text: 马尼拉麻丛
+
+	File: .\CardData\作物与田\麻草丛.json
+	JSON Path: CardName
+
+	New Key: "translate-e26273f7-64f5-49ae-9e4e-8d9b71d2727d"
+	Text: 一个南瓜，有蛮多的用途。
+
+	File: .\CardData\南瓜\南瓜.json
+	JSON Path: CardDescription
+
+	New Key: "translate-247c5223-8c30-48e7-8de0-8ec5315295d0"
+	Text: 雕南瓜灯
+
+	File: .\CardData\南瓜\南瓜.json
+	JSON Path: CardInteractions[0].ActionName
+
+	New Key: "translate-2436d8da-8401-451c-917e-f6c816e62281"
+	Text: 南瓜
+
+	File: .\CardData\南瓜\南瓜.json
+	JSON Path: CardName
+
+	New Key: "translate-35e416fa-2203-4739-b2c9-dc0e12c16cc2"
+	Text: 一片南瓜丛，我可以在这里采摘南瓜。
+
+	File: .\CardData\南瓜\南瓜丛.json
+	JSON Path: CardDescription
+
+	New Key: "translate-ae1a07f5-68a9-4f94-b4ae-bdb38accbe24"
+	Text: 南瓜丛
+
+	File: .\CardData\南瓜\南瓜丛.json
+	JSON Path: CardName
+
+	New Key: "translate-f6f8cc77-a493-48c3-b4c7-953c7745e362"
+	Text: 一个有蜡烛的南瓜灯-能给我提供光亮
+
+	File: .\CardData\南瓜\南瓜灯-亮-放置.json
+	JSON Path: CardDescription
+
+	File: .\CardData\南瓜\南瓜灯-亮.json
+	JSON Path: CardDescription
+
+	File: .\CardData\南瓜\好看的南瓜灯-亮-放置.json
+	JSON Path: CardDescription
+
+	File: .\CardData\南瓜\好看的南瓜灯-亮.json
+	JSON Path: CardDescription
+
+	New Key: "translate-86906fa6-0ce1-49d4-b170-ecc2d3fc4b68"
+	Text: 雕刻南瓜灯
+
+	File: .\CardData\南瓜\南瓜灯-亮-放置.json
+	JSON Path: CardInteractions[0].ActionName
+
+	File: .\CardData\南瓜\南瓜灯-亮.json
+	JSON Path: CardInteractions[0].ActionName
+
+	New Key: "translate-6f595bb7-1fd9-427f-85b4-ed6f07ebdc6f"
+	Text: 拿起
+
+	File: .\CardData\南瓜\南瓜灯-亮-放置.json
+	JSON Path: DismantleActions[0].ActionName
+
+	File: .\CardData\工具\木桶.json
+	JSON Path: DismantleActions[1].ActionName
+
+	New Key: "translate-2001eea8-0384-427f-9282-992c031fb9ef"
+	Text: 南瓜灯烧完了
+
+	File: .\CardData\南瓜\南瓜灯-亮-放置.json
+	JSON Path: FuelCapacity.OnZero.ActionDescription
+
+	File: .\CardData\南瓜\南瓜灯-亮.json
+	JSON Path: FuelCapacity.OnZero.ActionDescription
+
+	File: .\CardData\南瓜\好看的南瓜灯-亮-放置.json
+	JSON Path: FuelCapacity.OnZero.ActionDescription
+
+	File: .\CardData\南瓜\好看的南瓜灯-亮.json
+	JSON Path: FuelCapacity.OnZero.ActionDescription
+
+	New Key: "translate-af8b8c42-065f-444f-bd68-8608d5306891"
+	Text: 烧完了
+
+	File: .\CardData\南瓜\南瓜灯-亮-放置.json
+	JSON Path: FuelCapacity.OnZero.ActionName
+
+	File: .\CardData\南瓜\南瓜灯-亮.json
+	JSON Path: FuelCapacity.OnZero.ActionName
+
+	File: .\CardData\南瓜\好看的南瓜灯-亮-放置.json
+	JSON Path: FuelCapacity.OnZero.ActionName
+
+	File: .\CardData\南瓜\好看的南瓜灯-亮.json
+	JSON Path: FuelCapacity.OnZero.ActionName
+
+	New Key: "translate-89b2c0ac-ab66-4a37-ad56-265cb7387b0f"
+	Text: 放置
+
+	File: .\CardData\南瓜\南瓜灯-亮.json
+	JSON Path: DismantleActions[0].ActionName
+
+	File: .\CardData\南瓜\好看的南瓜灯-亮-放置.json
+	JSON Path: DismantleActions[0].ActionName
+
+	File: .\CardData\南瓜\好看的南瓜灯-亮.json
+	JSON Path: DismantleActions[0].ActionName
+
+	New Key: "translate-db72c86d-15ec-4149-a6ee-3c278216d9b7"
+	Text: 一个空的南瓜灯，我应该放入一个点燃的蜡烛。
+
+	File: .\CardData\南瓜\南瓜灯-空.json
+	JSON Path: CardDescription
+
+	New Key: "translate-8e8d1c8c-4363-43c4-866d-1ac618044c8a"
+	Text: 放入蜡烛
+
+	File: .\CardData\南瓜\南瓜灯-空.json
+	JSON Path: CardInteractions[0].ActionName
+
+	New Key: "translate-2617a194-3cd5-4fee-88c9-067b3c07f549"
+	Text: 南瓜灯-空
+
+	File: .\CardData\南瓜\南瓜灯-空.json
+	JSON Path: CardName
+
+	New Key: "translate-0c590701-2d64-419e-a7f5-5e8d623f3fc2"
+	Text: 南瓜田
+
+	File: .\CardData\南瓜\南瓜田.json
+	JSON Path: CardName
+
+	New Key: "translate-fa9da7ff-0b27-4da6-a097-2a1a18bb21e1"
+	Text: 好看的南瓜灯
+
+	File: .\CardData\南瓜\好看的南瓜灯-亮-放置.json
+	JSON Path: CardName
+
+	File: .\CardData\南瓜\好看的南瓜灯-亮.json
+	JSON Path: CardName
+
+	New Key: "translate-888873b0-b89d-4306-9c6f-b499c2f3aecb"
+	Text: 未烹饪的南瓜粉蒸肉
+
+	File: .\CardData\南瓜\未烹饪的粉蒸肉.json
+	JSON Path: CardName
+
+	New Key: "translate-0479ff5f-3072-46eb-a789-d5081d0178d0"
+	Text: 南瓜粉蒸肉
+
+	File: .\CardData\南瓜\粉蒸肉-蓝图.json
+	JSON Path: CardName
+
+	File: .\CardData\南瓜\粉蒸肉.json
+	JSON Path: CardName
+
+	New Key: "translate-66e7e656-3c04-4c45-856c-43c1b4498c5c"
+	Text: 需要南瓜
+
+	File: .\CardData\南瓜\粉蒸肉-蓝图.json
+	JSON Path: UnlockConditionsDesc
+
+	New Key: "translate-e50b1b6b-ef89-4080-9287-d8b264b4b6a4"
+	Text: 南瓜粉蒸肉吃完了！
+
+	File: .\CardData\南瓜\粉蒸肉.json
+	JSON Path: UsageDurability.OnZero.ActionDescription
+
+	New Key: "translate-85888c08-56ff-4510-a515-1de68617dd75"
+	Text: 蒸熟的南瓜。
+
+	File: .\CardData\南瓜\蒸南瓜.json
+	JSON Path: CardDescription
+
+	New Key: "translate-ad0ec4ac-c7d2-43a2-9c8b-6311eb836b61"
+	Text: 蒸南瓜
+
+	File: .\CardData\南瓜\蒸南瓜.json
+	JSON Path: CardName
+
+	File: .\GameSourceModify\火炉烤东西\f124e68738466c44b99b660ff303e7c1.json
+	JSON Path: CookingRecipesWarpData[3].ActionName
+
+	New Key: "translate-94210c1e-81cf-44fa-879b-9332df047f36"
+	Text: 蒸南瓜吃完了！
+
+	File: .\CardData\南瓜\蒸南瓜.json
+	JSON Path: UsageDurability.OnZero.ActionDescription
+
+	New Key: "translate-5875a96b-f867-4ef6-b1ae-554b6b5150e4"
+	Text: 可可豆磨成的粉。
+
+	File: .\CardData\可可\可可粉.json
+	JSON Path: CardDescription
+
+	New Key: "translate-e1f16a10-90e0-44f2-80e2-531bb5f8791d"
+	Text: 可可粉
+
+	File: .\CardData\可可\可可粉.json
+	JSON Path: CardName
+
+	New Key: "translate-dabf5636-aff3-4205-baa7-d1736a87787c"
+	Text: 从可可豆丛上摘下的可可豆，可以制作巧克力。
+
+	File: .\CardData\可可\可可豆.json
+	JSON Path: CardDescription
+
+	New Key: "translate-ab581dd4-fb5c-4d23-b40f-6b310042ca5b"
+	Text: 可可豆
+
+	File: .\CardData\可可\可可豆.json
+	JSON Path: CardName
+
+	New Key: "translate-ca68f517-989b-4190-9e10-c5e0856d05fc"
+	Text: 我可以在这里采摘可可豆。
+
+	File: .\CardData\可可\可可豆丛.json
+	JSON Path: CardDescription
+
+	New Key: "translate-cce83776-1923-4a1e-a57e-728baa2b54df"
+	Text: 可可豆丛
+
+	File: .\CardData\可可\可可豆丛.json
+	JSON Path: CardName
+
+	New Key: "translate-c62eb87e-250e-4020-9caf-4302f32c53c3"
+	Text: 可可豆田
+
+	File: .\CardData\可可\可可豆田.json
+	JSON Path: CardName
+
+	New Key: "translate-a9b86b53-fa49-44d1-8252-359857793a56"
+	Text: 巧克力，好吃的！
+
+	File: .\CardData\可可\巧克力-蓝图.json
+	JSON Path: CardDescription
+
+	New Key: "translate-ef99a515-3bde-4ba5-bc87-867fae3aca3e"
+	Text: 巧克力
+
+	File: .\CardData\可可\巧克力-蓝图.json
+	JSON Path: CardName
+
+	New Key: "translate-e13de8cd-59fd-46b2-ad31-cb5274cbf0bc"
+	Text: 需要可可豆
+
+	File: .\CardData\可可\巧克力-蓝图.json
+	JSON Path: UnlockConditionsDesc
+
+	New Key: "translate-4c4ebf29-e5a2-484f-b05a-87ca51eabdb8"
+	Text: 我应该等待它发酵完成。
+
+	File: .\CardData\工具\发酵桶-发酵中.json
+	JSON Path: CardDescription
+
+	New Key: "translate-06537cd6-2d4a-472e-a4e2-a8538dfca63c"
+	Text: 发酵桶（发酵中）
+
+	File: .\CardData\工具\发酵桶-发酵中.json
+	JSON Path: CardName
+
+	New Key: "translate-de5182eb-3fd9-484b-9564-878dbf7d5a17"
+	Text: 发酵进度
+
+	File: .\CardData\工具\发酵桶-发酵中.json
+	JSON Path: Progress.CardStatName
+
+	New Key: "translate-f00c7c63-4a0f-4038-b73c-3a0a3a4a2e51"
+	Text: 麦酒发酵好了！
+
+	File: .\CardData\工具\发酵桶-发酵中.json
+	JSON Path: Progress.OnFull.ActionDescription
+
+	New Key: "translate-ef26ce91-a023-48d8-a625-ce78dd5e3049"
+	Text: 发酵完成
+
+	File: .\CardData\工具\发酵桶-发酵中.json
+	JSON Path: Progress.OnFull.ActionName
+
+	New Key: "translate-b635d1ee-affd-46b4-8809-4e501ea37154"
+	Text: 一个发酵桶，可以把麦芽汁变成麦酒，不过我得先装满麦芽汁。
+
+	File: .\CardData\工具\发酵桶.json
+	JSON Path: CardDescription
+
+	New Key: "translate-d9f4099c-1ea3-43ee-9a6a-26431c70217e"
+	Text: 装入麦芽汁
+
+	File: .\CardData\工具\发酵桶.json
+	JSON Path: CardInteractions[0].ActionName
+
+	New Key: "translate-dfc9b035-5849-4cef-badd-30de28b80239"
+	Text: 桶满啦！
+
+	File: .\CardData\工具\发酵桶.json
+	JSON Path: CardInteractions[0].RequiredReceivingDurabilities.FailMessage
+
+	New Key: "translate-399dadee-1e3d-49bf-9b41-bc43f6e7106b"
+	Text: 发酵桶（未装满）
+
+	File: .\CardData\工具\发酵桶.json
+	JSON Path: CardName
+
+	New Key: "translate-a7271395-b531-42e3-adeb-e557f7c28719"
+	Text: 倒空并转回木桶
+
+	File: .\CardData\工具\发酵桶.json
+	JSON Path: DismantleActions[0].ActionName
+
+	New Key: "translate-231d1b66-d350-48c0-a835-ef96433267f9"
+	Text: 麦芽汁量
+
+	File: .\CardData\工具\发酵桶.json
+	JSON Path: FuelCapacity.CardStatName
+
+	New Key: "translate-bf6ca745-48ee-4a6f-9144-cfd4e267fab4"
+	Text: 放下
+
+	File: .\CardData\工具\木桶-拿起.json
+	JSON Path: DismantleActions[1].ActionName
+
+	New Key: "translate-28607278-ec71-45ea-ad60-2abb803f85c3"
+	Text: 转为发酵桶
+
+	File: .\CardData\工具\木桶.json
+	JSON Path: DismantleActions[2].ActionName
+
+	New Key: "translate-5465b957-636f-485d-9b2d-6ddd80a1a3ff"
+	Text: 草莓果汁，好喝的！
+
+	File: .\CardData\果汁\草莓果汁-蓝图.json
+	JSON Path: CardDescription
+
+	New Key: "translate-958449c5-bc3f-4d0d-a56c-8d876429ad23"
+	Text: 草莓果汁
+
+	File: .\CardData\果汁\草莓果汁-蓝图.json
+	JSON Path: CardName
+
+	File: .\CardData\果汁\草莓果汁.json
+	JSON Path: CardName
+
+	New Key: "translate-26f320b1-fa34-46d1-940a-3ac1a1c65614"
+	Text: 需要草莓
+
+	File: .\CardData\果汁\草莓果汁-蓝图.json
+	JSON Path: UnlockConditionsDesc
+
+	New Key: "translate-470950a3-058d-495b-ac43-5c345d2e173c"
+	Text: 美味的果汁
+
+	File: .\CardData\果汁\草莓果汁.json
+	JSON Path: CardDescription
+
+	New Key: "translate-bdbf5b29-37d2-4b49-9f93-88ea5ccee91e"
+	Text: 我应该把它拿去烹饪。
+
+	File: .\CardData\玉米类\爆米花-未烹饪.json
+	JSON Path: CardDescription
+
+	New Key: "translate-cf6f7da9-0dd1-4688-96b3-bf9c7cc386cf"
+	Text: 未烹饪的爆米花
+
+	File: .\CardData\玉米类\爆米花-未烹饪.json
+	JSON Path: CardName
+
+	New Key: "translate-75d4529a-8271-48bf-9265-379c89355038"
+	Text: 爆米花
+
+	File: .\CardData\玉米类\爆米花-蓝图.json
+	JSON Path: CardName
+
+	File: .\CardData\玉米类\爆米花.json
+	JSON Path: CardName
+
+	New Key: "translate-37ef4dd9-af6d-4f6b-bf99-f5b800d79906"
+	Text: 肥宅食品之一，超好吃！
+
+	File: .\CardData\玉米类\爆米花.json
+	JSON Path: CardDescription
+
+	New Key: "translate-3fb6e7a4-a40f-45b0-b832-c976d07d2d3f"
+	Text: 一根甘蔗，可以拿去榨汁
+
+	File: .\CardData\甘蔗\甘蔗.json
+	JSON Path: CardDescription
+
+	New Key: "translate-cc4053b1-f92b-4367-b3dd-818e70395a6d"
+	Text: 甘蔗
+
+	File: .\CardData\甘蔗\甘蔗.json
+	JSON Path: CardName
+
+	New Key: "translate-513b358a-2e05-417b-a609-ee13af3f6d05"
+	Text: 一片甘蔗丛，可以砍伐甘蔗。
+
+	File: .\CardData\甘蔗\甘蔗丛.json
+	JSON Path: CardDescription
+
+	New Key: "translate-fba04b21-c059-46a9-83e5-95406669ef4d"
+	Text: 甘蔗丛
+
+	File: .\CardData\甘蔗\甘蔗丛.json
+	JSON Path: CardName
+
+	New Key: "translate-b733d2e8-3251-42c0-8a00-147af9013d75"
+	Text: 甜甜的甘蔗汁，可以喝，也可以炼糖。
+
+	File: .\CardData\甘蔗\甘蔗汁-蓝图.json
+	JSON Path: CardDescription
+
+	New Key: "translate-f263b80c-6799-49cd-a98b-d2490093a241"
+	Text: 甘蔗汁
+
+	File: .\CardData\甘蔗\甘蔗汁-蓝图.json
+	JSON Path: CardName
+
+	File: .\CardData\甘蔗\甘蔗汁.json
+	JSON Path: CardName
+
+	New Key: "translate-cc7df19f-03cd-41f9-8a8a-59fffa81c708"
+	Text: 需要甘蔗
+
+	File: .\CardData\甘蔗\甘蔗汁-蓝图.json
+	JSON Path: UnlockConditionsDesc
+
+	New Key: "translate-967e96ca-7d17-4c6f-9a37-2e6a1cff441c"
+	Text: 甘蔗汁，我应该把它拿到火上去烤。
+
+	File: .\CardData\甘蔗\甘蔗汁.json
+	JSON Path: CardDescription
+
+	New Key: "translate-d56584b5-7841-4f5d-b80b-b71e617dfbaf"
+	Text: 炼糖
+
+	File: .\CardData\甘蔗\甘蔗汁.json
+	JSON Path: DismantleActions[0].ActionName
+
+	File: .\GameSourceModify\火堆烤东西\c95778c7e33b9394f876b8012be7ed50.json
+	JSON Path: CookingRecipesWarpData[1].ActionName
+
+	File: .\GameSourceModify\火炉烤东西\f124e68738466c44b99b660ff303e7c1.json
+	JSON Path: CookingRecipesWarpData[6].ActionName
+
+	File: .\GameSourceModify\瓦斯炉烤东西\c12df73fe902437449bbed102a058c03.json
+	JSON Path: CookingRecipesWarpData[1].ActionName
+
+	File: .\GameSourceModify\营火烤东西\63e4efe772bf6f649b30c893a0257ef0.json
+	JSON Path: CookingRecipesWarpData[4].ActionName
+
+	New Key: "translate-5ca3d558-58e2-4d8d-97cd-23b73d3dce28"
+	Text: 甘蔗田
+
+	File: .\CardData\甘蔗\甘蔗田.json
+	JSON Path: CardName
+
+	New Key: "translate-075fbbf7-b0cf-4817-8453-b25f0faa32d4"
+	Text: 一处祥和的溪谷，我大概可以在这里养老。
+
+	File: .\CardData\祥和溪谷\地点-隐秘峡谷.json
+	JSON Path: CardDescription
+
+	New Key: "translate-d2b09705-c21c-4666-be20-faac0cd3d2c2"
+	Text: 祥和溪谷
+
+	File: .\CardData\祥和溪谷\地点-隐秘峡谷.json
+	JSON Path: CardName
+
+	File: .\CardData\祥和溪谷\路径-丛林高地-隐秘峡谷.json
+	JSON Path: CardName
+
+	New Key: "translate-4b331e14-f3ba-4d2f-94a6-28b033210326"
+	Text: 一处在溪谷中的洞穴，我可以把这里作为一个庇护所。
+
+	File: .\CardData\祥和溪谷\峡谷洞穴.json
+	JSON Path: CardDescription
+
+	New Key: "translate-db8f25de-3dad-4fbf-8396-49e1280c8ebd"
+	Text: 溪谷洞穴
+
+	File: .\CardData\祥和溪谷\峡谷洞穴.json
+	JSON Path: CardName
+
+	New Key: "translate-8acf67ac-dc21-4429-9733-98eb3a31ead5"
+	Text: 采集杂菌
+
+	File: .\CardData\祥和溪谷\朽木.json
+	JSON Path: DismantleActions[0].ActionName
+
+	New Key: "translate-8cf0025e-b042-4459-ab47-f5d55c61388e"
+	Text: 挖泥巴
+
+	File: .\CardData\祥和溪谷\瀑布.json
+	JSON Path: CardInteractions[6].ActionName
+
+	New Key: "translate-320c3a67-efc4-478d-aea1-b7aa6c54645f"
+	Text: 一张画，很好看
+
+	File: .\CardData\笔墨纸砚\画.json
+	JSON Path: CardDescription
+
+	New Key: "translate-848e0a17-4f57-44d0-aa6c-d638767fa5d6"
+	Text: 画
+
+	File: .\CardData\笔墨纸砚\画.json
+	JSON Path: CardName
+
+	New Key: "translate-fbe71879-282a-4474-8ed2-2dac15504b94"
+	Text: 一个砚台，里面已经有墨水了。
+
+	File: .\CardData\笔墨纸砚\砚台-有墨水的.json
+	JSON Path: CardDescription
+
+	New Key: "translate-855349ba-f623-423f-b7af-2feeef7927b6"
+	Text: 蘸取墨水
+
+	File: .\CardData\笔墨纸砚\砚台-有墨水的.json
+	JSON Path: CardInteractions[0].ActionName
+
+	New Key: "translate-c37cf2f0-7c23-4455-bdda-d7d829066bc7"
+	Text: 砚台（有墨水的）
+
+	File: .\CardData\笔墨纸砚\砚台-有墨水的.json
+	JSON Path: CardName
+
+	New Key: "translate-eaec31c3-1409-4405-aa43-9cfb5c24830a"
+	Text: 墨水量
+
+	File: .\CardData\笔墨纸砚\砚台-有墨水的.json
+	JSON Path: UsageDurability.CardStatName
+
+	New Key: "translate-1880225c-f776-47d5-bc56-8aae2c83d8de"
+	Text: 墨水消耗完毕
+
+	File: .\CardData\笔墨纸砚\砚台-有墨水的.json
+	JSON Path: UsageDurability.OnZero.ActionDescription
+
+	File: .\CardData\笔墨纸砚\砚台-有墨水的.json
+	JSON Path: UsageDurability.OnZero.ActionName
+
+	New Key: "translate-96798ac2-ec33-471d-923b-baf8cb56f6eb"
+	Text: 一个砚台，现在我需要把木炭磨碎。
+
+	File: .\CardData\笔墨纸砚\砚台-有木炭的.json
+	JSON Path: CardDescription
+
+	New Key: "translate-8bfaf8ae-d7a6-4720-9766-4c47f24a371a"
+	Text: 研磨
+
+	File: .\CardData\笔墨纸砚\砚台-有木炭的.json
+	JSON Path: CardInteractions[0].ActionName
+
+	New Key: "translate-a6d4c91a-c892-47bc-b571-27369c471f13"
+	Text: 砚台（有木炭的）
+
+	File: .\CardData\笔墨纸砚\砚台-有木炭的.json
+	JSON Path: CardName
+
+	New Key: "translate-0cf1ec31-83f6-4404-905d-34d3a0f22d0a"
+	Text: 一个砚台，我可以放入木炭当做笔墨。
+
+	File: .\CardData\笔墨纸砚\砚台.json
+	JSON Path: CardDescription
+
+	New Key: "translate-d6101760-5c1c-490e-b80d-6a0056078abd"
+	Text: 放入木炭
+
+	File: .\CardData\笔墨纸砚\砚台.json
+	JSON Path: CardInteractions[0].ActionName
+
+	New Key: "translate-c6239fb9-dfac-4ec7-aee4-bf93ad2ff609"
+	Text: 砚台
+
+	File: .\CardData\笔墨纸砚\砚台.json
+	JSON Path: CardName
+
+	New Key: "translate-d7ab240d-5aca-40fc-a11c-9c68da98c956"
+	Text: 一只羽毛笔，可以用来写字、作画。
+
+	File: .\CardData\笔墨纸砚\羽毛笔-有墨水的.json
+	JSON Path: CardDescription
+
+	New Key: "translate-b0bc908e-fec3-486a-921d-0094fdf2a6a6"
+	Text: 羽毛笔（有墨水的）
+
+	File: .\CardData\笔墨纸砚\羽毛笔-有墨水的.json
+	JSON Path: CardName
+
+	New Key: "translate-626b1193-7ada-4f88-a622-5cfef72d6d89"
+	Text: 一只羽毛笔，可以用来写字、作画，不过得先蘸取墨水。
+
+	File: .\CardData\笔墨纸砚\羽毛笔.json
+	JSON Path: CardDescription
+
+	New Key: "translate-7b152c74-56bf-432f-aa12-c75feb171cbc"
+	Text: 羽毛笔
+
+	File: .\CardData\笔墨纸砚\羽毛笔.json
+	JSON Path: CardName
+
+	New Key: "translate-2f136fce-dd03-401a-ab1f-41ade178486e"
+	Text: 树叶缠手带
+
+	File: .\CardData\纺织\树叶缠手带-蓝图.json
+	JSON Path: CardDescription
+
+	File: .\CardData\纺织\树叶缠手带-蓝图.json
+	JSON Path: CardName
+
+	File: .\CardData\纺织\树叶缠手带.json
+	JSON Path: CardName
+
+	New Key: "translate-a0d25c3c-d7be-4ab7-aa5f-8e98d7a7220d"
+	Text: 需要棕榈叶
+
+	File: .\CardData\纺织\树叶缠手带-蓝图.json
+	JSON Path: UnlockConditionsDesc
+
+	New Key: "translate-c9919851-ac3a-45cb-aee4-d0eef15447a9"
+	Text: 装填棉花
+
+	File: .\CardData\纺织\高级纺纱机.json
+	JSON Path: CardInteractions[3].ActionName
+
+	New Key: "translate-0f5656a8-28e7-4e69-a63f-cf3ed14b82d9"
+	Text: 拆除
+
+	File: .\CardData\纺织\高级纺纱机.json
+	JSON Path: DismantleActions[4].ActionName
+
+	File: .\CardData\纺织\高级织布机.json
+	JSON Path: DismantleActions[4].ActionName
+
+	New Key: "translate-d1053395-d2b1-4a15-9f4a-34eae3b133a8"
+	Text: 需要油棕
+
+	File: .\CardData\菜油\油棕油-蓝图.json
+	JSON Path: UnlockConditionsDesc
+
+	New Key: "translate-eab1e199-83a2-4002-b096-1302528ff9a6"
+	Text: 油棕榨成的油
+
+	File: .\CardData\菜油\油棕油.json
+	JSON Path: CardDescription
+
+	New Key: "translate-8a5eb41f-1821-4e7b-ad20-392d1a7e7607"
+	Text: 油棕油
+
+	File: .\CardData\菜油\油棕油.json
+	JSON Path: CardName
+
+	New Key: "translate-087f7aad-e3aa-49a1-9383-9ee6f81d22f4"
+	Text: 木板（半根原木）
+
+	File: .\CardData\蓝图\Bp_半打木板.json
+	JSON Path: CardName
+
+	New Key: "translate-02742bd2-974c-46f6-9581-a80c353fdf8a"
+	Text: 我建造了一个木桶。
+
+	File: .\CardData\蓝图\Bp_木桶.json
+	JSON Path: BlueprintFinishedLog.LogText
+
+	New Key: "translate-490a22f3-df4a-4342-816c-63c56d98ae2e"
+	Text: 床上用品（棉）
+
+	File: .\CardData\蓝图\Bp_棉被.json
+	JSON Path: CardName
+
+	New Key: "translate-76c3fc9e-97b1-4a34-b949-97fed8685883"
+	Text: 需要泥堆
+
+	File: .\CardData\蓝图\Bp_长木棍.json
+	JSON Path: UnlockConditionsDesc
+
+	New Key: "translate-4b5f0398-f089-4e2c-8e4e-afa49afaca9f"
+	Text: 床上用品（麻）
+
+	File: .\CardData\蓝图\Bp_麻被.json
+	JSON Path: CardName
+
+	New Key: "translate-bd06f720-9f27-4190-b3c9-dc0fb7814405"
+	Text: 磨成面粉
+
+	File: .\CardData\面食\石磨.json
+	JSON Path: CardInteractions[0].ActionName
+
+	New Key: "translate-02c9b05e-548e-456b-91b4-09ba4ea40a73"
+	Text: 碾磨黄豆
+
+	File: .\CardData\面食\石磨.json
+	JSON Path: CardInteractions[1].ActionName
+
+	File: .\CardData\面食\磨坊.json
+	JSON Path: CardInteractions[1].ActionName
+
+	New Key: "translate-fe638379-42fe-4f8d-bbd2-0fc6e4731d70"
+	Text: 碾磨干豆
+
+	File: .\CardData\面食\石磨.json
+	JSON Path: CardInteractions[2].ActionName
+
+	File: .\CardData\面食\磨坊.json
+	JSON Path: CardInteractions[2].ActionName
+
+	New Key: "translate-a4102778-27be-4b7d-aa86-f80893b8151e"
+	Text: 改造
+
+	File: .\CardData\面食\石磨.json
+	JSON Path: CardInteractions[3].ActionName
+
+	New Key: "translate-8867d379-4520-4528-85d8-2e7464285a63"
+	Text: 电力不足
+
+	File: .\CardData\面食\石磨.json
+	JSON Path: CardInteractions[3].RequiredReceivingDurabilities.FailMessage
+
+	New Key: "translate-01c2ad93-11f4-4354-95bc-2ebe0becb43b"
+	Text: 石磨改造箱
+
+	File: .\CardData\面食\石磨改造箱-蓝图.json
+	JSON Path: CardName
+
+	File: .\CardData\面食\石磨改造箱.json
+	JSON Path: CardName
+
+	New Key: "translate-de484208-7e79-487e-99bd-429b8bae2e0b"
+	Text: 需要更高的烹饪技能
+
+	File: .\CardData\面食\石磨改造箱-蓝图.json
+	JSON Path: UnlockConditionsDesc
+
+	New Key: "translate-041b77d2-8de5-4bab-8b2f-778256def957"
+	Text: 可以把石磨改造成磨坊。
+
+	File: .\CardData\面食\石磨改造箱.json
+	JSON Path: CardDescription
+
+	New Key: "translate-130bed11-f721-46e8-83ec-3cf0fde1b707"
+	Text: 一座磨坊，可以更快的磨东西，还不费力。
+
+	File: .\CardData\面食\磨坊-蓝图.json
+	JSON Path: CardDescription
+
+	New Key: "translate-a378bfa5-9ff3-4d5b-aff1-b1de25ad34d5"
+	Text: 磨坊
+
+	File: .\CardData\面食\磨坊-蓝图.json
+	JSON Path: CardName
+
+	New Key: "translate-2a961714-f2bd-451e-9430-ccd199c883ef"
+	Text: 需要更高的木工技能
+
+	File: .\CardData\面食\磨坊-蓝图.json
+	JSON Path: UnlockConditionsDesc
+
+	New Key: "translate-b1a5e901-bfcd-4c8e-a2e5-620f607f128e"
+	Text: 蒸笼
+
+	File: .\CardData\面食\蒸笼-蓝图.json
+	JSON Path: CardName
+
+	File: .\CardData\面食\蒸笼.json
+	JSON Path: CardName
+
+	New Key: "translate-0a22e888-d616-4e74-b24b-05bd4f5f3890"
+	Text: 需要棕榈编织物
+
+	File: .\CardData\面食\蒸笼-蓝图.json
+	JSON Path: UnlockConditionsDesc
+
+	New Key: "translate-18210e9f-c3cd-40dc-ab85-35928b22a6f8"
+	Text: 一个蒸笼，用于蒸东西。
+
+	File: .\CardData\面食\蒸笼.json
+	JSON Path: CardDescription
+
+	New Key: "translate-108f8245-c8df-4b99-83ca-03310ae323b2"
+	Text: 有肉的包子，好吃！
+
+	File: .\CardData\面食\食物-包子-蓝图.json
+	JSON Path: CardDescription
+
+	File: .\CardData\面食\食物-包子.json
+	JSON Path: CardDescription
+
+	New Key: "translate-95f9b72c-b59a-4e27-91c7-780902b3dac6"
+	Text: 包子
+
+	File: .\CardData\面食\食物-包子-蓝图.json
+	JSON Path: CardName
+
+	File: .\CardData\面食\食物-包子.json
+	JSON Path: CardName
+
+	New Key: "translate-0b3b249d-f70b-4594-b93f-dece8db45521"
+	Text: 需要面粉
+
+	File: .\CardData\面食\食物-包子-蓝图.json
+	JSON Path: UnlockConditionsDesc
+
+	File: .\CardData\面食\食物-馒头-蓝图.json
+	JSON Path: UnlockConditionsDesc
+
+	New Key: "translate-c81d4a63-7318-4036-bb8f-7388abfe4fd4"
+	Text: 我应该把它拿去蒸熟。
+
+	File: .\CardData\面食\食物-未烹饪的包子.json
+	JSON Path: CardDescription
+
+	File: .\CardData\面食\食物-未烹饪的馒头.json
+	JSON Path: CardDescription
+
+	New Key: "translate-012eb078-95d7-4cf4-b25e-85e836123f1e"
+	Text: 没蒸的包子
+
+	File: .\CardData\面食\食物-未烹饪的包子.json
+	JSON Path: CardName
+
+	New Key: "translate-fe47d236-9c59-4c8a-beb2-8faf6cd0dc8c"
+	Text: 没蒸的馒头
+
+	File: .\CardData\面食\食物-未烹饪的馒头.json
+	JSON Path: CardName
+
+	New Key: "translate-7baf388b-fe13-422d-ad14-cd1c9e4e5eff"
+	Text: 面粉做成的食物，管饱但不好吃。
+
+	File: .\CardData\面食\食物-馒头-蓝图.json
+	JSON Path: CardDescription
+
+	New Key: "translate-67182101-e89b-48e7-a72f-274d9dd2eb78"
+	Text: 馒头
+
+	File: .\CardData\面食\食物-馒头-蓝图.json
+	JSON Path: CardName
+
+	File: .\CardData\面食\食物-馒头.json
+	JSON Path: CardName
+
+	New Key: "translate-e6a8127f-f539-4d8a-9e0c-d321d4f74b04"
+	Text: 由面粉做成的食物，管饱但不好吃。
+
+	File: .\CardData\面食\食物-馒头.json
+	JSON Path: CardDescription
+
+	New Key: "translate-6071b77f-21ff-4c12-bc6f-3f1061b86c1c"
+	Text: 隐秘峡谷
+
+	File: .\GameSourceModify\丛林高地发现隐秘谷\71f97456ed78fd543938ec881908f2e0.json
+	JSON Path: ExplorationResultsWarpData[0].Action.ActionName
+
+	File: .\GameSourceModify\东部高地发现伊弗利特\e7c234bd26d1b27488fc767acc7c8121.json
+	JSON Path: ExplorationResultsWarpData[0].Action.ActionName
+
+	File: .\GameSourceModify\荒芜沙滩发现泰坦\ece9ea7975f090f43ac506132f4b6ef0.json
+	JSON Path: ExplorationResultsWarpData[0].Action.ActionName
+
+	New Key: "translate-e037e029-1917-40ab-a669-ddf5ca206a32"
+	Text: 冲浪
+
+	File: .\GameSourceModify\冲浪术\06d584ae867746d41b7b4b63459c8783.json
+	JSON Path: DismantleActionsWarpData[0].ActionName
+
+	File: .\GameSourceModify\冲浪术\3832ae847168ea949998936d3e8f4e32.json
+	JSON Path: DismantleActionsWarpData[0].ActionName
+
+	File: .\GameSourceModify\冲浪术\9a64b58d752d43745b8ec75593a6d9d5.json
+	JSON Path: DismantleActionsWarpData[0].ActionName
+
+	File: .\GameSourceModify\冲浪术\c0e3e0b6593618e4f8cd2280a0335622.json
+	JSON Path: DismantleActionsWarpData[0].ActionName
+
+	File: .\GameSourceModify\冲浪术\d748772d32ca8bd40805b8c11d7c074d.json
+	JSON Path: DismantleActionsWarpData[0].ActionName
+
+	File: .\GameSourceModify\冲浪术\e038995410697e5479686732be18f79a.json
+	JSON Path: DismantleActionsWarpData[0].ActionName
+
+	New Key: "translate-69c9c374-f43a-4236-8c3e-e60b7d129a6a"
+	Text: 浪起~
+
+	File: .\GameSourceModify\冲浪术\06d584ae867746d41b7b4b63459c8783.json
+	JSON Path: DismantleActionsWarpData[0].FadeMessage
+
+	File: .\GameSourceModify\冲浪术\3832ae847168ea949998936d3e8f4e32.json
+	JSON Path: DismantleActionsWarpData[0].FadeMessage
+
+	File: .\GameSourceModify\冲浪术\9a64b58d752d43745b8ec75593a6d9d5.json
+	JSON Path: DismantleActionsWarpData[0].FadeMessage
+
+	File: .\GameSourceModify\冲浪术\c0e3e0b6593618e4f8cd2280a0335622.json
+	JSON Path: DismantleActionsWarpData[0].FadeMessage
+
+	File: .\GameSourceModify\冲浪术\d748772d32ca8bd40805b8c11d7c074d.json
+	JSON Path: DismantleActionsWarpData[0].FadeMessage
+
+	File: .\GameSourceModify\冲浪术\e038995410697e5479686732be18f79a.json
+	JSON Path: DismantleActionsWarpData[0].FadeMessage
+
+	New Key: "translate-7e8c4991-a0df-456f-a2ea-0c0519ad3a3a"
+	Text: 铺床
+
+	File: .\GameSourceModify\木床铺被子\0c3516c0a8a0a3849bffa69d858111f7.json
+	JSON Path: CardInteractionsWarpData[0].ActionName
+
+	New Key: "translate-6c0a5a3b-8ea2-4b42-99f4-490c8723e092"
+	Text: 耐普图隆之灵
+
+	File: .\GameSourceModify\沙滩发现利维亚桑\2af97d8f63c285b44a5a8981e19ad812.json
+	JSON Path: ExplorationResultsWarpData[0].Action.ActionName
+
+	File: .\GameSourceModify\海湾发现迦楼罗\c53cb180a9445ba44bcc72055f0211de.json
+	JSON Path: ExplorationResultsWarpData[0].Action.ActionName
+
+	New Key: "translate-24043dc0-c098-477d-81ba-f58f576f0c48"
+	Text: 烤玉米
+
+	File: .\GameSourceModify\火堆烤东西\c95778c7e33b9394f876b8012be7ed50.json
+	JSON Path: CookingRecipesWarpData[0].ActionName
+
+	File: .\GameSourceModify\火炉烤东西\f124e68738466c44b99b660ff303e7c1.json
+	JSON Path: CookingRecipesWarpData[0].ActionName
+
+	File: .\GameSourceModify\瓦斯炉烤东西\c12df73fe902437449bbed102a058c03.json
+	JSON Path: CookingRecipesWarpData[0].ActionName
+
+	File: .\GameSourceModify\营火烤东西\63e4efe772bf6f649b30c893a0257ef0.json
+	JSON Path: CookingRecipesWarpData[0].ActionName
+
+	New Key: "translate-19e48ed4-57f3-4634-b299-32f8f6ea0206"
+	Text: 甘蔗汁不够
+
+	File: .\GameSourceModify\火堆烤东西\c95778c7e33b9394f876b8012be7ed50.json
+	JSON Path: CookingRecipesWarpData[1].CannotCookText
+
+	File: .\GameSourceModify\火炉烤东西\f124e68738466c44b99b660ff303e7c1.json
+	JSON Path: CookingRecipesWarpData[6].CannotCookText
+
+	File: .\GameSourceModify\瓦斯炉烤东西\c12df73fe902437449bbed102a058c03.json
+	JSON Path: CookingRecipesWarpData[1].CannotCookText
+
+	File: .\GameSourceModify\营火烤东西\63e4efe772bf6f649b30c893a0257ef0.json
+	JSON Path: CookingRecipesWarpData[4].CannotCookText
+
+	New Key: "translate-a651be15-5e56-4204-8b90-d3222ea00e54"
+	Text: 蒸包子
+
+	File: .\GameSourceModify\火炉烤东西\f124e68738466c44b99b660ff303e7c1.json
+	JSON Path: CookingRecipesWarpData[1].ActionName
+
+	File: .\GameSourceModify\营火烤东西\63e4efe772bf6f649b30c893a0257ef0.json
+	JSON Path: CookingRecipesWarpData[1].ActionName
+
+	New Key: "translate-84f12c72-b75e-4ef5-ad1b-0b6c6019e658"
+	Text: 蒸馒头
+
+	File: .\GameSourceModify\火炉烤东西\f124e68738466c44b99b660ff303e7c1.json
+	JSON Path: CookingRecipesWarpData[2].ActionName
+
+	File: .\GameSourceModify\营火烤东西\63e4efe772bf6f649b30c893a0257ef0.json
+	JSON Path: CookingRecipesWarpData[2].ActionName
+
+	New Key: "translate-5539fe94-998a-4a6d-94d9-166b95876bdc"
+	Text: 蒸粉蒸肉
+
+	File: .\GameSourceModify\火炉烤东西\f124e68738466c44b99b660ff303e7c1.json
+	JSON Path: CookingRecipesWarpData[4].ActionName
+
+	New Key: "translate-9b870db6-5330-4333-a3d4-1e63f6789b43"
+	Text: 烹饪爆米花
+
+	File: .\GameSourceModify\火炉烤东西\f124e68738466c44b99b660ff303e7c1.json
+	JSON Path: CookingRecipesWarpData[5].ActionName
+
+	File: .\GameSourceModify\营火烤东西\63e4efe772bf6f649b30c893a0257ef0.json
+	JSON Path: CookingRecipesWarpData[3].ActionName
+
+	New Key: "translate-88778e6f-c24c-43c5-aea2-ed82ffa916f6"
+	Text: 种植油菜
+
+	File: .\GameSourceModify\种田合集\0308e91cdd2d6aa44a9ed0f8187f88d3.json
+	JSON Path: CardInteractionsWarpData[0].ActionName
+
+	New Key: "translate-55c342d8-9295-432e-ba36-2de46e2dd165"
+	Text: 种植棉花
+
+	File: .\GameSourceModify\种田合集\0308e91cdd2d6aa44a9ed0f8187f88d3.json
+	JSON Path: CardInteractionsWarpData[1].ActionName
+
+	New Key: "translate-678d4d80-80f2-43e0-a545-d118aa9d17fe"
+	Text: 种植玉米
+
+	File: .\GameSourceModify\种田合集\0308e91cdd2d6aa44a9ed0f8187f88d3.json
+	JSON Path: CardInteractionsWarpData[2].ActionName
+
+	New Key: "translate-5b3f49d2-dd43-4aa8-804e-081b6747a808"
+	Text: 种植小麦
+
+	File: .\GameSourceModify\种田合集\0308e91cdd2d6aa44a9ed0f8187f88d3.json
+	JSON Path: CardInteractionsWarpData[3].ActionName
+
+	New Key: "translate-9814f58d-c9fa-4ba8-91c6-4485c293e193"
+	Text: 种植草莓
+
+	File: .\GameSourceModify\种田合集\0308e91cdd2d6aa44a9ed0f8187f88d3.json
+	JSON Path: CardInteractionsWarpData[4].ActionName
+
+	New Key: "translate-c4e2aa1d-0ae1-4ffd-9d5b-efe88b69cb6d"
+	Text: 种植油棕
+
+	File: .\GameSourceModify\种田合集\0308e91cdd2d6aa44a9ed0f8187f88d3.json
+	JSON Path: CardInteractionsWarpData[5].ActionName
+
+	New Key: "translate-ac2d9e90-623e-43cd-be22-f1bfd7e50d39"
+	Text: 种植麻草
+
+	File: .\GameSourceModify\种田合集\0308e91cdd2d6aa44a9ed0f8187f88d3.json
+	JSON Path: CardInteractionsWarpData[6].ActionName
+
+	New Key: "translate-16e03336-1ed0-438f-a844-89bc5591d5f8"
+	Text: 种植甘蔗
+
+	File: .\GameSourceModify\种田合集\0308e91cdd2d6aa44a9ed0f8187f88d3.json
+	JSON Path: CardInteractionsWarpData[7].ActionName
+
+	New Key: "translate-79c945f2-fef0-4906-b0c1-484ca7bbdbc4"
+	Text: 种植南瓜
+
+	File: .\GameSourceModify\种田合集\0308e91cdd2d6aa44a9ed0f8187f88d3.json
+	JSON Path: CardInteractionsWarpData[8].ActionName
+
+	New Key: "translate-b55293b4-6a79-4d2b-b71a-e81b5f48c55c"
+	Text: 种植可可豆
+
+	File: .\GameSourceModify\种田合集\0308e91cdd2d6aa44a9ed0f8187f88d3.json
+	JSON Path: CardInteractionsWarpData[9].ActionName
+
+	New Key: "translate-5ecf72af-234f-4ba7-895f-3c0fbe07d897"
+	Text: 作画
+
+	File: .\GameSourceModify\纸张-作画\70461cbddaef70743b555493790a795f.json
+	JSON Path: CardInteractionsWarpData[0].ActionName
+
+	New Key: "translate-a0c721a2-bff2-43da-b63d-ab1a920c595a"
+	Text: 制作羽毛笔
+
+	File: .\GameSourceModify\羽毛-羽毛笔\ac7fa8419b608d54fa2002aa589d3f94.json
+	JSON Path: DismantleActionsWarpData[0].ActionName
+
+	New Key: "translate-cb40c401-5177-469e-9755-72ee3d228970"
+	Text: 油棕树田
+
+	File: .\CardData\作物与田\田\油棕树田.json
+	JSON Path: CardName
+
+	New Key: "translate-07f317c7-b9f9-4d73-955b-c4407829498c"
+	Text: 油菜田
+
+	File: .\CardData\作物与田\田\油菜田.json
+	JSON Path: CardName
+
+	New Key: "translate-885641c1-9e8c-440c-bbae-833331489e12"
+	Text: 马尼拉麻田
+
+	File: .\CardData\作物与田\田\麻草田.json
+	JSON Path: CardName
+
