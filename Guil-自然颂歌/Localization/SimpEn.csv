@@ -1,470 +1,346 @@
-ZhengfaZhilengqi_CardName,ZFZLQ,ZFZLQ
-Imp_CaveExpansion_CardName,Dig,Dig
-SnakegrassPatch_DismantleActions[0].ActionLog.LogText,I haversted some Snakegras.,I haversted some Snakegras.
-BedWooden_DismantleActions[0].ActionName,Nap,Nap
-BedWooden_DismantleActions[0].FadeMessage,Taking a nap...,Taking a nap...
-BedWooden_DismantleActions[0].StatInterruptions[1].Notification,I'm too thirsty to sleep...,I'm too thirsty to sleep...
-BedWooden_DismantleActions[0].StatInterruptions[2].Notification,I'm too hot to sleep...,I'm too hot to sleep...
-BedWooden_DismantleActions[0].StatInterruptions[3].Notification,I'm too cold to sleep...,I'm too cold to sleep...
-BedWooden_DismantleActions[0].StatInterruptions[4].Notification,I'm losing too much blood...,I'm losing too much blood...
-BedWooden_DismantleActions[0].StatInterruptions[5].Notification,I'm not feeling well...,I'm not feeling well...
-BedWooden_DismantleActions[0].StatInterruptions[6].Notification,I'm not feeling well...,I'm not feeling well...
-BedWooden_DismantleActions[1].ActionName,Sleep,Sleep
-BedWooden_DismantleActions[1].FadeMessage,Sleeping...,Sleeping...
-BedWooden_DismantleActions[1].StatInterruptions[1].Notification,I'm too thirsty to sleep...,I'm too thirsty to sleep...
-BedWooden_DismantleActions[1].StatInterruptions[2].Notification,I'm too hot to sleep...,I'm too hot to sleep...
-BedWooden_DismantleActions[1].StatInterruptions[3].Notification,I'm too cold to sleep...,I'm too cold to sleep...
-BedWooden_DismantleActions[1].StatInterruptions[4].Notification,I'm losing too much blood...,I'm losing too much blood...
-BedWooden_DismantleActions[1].StatInterruptions[5].Notification,I'm not feeling well...,I'm not feeling well...
-BedWooden_DismantleActions[1].StatInterruptions[6].Notification,I'm not feeling well...,I'm not feeling well...
-Bellows_UsageDurability.OnZero.ActionDescription,The bellows are broken.,The bellows are broken.
-Bp_Bedroll_BlueprintFinishedLog.LogText,I made a leather bedroll.,I made a leather bedroll.
-Bp_Bellows_BlueprintFinishedLog.LogText,I made myself some bellows.,I made myself some bellows.
-Bp_Chair_BlueprintFinishedLog.LogText,I built myself a comfy chair.,I built myself a comfy chair.
-Bp_Chair_UnlockConditionsDesc,More Woodworking Needed,More Woodworking Needed
-Bp_CopperAxe_BlueprintFinishedLog.LogText,I crafted a copper axe.,I crafted a copper axe.
-Bp_CopperJar_BlueprintFinishedLog.LogText,I made myself a copper jar.,I made myself a copper jar.
-Bp_Dynamite_BlueprintFinishedLog.LogText,I made some dynamite!,I made some dynamite!
-Bp_Dynamite_CardDescription,Make things go BOOM!,Make things go BOOM!
-Bp_Dynamite_UnlockConditionsDesc,Saltpeter Needed,Saltpeter Needed
+EarthSpirit_CardName,1,1
+GJFZQ_CardInteractions[1].RequiredReceivingDurabilities.FailMessage,1,1
+Bp_Qiuqian_CardDescription,A chair to sit on.,A chair to sit on.
+MuTong_CardDescription,A chair to sit on.,A chair to sit on.
+Mianbei_CardDescription,A copper axe. A proper axe!,A copper axe. A proper axe!
+Bp_Zhengfa_CardDescription,A device to store food and make it last longer.,A device to store food and make it last longer.
+Event_FSS_CardName,A Goat!,A Goat!
+GoodBed_CardDescription,A nice and comfortable wooden bed. My back will thank me.,A nice and comfortable wooden bed. My back will thank me.
+MuTong_CardDescription,A sealed container strong enough to hold acids.,A sealed container strong enough to hold acids.
+Env_CaveValley_CardDescription,A small humid cave in the cliffs.,A small humid cave in the cliffs.
+ZhengfaZhilengqi_CardDescription,A wood machine which can make you cold.,A wood machine which can make you cold.
+ZhengfaZhilengqiOff_CardDescription,A wood machine which can make you cold.But it need water now.,A wood machine which can make you cold.But it need water now.
+GS_FB_GameName,Aloe Gel Protection,Aloe Gel Protection
+GS_FB_Statuses[0].GameName,Aloe Vera Applied,Aloe Vera Applied
+CaoMeiCong_CardDescription,An edible plant.,An edible plant.
+GuilMod_MianhuaCong_CardDescription,An edible plant.,An edible plant.
+GuilMod_Youcai_CardDescription,An edible plant.,An edible plant.
+XiaoMaiCong_CardDescription,An edible plant.,An edible plant.
+YuMiCong_CardDescription,An edible plant.,An edible plant.
+Pk_GodBless_PerkName,Bug Attractant,Bug Attractant
+Pk_GodBless_PerkDescription,Bugs love you.,Bugs love you.
+GuilMod_Bp_Caiyou_CardName,Caiyou,Caiyou
+GuilMod_Caiyou_CardName,Caiyou,Caiyou
+YouZongYou_CardName,Caiyou,Caiyou
+Env_CaveValley_CardName,Cave,Cave
+Cesspool_CardName,Cesspool,Cesspool
+Bp_Qiuqian_CardName,Chair,Chair
+MuTong_CardName,Chair,Chair
+Bp_zfzlq_CardName,Clay Pot Cooler,Clay Pot Cooler
+Bp_zfzlq_UnlockConditionsDesc,Clay Vase Needed,Clay Vase Needed
+Bp_Mianbei_UnlockConditionsDesc,Copper Axehead Needed,Copper Axehead Needed
+CaveValley_ExplorationResults[0].Action.ActionName,Copper Vein,Copper Vein
+WaterFall_CardDescription,Could go for a swim or try to get some fish with the right equipment.,Could go for a swim or try to get some fish with the right equipment.
+Mianbei_CardName,Crab,Crab
+XiaGuDongXueChuKou_CardName,Damp Cave,Damp Cave
+Qiuqian_DismantleActions[0].ActionName,Dang,Dang
+ZFZLQ_DismantleActions[0].ActionName,Daoshui,Daoshui
+XiaGuDongXueRuKou,Dark Cave,Dark Cave
+XiaGuDongXueChuKou_CardDescription,Deeper into the cave,Deeper into the cave
+CaveSpring_CardName,Dry Puddle,Dry Puddle
+Bp_Zhayao_CardName,Dynamite,Dynamite
+CaoMei_CardDescription,"Edible, tastes like lemon!","Edible, tastes like lemon!"
+XiaoMai_CardDescription,"Edible, tastes like lemon!","Edible, tastes like lemon!"
+Mianbei_CardDescription,"Edible, would taste better cooked.","Edible, would taste better cooked."
+GuilMod_ZhaixiadeYoucai_CardDescription,"Edible,can be grounded to oil in a bowl!","Edible,can be grounded to oil in a bowl!"
+XiaGuDongXueChuKou_DismantleActions[0].ActionName,Enter,Enter
+XiaGuDongXueChuKou_DismantleActions[0].FadeMessage,Entering the Cave...,Entering the Cave...
+Env_YinMiXiaGu_CardName,Env_SecretValley,Env_SecretValley
+GJFZQ_CardInteractions[1].ActionName,FangruXiantuan,FangruXiantuan
+WaterSpirit_CardInteractions[0].ActionName,FangruXiantuan,FangruXiantuan
+GJFZQ_CardInteractions[0].ActionName,FangruXianwei,FangruXianwei
+GJFZQ_CardInteractions[2].ActionName,FangruZonglv,FangruZonglv
+FireSpirit_CardName,FireSpirit,FireSpirit
+GJFZQ_DismantleActions[0].ActionName,Get Cord,Get Cord
+GJFZQ_DismantleActions[1].ActionName,Get Cord,Get Cord
+GJFZQ_DismantleActions[2].ActionName,Get Cord,Get Cord
+GJFZQ_DismantleActions[3].ActionName,Get Cord,Get Cord
+GJFZQ_CardName,GJFSJ,GJFSJ
+GJZBJ_CardName,GJFSJ,GJFSJ
+GJFZQ_CardName,GJFZQ,GJFZQ
+GJZBJ_CardName,GJZBJ,GJZBJ
+MuTong_CardName,Glazed Vase,Glazed Vase
+GodBless_GameName,GS_GodBless,GS_GodBless
+GuilMod_Caiyou_DismantleAction,Handle,Handle
+FireSpirit_DismantleActions[0].ActionName,Harvest,Harvest
+RicePlant_CardInteractions[0].ActionName,Harvest,Harvest
+GJFZQ_FuelCapacity.CardStatName,Health,Health
+Bp_HHY_CardName,HeiHuoYao,HeiHuoYao
+HHY_CardName,HeiHuoYao,HeiHuoYao
+GS_FB_Description,"Helps treat and prevent backpain, hand and foot damage, sunburn and bugbites","Helps treat and prevent backpain, hand and foot damage, sunburn and bugbites"
+GJFZQ_SpoilageTime.CardStatName,Hunger,Hunger
+Bp_Zhengfa_BlueprintFinishedLog.LogText,I built a clay pot cooler.,I built a clay pot cooler.
+Bp_Qiuqian_BlueprintFinishedLog.LogText,I built myself a comfy chair.,I built myself a comfy chair.
+GJFZQ_CardDescription,I can turn fibers into cord here.,I can turn fibers into cord here.
+GJZBJ_CardDescription,I can turn fibers into cord here.,I can turn fibers into cord here.
+CaveWood_CardDescription,I could get tropical almonds from here.,I could get tropical almonds from here.
 Bp_GJFSJ_BlueprintFinishedLog.LogText,I crafted a nice wooden spindle.,I crafted a nice wooden spindle.
 Bp_GJZBJ_BlueprintFinishedLog.LogText,I crafted a nice wooden spindle.,I crafted a nice wooden spindle.
 Bp_HHY_BlueprintFinishedLog.LogText,I made some dynamite!,I made some dynamite!
-Bp_HHY_CardDescription,Make things go BOOM!,Make things go BOOM!
-Bp_HoneyCandy_CardDescription,Tasty and durable.,Tasty and durable.
-Bp_HoneyCandy_UnlockConditionsDesc,More Cooking Needed,More Cooking Needed
-Bp_Mianbei_UnlockConditionsDesc,Copper Axehead Needed,Copper Axehead Needed
-Bp_Planks_BlueprintFinishedLog.LogText,I built some wooden planks.,I built some wooden planks.
-Bp_Planks_CardDescription,Useful for more advanced construction.,Useful for more advanced construction.
-Bp_Planks_UnlockConditionsDesc,More Woodworking Needed,More Woodworking Needed
-Bp_Qiuqian_BlueprintFinishedLog.LogText,I built myself a comfy chair.,I built myself a comfy chair.
-Bp_Qiuqian_CardDescription,A chair to sit on.,A chair to sit on.
-Bp_Qiuqian_CardName,Chair,Chair
-Bp_Spindle_UnlockConditionsDesc,More Tailoring Needed,More Tailoring Needed
-Bp_zfzlq_CardName,Clay Pot Cooler,Clay Pot Cooler
-Bp_zfzlq_UnlockConditionsDesc,Clay Vase Needed,Clay Vase Needed
-Bp_Zhayao_CardName,Dynamite,Dynamite
-Bp_Zhengfa_BlueprintFinishedLog.LogText,I built a clay pot cooler.,I built a clay pot cooler.
-Bp_Zhengfa_CardDescription,A device to store food and make it last longer.,A device to store food and make it last longer.
-CaoMei_CardDescription,"Edible, tastes like lemon!","Edible, tastes like lemon!"
-CaoMei_CardName,Lemongrass,Lemongrass
-CaoMeiCong_CardDescription,An edible plant.,An edible plant.
-CaoMeiCong_CardName,Lemongrass,Lemongrass
-CaoMeiTian_CardName,Lemon Grass Crop Plot,Lemon Grass Crop Plot
-CaveSea_CardInteractions[0].ActionName,Clean,Clean
-CaveSea_SpoilageTime.CardStatName,Filthiness,Filthiness
-CaveSpring_CardDescription,I should wait for it to refill.,I should wait for it to refill.
-CaveSpring_CardName,Dry Puddle,Dry Puddle
-CaveValley_ExplorationResults[0].Action.ActionName,Copper Vein,Copper Vein
-CaveValley_ExplorationResults[1].Action.ActionName,Shaft,Shaft
-CaveWood_CardDescription,I could get tropical almonds from here.,I could get tropical almonds from here.
-CaveWood_CardName,Tropical Almond Tree,Tropical Almond Tree
-Cesspool_CardDescription,I should use a shovel to clean it up.,I should use a shovel to clean it up.
-Cesspool_CardName,Cesspool,Cesspool
-ClayPotCoolerOff_CardInteractions[0].ActionName,Fill,Fill
-ClayPotCoolerOn_CardInteractions[0].ActionName,Fill,Fill
-CoconutFishUncooked_CardDescription,I need to cook it now.,I need to cook it now.
-CoconutHusk_DismantleActions[0].ActionName,Extract Fibers,Extract Fibers
-CropPlotAlmondTree_CardDescription,I should keep it hydrated and wait for it to grow.,I should keep it hydrated and wait for it to grow.
-CropPlotAlmondTree_CardInteractions[0].ActionName,Water,Water
-CropPlotAlmondTree_CardInteractions[1].ActionName,Fertilize,Fertilize
-CropPlotAlmondTree_CardInteractions[2].ActionName,Fertilize,Fertilize
-CropPlotAlmondTree_DismantleActions[0].ActionName,Destroy,Destroy
-CropPlotAlmondTree_FuelCapacity.CardStatName,Hydration,Hydration
-CropPlotAlmondTree_Progress.CardStatName,Growth,Growth
-CropPlotAlmondTree_SpecialDurability1.CardStatName,Pesticide - Mites,Pesticide - Mites
-CropPlotAlmondTree_SpecialDurability2.CardStatName,Pesticide - Fungi,Pesticide - Fungi
-CropPlotAlmondTree_SpecialDurability3.CardStatName,Mite Infestation,Mite Infestation
-CropPlotAlmondTree_SpecialDurability4.CardStatName,Fungal Infection,Fungal Infection
-CropPlotAlmondTree_SpoilageTime.CardStatName,Fertilizer,Fertilizer
-CropPlotAlmondTree_UsageDurability.CardStatName,Health,Health
-CropPlotAlmondTree_UsageDurability.OnZero.ActionName,Crop has Died!,Crop has Died!
-CropPlotEmpty_CardInteractions[12].ActionLog.LogText,I planted some Chillies on a crop plot.,I planted some Chillies on a crop plot.
-CropPlotLemonGrass_CardDescription,I should keep it hydrated and wait for it to grow.,I should keep it hydrated and wait for it to grow.
-CropPlotLemonGrass_CardInteractions[0].ActionName,Water,Water
-CropPlotLemonGrass_CardInteractions[1].ActionName,Fertilize,Fertilize
-CropPlotLemonGrass_CardInteractions[2].ActionName,Fertilize,Fertilize
-CropPlotLemonGrass_DismantleActions[0].ActionName,Destroy,Destroy
-CropPlotLemonGrass_FuelCapacity.CardStatName,Hydration,Hydration
-CropPlotLemonGrass_Progress.CardStatName,Growth,Growth
-CropPlotLemonGrass_SpecialDurability1.CardStatName,Pesticide - Mites,Pesticide - Mites
-CropPlotLemonGrass_SpecialDurability2.CardStatName,Pesticide - Fungi,Pesticide - Fungi
-CropPlotLemonGrass_SpecialDurability3.CardStatName,Mite Infestation,Mite Infestation
-CropPlotLemonGrass_SpecialDurability4.CardStatName,Fungal Infection,Fungal Infection
-CropPlotLemonGrass_SpoilageTime.CardStatName,Fertilizer,Fertilizer
-CropPlotLemonGrass_UsageDurability.CardStatName,Health,Health
-CropPlotLemonGrass_UsageDurability.OnZero.ActionName,Crop has Died!,Crop has Died!
-CropPlotSnakeGrass_CardDescription,I should keep it hydrated and wait for it to grow.,I should keep it hydrated and wait for it to grow.
-CropPlotSnakeGrass_CardInteractions[0].ActionName,Water,Water
-CropPlotSnakeGrass_CardInteractions[1].ActionName,Fertilize,Fertilize
-CropPlotSnakeGrass_CardInteractions[2].ActionName,Fertilize,Fertilize
-CropPlotSnakeGrass_DismantleActions[0].ActionName,Destroy,Destroy
-CropPlotSnakeGrass_FuelCapacity.CardStatName,Hydration,Hydration
-CropPlotSnakeGrass_Progress.CardStatName,Growth,Growth
-CropPlotSnakeGrass_SpecialDurability1.CardStatName,Pesticide - Mites,Pesticide - Mites
-CropPlotSnakeGrass_SpecialDurability2.CardStatName,Pesticide - Fungi,Pesticide - Fungi
-CropPlotSnakeGrass_SpecialDurability3.CardStatName,Mite Infestation,Mite Infestation
-CropPlotSnakeGrass_SpecialDurability4.CardStatName,Fungal Infection,Fungal Infection
-CropPlotSnakeGrass_SpoilageTime.CardStatName,Fertilizer,Fertilizer
-CropPlotSnakeGrass_UsageDurability.CardStatName,Health,Health
-CropPlotSnakeGrass_UsageDurability.OnZero.ActionName,Crop has Died!,Crop has Died!
-CrystalChamber_ExplorationResults[0].Action.ActionName,Copper Vein,Copper Vein
-DarkCaveCaveEntrance_DismantleActions[0].ActionName,Enter,Enter
-DarkCaveCaveEntrance_DismantleActions[0].FadeMessage,Entering the Cave...,Entering the Cave...
-DeepJungle_DismantleActions[0].ActionName,Explore,Explore
-DeepJungle_ExplorationResults[0].Action.ActionName,Wetlands,Wetlands
-DeepJungle_ExplorationResults[3].Action.ActionName,Fully Explored,Fully Explored
-Env_CaveValley_CardDescription,A small humid cave in the cliffs.,A small humid cave in the cliffs.
-Env_CaveValley_CardName,Cave,Cave
-Env_YinMiXiaGu_CardName,Env_SecretValley,Env_SecretValley
-Event_DeepJungleExplored_CardDescription,I think I found all landmarks in this area.,I think I found all landmarks in this area.
-Event_DeepJungleExplored_CardName,Area Explored,Area Explored
-Event_DeepJungleExplored_DismantleActions[0].ActionLog.LogText,I finished exploring the deep jungle.,I finished exploring the deep jungle.
-Event_DeepJungleExplored_DismantleActions[0].ActionName,Continue,Continue
-Event_FSS_CardDescription,Should I try to catch it?,Should I try to catch it?
-Event_FSS_CardName,A Goat!,A Goat!
-Event_FSS_DismantleActions[0].ActionName,Throw Rock at it,Throw Rock at it
-Event_FSS_DismantleActions[1].ActionName,Use Spear,Use Spear
-FireSpirit_CardDescription,Someone has scratched markings on the walls of the cave. There are 96 scratches. Probably representing days...,Someone has scratched markings on the walls of the cave. There are 96 scratches. Probably representing days...
-FireSpirit_CardName,FireSpirit,FireSpirit
-FireSpirit_DismantleActions[0].ActionName,Harvest,Harvest
-FireSpirit_DismantleActions[1].ActionName,Use Spear,Use Spear
-FishTaco_DismantleActions[0].ActionName,Eat,Eat
-GJFZQ_CardInteractions[0].RequiredReceivingDurabilities.FailMessage,Not hungry yet.,Not hungry yet.
-GJFZQ_CardInteractions[1].RequiredReceivingDurabilities.FailMessage,Not hungry yet.,Not hungry yet.
-GlazedVase_DismantleActions[0].ActionName,Collect Rain,Collect Rain
-GodBless_GameName,GS_GodBless,GS_GodBless
-GoodBed_CardDescription,A nice and comfortable wooden bed. My back will thank me.,A nice and comfortable wooden bed. My back will thank me.
-GoodBed_CardName,Wooden Bed,Wooden Bed
-Grandfather_Progress.CardStatName,Morale,Morale
-Grandfather_Progress.OnFull.ActionDescription,Your grandfather has recovered!,Your grandfather has recovered!
-Grandfather_Progress.OnFull.ActionName,Grandpa's Back,Grandpa's Back
-Grandfather_SpecialDurability1.CardStatName,Medicine,Medicine
-Grandfather_SpoilageTime.CardStatName,Hunger,Hunger
-Grandfather_SpoilageTime.OnZero.ActionDescription,Your Grandfather has died.....,Your Grandfather has died.....
-Grandfather_SpoilageTime.OnZero.ActionName,Tragedy!,Tragedy!
-Grandfather_UsageDurability.CardStatName,Thirst,Thirst
-Grandfather_UsageDurability.OnZero.ActionDescription,Your Grandfather has died.....,Your Grandfather has died.....
-Grandfather_UsageDurability.OnZero.ActionName,Tragedy!,Tragedy!
-GS_FB_Description,"Helps treat and prevent backpain, hand and foot damage, sunburn and bugbites","Helps treat and prevent backpain, hand and foot damage, sunburn and bugbites"
-GS_FB_GameName,Aloe Gel Protection,Aloe Gel Protection
-GS_FB_Statuses[0].GameName,Aloe Vera Applied,Aloe Vera Applied
-GuilMod_Bp_Caiyou_CardDescription,oil made by youcai.,oil made by youcai.
-GuilMod_Caiyou_DismantleAction,Handle,Handle
-GuilMod_MianhuaCong_CardDescription,An edible plant.,An edible plant.
-GuilMod_Youcai_CardDescription,An edible plant.,An edible plant.
-GuilMod_ZhaixiadeYoucai_CardDescription,"Edible,can be grounded to oil in a bowl!","Edible,can be grounded to oil in a bowl!"
-HHY_CardDescription,Perfect for wood crafts.,Perfect for wood crafts.
-KaoYuMi_CardDescription,"Tasty, could try roasting them too.","Tasty, could try roasting them too."
-KaoYuMi_CardName,Tropical Almond Kernels,Tropical Almond Kernels
-Lemongrass_DismantleActions[0].ActionName,Harvest,Harvest
-LemongrassStalks_DismantleActions[0].ActionName,Eat,Eat
-LQ_Coffee_DismantleActions[0].ActionName,Drink,Drink
-LQ_Oil_DismantleActions[0].ActionName,Drink,Drink
-LQ_WaterUnsafe_DismantleActions[0].ActionName,Drink,Drink
-Mianbei_CardDescription,"Edible, would taste better cooked.","Edible, would taste better cooked."
-Mianbei_CardName,Crab,Crab
 Mianhua_CardDescription,I should be able to extract fibers out of it.,I should be able to extract fibers out of it.
-MidChamber_DismantleActions[0].ActionName,Explore,Explore
-MuTong_CardDescription,A sealed container strong enough to hold acids.,A sealed container strong enough to hold acids.
-MuTong_CardName,Glazed Vase,Glazed Vase
-Path_DeepJungleToJungleHighlands_CardDescription,Move to the Jungle Highlands.\n\n<b>(only cards on my hand row will be carried)</b>,Move to the Jungle Highlands.\n\n<b>(only cards on my hand row will be carried)</b>
-Path_DeepJungleToJungleHighlands_CardName,Jungle Highlands,Jungle Highlands
-Path_DeepJungleToJungleHighlands_DismantleActions[0].ActionName,Go,Go
-Path_DeepJungleToJungleHighlands_DismantleActions[0].FadeMessage,Travelling to the Jungle Highlands...,Travelling to the Jungle Highlands...
-Path_JungleHighlandsToDeepJungle_DismantleActions[0].ActionName,Go,Go
-Path_JungleHighlandsToSecretValley_CardDescription,This should take me deeper into the jungle.\n\n<b>(only cards on my hand row will be carried)</b>,This should take me deeper into the jungle.\n\n<b>(only cards on my hand row will be carried)</b>
-Path_JungleHighlandsToSecretValley_DismantleActions[0].FadeMessage,Travelling to the Jungle...,Travelling to the Jungle...
-Pk_GodBless_PerkDescription,Bugs love you.,Bugs love you.
-Pk_GodBless_PerkName,Bug Attractant,Bug Attractant
-Puddle_DismantleActions[0].ActionName,Dig up Mud,Dig up Mud
-RicePlant_CardInteractions[0].ActionName,Harvest,Harvest
-Sea_Bay_CardInteractions[0].ActionName,Spear Fish,Spear Fish
-Sea_Bay_CardInteractions[0].ProducedCards[0].CollectionMessages[0],No luck...,No luck...
-Sea_Bay_CardInteractions[1].ActionName,Fish,Fish
-Sea_Bay_CardInteractions[1].ProducedCards[0].CollectionMessages[0],No luck...,No luck...
-Sea_Bay_CardInteractions[2].ActionName,Fish,Fish
-Sea_Bay_CardInteractions[2].ProducedCards[0].CollectionMessages[0],No luck...,No luck...
-Sea_Bay_CardInteractions[3].ActionName,Fill,Fill
-Sea_Bay_CardInteractions[4].ActionName,Deploy,Deploy
-Sea_Bay_CardInteractions[5].ActionName,Boom!,Boom!
-Sea_Bay_DismantleActions[2].ActionName,Wash yourself,Wash yourself
-Sea_Bay_SpecialDurability1.CardStatName,Sea Damage,Sea Damage
-SnakegrassPatch_DismantleActions[0].ActionName,Harvest,Harvest
-StickLong_CardDescription,Should help me work faster with Kilns and Forges.,Should help me work faster with Kilns and Forges.
-StickLong_CardName,Bellows,Bellows
-TropicalAlmondKernels_DismantleActions[0].ActionName,Eat,Eat
-TropicalAlmondTree_FuelCapacity.CardStatName,Almond Growth,Almond Growth
-TropicalAlmondTree_FuelCapacity.OnFull.ActionDescription,Tree has Almonds again!,Tree has Almonds again!
-TropicalAlmondTreeCleared_CardInteractions[0].ActionName,Cut Down Tree,Cut Down Tree
-TropicalAlmondTreeCleared_CardInteractions[1].ActionName,Cut Down Tree,Cut Down Tree
-TropicalAlmondTreeCleared_Progress.CardStatName,Cutting Progress,Cutting Progress
-TropicalAlmondTreeCleared_Progress.OnZero.ActionDescription,Tree Down!,Tree Down!
-TropicalAlmondTreeYoung_CardInteractions[0].ActionName,Cut Tree,Cut Tree
-TunnelExit_CardDescription,Out of the tunnel,Out of the tunnel
-TunnelExit_CardName,Exit,Exit
-TunnelExit_DismantleActions[0].ActionName,Exit,Exit
-TunnelExit_DismantleActions[0].FadeMessage,Exiting the Cave...,Exiting the Cave...
-WallScratchings_UsageDurability.OnZero.ActionName,Clay Deposit empty,Clay Deposit empty
-WaterFall_CardDescription,Could go for a swim or try to get some fish with the right equipment.,Could go for a swim or try to get some fish with the right equipment.
-WaterFall_CardName,Sea,Sea
-XiaGuDongXueChuKou_CardDescription,Deeper into the cave,Deeper into the cave
-XiaGuDongXueChuKou_CardName,Damp Cave,Damp Cave
-XiaGuDongXueChuKou_DismantleActions[0].ActionName,Enter,Enter
-XiaGuDongXueChuKou_DismantleActions[0].FadeMessage,Entering the Cave...,Entering the Cave...
-XiaGuDongXueRuKou,Dark Cave,Dark Cave
+Cesspool_CardDescription,I should use a shovel to clean it up.,I should use a shovel to clean it up.
+CaveSpring_CardDescription,I should wait for it to refill.,I should wait for it to refill.
 XiaGuDongXueRuKou_CardDescription,Into another cave,Into another cave
-XiaoMai_CardDescription,"Edible, tastes like lemon!","Edible, tastes like lemon!"
+CaoMeiTian_CardName,Lemon Grass Crop Plot,Lemon Grass Crop Plot
+CaoMei_CardName,Lemongrass,Lemongrass
+CaoMeiCong_CardName,Lemongrass,Lemongrass
 XiaoMai_CardName,Lemongrass,Lemongrass
-XiaoMaiCong_CardDescription,An edible plant.,An edible plant.
-YamCurry_DismantleActions[0].ActionLog.LogText,I ate yam curry.,I ate yam curry.
-YamCurry_DismantleActions[0].ActionName,Eat,Eat
-YamJam_DismantleActions[0].ActionName,Eat,Eat
-YouZongYou_CardDescription,oil made by youcai.,oil made by youcai.
-YuMi_CardName,Tropical Almond Kernels,Tropical Almond Kernels
-YuMiCong_CardDescription,An edible plant.,An edible plant.
-ZFZLQ_FuelCapacity.OnZero.ActionDescription,ZFZLQ is out of water!,ZFZLQ is out of water!
-ZhengfaZhilengqi_CardDescription,A wood machine which can make you cold.,A wood machine which can make you cold.
-ZhengfaZhilengqiOff_CardDescription,A wood machine which can make you cold.But it need water now.,A wood machine which can make you cold.But it need water now.
-translate-564cbbf2-cddd-40e9-afac-cd7bee2fbdad,Lost magic point,土魔法点不足
-Qiuqian_DismantleActions[0].ActionName,Dang,Dang
-Bp_HHY_CardName,Heihuoyao,HeiHuoYao
-Bp_ShiMo_CardDescription,A stone grinding can grind things.,"一台石磨,可以碾磨东西。"
-Bp_ShiMo_CardName,Stone mill,石磨
-Bp_ShiMo_UnlockConditionsDesc,It requires higher stone industry skills,需要更高的石工技能
-GJFZQ_CardInteractions[0].ActionName,Fangruxianwei,FangruXianwei
-GJFZQ_CardInteractions[1].ActionName,Fangruxiantuan,FangruXiantuan
-GJFZQ_CardInteractions[2].ActionName,Fangruzonglv,FangruZonglv
-GS_动力_Description,The motivation provided by various equipment can provide other equipment.,"由各种设备提供的动力,可以供给其他设备。"
-GS_动力_GameName,power,动力
-GS_动力_Statuses[0].GameName,It's motivated!,有动力了！
-GuilMod_Bp_Caiyou_CardName,Caiyou,Caiyou
-GuilMod_Bp_Caiyou_UnlockConditionsDesc,ZhaixiaDeyoucai Needed.,Zhaixiadeyoucai Needed.
-GuilMod_Caiyou_CardName,Caiyou,Caiyou
-GuilMod_MianhuaCong_CardName,Mianhuacong,MianhuaCong
-GuilMod_Youcai_CardName,Youcai,Youcai
-HHY_CardName,Heihuoyao,HeiHuoYao
-Mianfen_CardName,flour,面粉
+Bp_HHY_CardDescription,Make things go BOOM!,Make things go BOOM!
 Mianhua_CardName,Mianhua,Mianhua
-MianhuaTian_CardName,Mianhuatian,MianhuaTian
-MoFang_CardDescription,"One mill can grind things. Compared with stone mills, it is more efficient and efficient.","一座磨坊,可以碾磨东西。相较石磨,它效率更高且不费力。"
-MoFang_CardName,Mill,磨坊
+GuilMod_MianhuaCong_CardName,MianhuaCong,MianhuaCong
+MianhuaTian_CardName,MianhuaTian,MianhuaTian
+GJFZQ_CardInteractions[0].RequiredReceivingDurabilities.FailMessage,Not hungry yet.,Not hungry yet.
+GJFZQ_CardInteractions[2].RequiredReceivingDurabilities.FailMessage,Not hungry yet.,Not hungry yet.
+GJFZQ_CardInteractions[1].RequiredReceivingDurabilities.FailMessage,Not hungry yet.,Not hungry yet.
+GuilMod_Bp_Caiyou_CardDescription,oil made by youcai.,oil made by youcai.
+YouZongYou_CardDescription,oil made by youcai.,oil made by youcai.
+HHY_CardDescription,Perfect for wood crafts.,Perfect for wood crafts.
 Qiuqian_CardDescription,Qiuqian,Qiuqian
 Qiuqian_CardName,Qiuqian,Qiuqian
-ShiMo_CardDescription,A stone grinding can grind things.,"一台石磨,可以碾磨东西。"
-ShiMo_CardInteractions[0].ActionName,Grinding flour,碾磨面粉
-ShiMo_CardName,Stone mill,石磨
-translate-012eb078-95d7-4cf4-b25e-85e836123f1e,No steaming buns,没蒸的包子
-translate-01c2ad93-11f4-4354-95bc-2ebe0becb43b,Stone mill renovation box,石磨改造箱
-translate-025c4fb5-b570-40e7-bc5b-84da059205bd,Pick oil brown,采摘油棕
-translate-026eb47a-d70a-4cab-99d4-75e7c672772d,Start with a lit pumpkin lamp.,开局自带一个点亮的南瓜灯。
-translate-02742bd2-974c-46f6-9581-a80c353fdf8a,I built a wooden barrel.,我建造了一个木桶。
-translate-02bc6707-6688-464d-b7e4-edea8cce358d,Manila,马尼拉麻
-translate-02c9b05e-548e-456b-91b4-09ba4ea40a73,Grind soybean,碾磨黄豆
-translate-041b77d2-8de5-4bab-8b2f-778256def957,You can transform stone mills into mills.,可以把石磨改造成磨坊。
-translate-0479ff5f-3072-46eb-a789-d5081d0178d0,Pumpkin powder steamed meat,南瓜粉蒸肉
-translate-0514590c-77de-45cf-9443-ce27f3c7230c,Learn Bow,学习弓箭
-translate-06537cd6-2d4a-472e-a4e2-a8538dfca63c,Ferry barrel (in fermentation),发酵桶（发酵中）
-translate-075fbbf7-b0cf-4817-8453-b25f0faa32d4,"A peaceful valley, I can probably keep the elderly here.","一处祥和的溪谷,我大概可以在这里养老。"
-translate-07811f0e-584f-428d-a124-30e5b759fe5b,"Water God's token, I can surf with it with it.","水神的信物,有了它我可以冲浪。"
-translate-07f317c7-b9f9-4d73-955b-c4407829498c,Rape field,油菜田
-translate-087f7aad-e3aa-49a1-9383-9ee6f81d22f4,Wooden board (half -root log),木板（半根原木）
-translate-0a22e888-d616-4e74-b24b-05bd4f5f3890,Need palm weaving fabrics,需要棕榈编织物
-translate-0b3b249d-f70b-4594-b93f-dece8db45521,Need flour,需要面粉
-translate-0bf1fb6b-61ec-4d17-b799-f361f588d441,Glip oil palm tree,摘光的油棕树
-translate-0c590701-2d64-419e-a7f5-5e8d623f3fc2,Pumpkin field,南瓜田
-translate-0cf1ec31-83f6-4404-905d-34d3a0f22d0a,"A tower, I can put in charcoal as a pen and ink.","一个砚台,我可以放入木炭当做笔墨。"
-translate-0d6f4122-0081-490a-9738-d2db658b6f4f,Water,打水漂
-translate-0f5656a8-28e7-4e69-a63f-cf3ed14b82d9,tear down,拆除
-translate-108f8245-c8df-4b99-83ca-03310ae323b2,"Buns with meat, delicious!","有肉的包子,好吃！"
-translate-130bed11-f721-46e8-83ec-3cf0fde1b707,A mill can be worn faster and not effortless.,"一座磨坊,可以更快的磨东西,还不费力。"
-translate-16e03336-1ed0-438f-a844-89bc5591d5f8,Plant sugarcane,种植甘蔗
-translate-18210e9f-c3cd-40dc-ab85-35928b22a6f8,A steamer is used to steam the west.,"一个蒸笼,用于蒸东西。"
+WaterFall_CardName,Sea,Sea
+CaveValley_ExplorationResults[1].Action.ActionName,Shaft,Shaft
+Event_FSS_CardDescription,Should I try to catch it?,Should I try to catch it?
+FireSpirit_CardDescription,Someone has scratched markings on the walls of the cave. There are 96 scratches. Probably representing days...,Someone has scratched markings on the walls of the cave. There are 96 scratches. Probably representing days...
+KaoYuMi_CardDescription,"Tasty, could try roasting them too.","Tasty, could try roasting them too."
+GJFZQ_UsageDurability.CardStatName,Thirst,Thirst
+Path_JungleHighlandsToSecretValley_CardDescription,This should take me deeper into the jungle.\n\n<b>(only cards on my hand row will be carried)</b>,This should take me deeper into the jungle.\n\n<b>(only cards on my hand row will be carried)</b>
+Event_FSS_DismantleActions[0].ActionName,Throw Rock at it,Throw Rock at it
+Path_JungleHighlandsToSecretValley_DismantleActions[0].FadeMessage,Travelling to the Jungle...,Travelling to the Jungle...
+KaoYuMi_CardName,Tropical Almond Kernels,Tropical Almond Kernels
+YuMi_CardName,Tropical Almond Kernels,Tropical Almond Kernels
+CaveWood_CardName,Tropical Almond Tree,Tropical Almond Tree
+Event_FSS_DismantleActions[1].ActionName,Use Spear,Use Spear
+FireSpirit_DismantleActions[1].ActionName,Use Spear,Use Spear
+GoodBed_CardName,Wooden Bed,Wooden Bed
+XiaoMaiTian_CardName,XiaoMaiTian,XiaoMaiTian
+GuilMod_Youcai_CardName,Youcai,Youcai
+XiaoMaiCong_CardName,Youcai,Youcai
+YuMiTian_CardName,YouCaiTian,YouCaiTian
+GJFZQ_CardDescription,Your grandfather is sick. You should provide him with food and drink.,Your grandfather is sick. You should provide him with food and drink.
+GJZBJ_CardDescription,Your grandfather is sick. You should provide him with food and drink.,Your grandfather is sick. You should provide him with food and drink.
+YuMiCong_CardName,YuMiCong,YuMiCong
+ZhengfaZhilengqi_CardName,ZFZLQ,ZFZLQ
+ZFZLQ_FuelCapacity.OnZero.ActionDescription,ZFZLQ is out of water!,ZFZLQ is out of water!
+GuilMod_Bp_Caiyou_UnlockConditionsDesc,Zhaixiadeyoucai Needed.,Zhaixiadeyoucai Needed.
+translate-564cbbf2-cddd-40e9-afac-cd7bee2fbdad,Insufficient earth magic points,土魔法点不足
+Bp_ShiMo_CardDescription,A stone mill to grind things.,一台石磨，可以碾磨东西。
+Bp_ShiMo_CardName,Stone Mill,石磨
+Bp_ShiMo_UnlockConditionsDesc,Higher masonry skills required,需要更高的石工技能
+GS_动力_Description,Power supplied by various devices can be supplied to other devices.,由各种设备提供的动力，可以供给其他设备。
+GS_动力_GameName,Power,动力
+GS_动力_Statuses[0].GameName,Motivated!,有动力了！
+Mianfen_CardName,Flour,面粉
+MoFang_CardDescription,"A mill to grind things. Compared to a stone mill, it is more efficient and less laborious.",一座磨坊，可以碾磨东西。相较石磨，它效率更高且不费力。
+MoFang_CardName,Mills,磨坊
+ShiMo_CardDescription,A stone mill to grind things.,一台石磨，可以碾磨东西。
+ShiMo_CardInteractions[0].ActionName,Milling flour,碾磨面粉
+ShiMo_CardName,Stone Mill,石磨
+translate-012eb078-95d7-4cf4-b25e-85e836123f1e,Unsteamed buns,没蒸的包子
+translate-01c2ad93-11f4-4354-95bc-2ebe0becb43b,Stone mill transformation box,石磨改造箱
+translate-025c4fb5-b570-40e7-bc5b-84da059205bd,Oil Palm Picking,采摘油棕
+translate-026eb47a-d70a-4cab-99d4-75e7c672772d,The opening comes with a lighted pumpkin lamp.,开局自带一个点亮的南瓜灯。
+translate-02742bd2-974c-46f6-9581-a80c353fdf8a,I built a barrel.,我建造了一个木桶。
+translate-02bc6707-6688-464d-b7e4-edea8cce358d,Manila hemp,马尼拉麻
+translate-02c9b05e-548e-456b-91b4-09ba4ea40a73,Milling soybeans,碾磨黄豆
+translate-041b77d2-8de5-4bab-8b2f-778256def957,The stone mill can be converted into a grist mill.,可以把石磨改造成磨坊。
+translate-0479ff5f-3072-46eb-a789-d5081d0178d0,Steamed Pork with Pumpkin Vermicelli,南瓜粉蒸肉
+translate-0514590c-77de-45cf-9443-ce27f3c7230c,Learn Archery,学习弓箭
+translate-06537cd6-2d4a-472e-a4e2-a8538dfca63c,Fermentation bucket (in fermentation),发酵桶（发酵中）
+translate-075fbbf7-b0cf-4817-8453-b25f0faa32d4,A peaceful stream valley where I could probably retire.,一处祥和的溪谷，我大概可以在这里养老。
+translate-07811f0e-584f-428d-a124-30e5b759fe5b,"A token of the water god, with which I can surf.",水神的信物，有了它我可以冲浪。
+translate-07f317c7-b9f9-4d73-955b-c4407829498c,Oilseed rape field,油菜田
+translate-087f7aad-e3aa-49a1-9383-9ee6f81d22f4,Planks (half logs),木板（半根原木）
+translate-0a22e888-d616-4e74-b24b-05bd4f5f3890,Need palm weaving,需要棕榈编织物
+translate-0b3b249d-f70b-4594-b93f-dece8db45521,Flour required,需要面粉
+translate-0bf1fb6b-61ec-4d17-b799-f361f588d441,Plucking light oil palm trees,摘光的油棕树
+translate-0c590701-2d64-419e-a7f5-5e8d623f3fc2,Pumpkin Field,南瓜田
+translate-0cf1ec31-83f6-4404-905d-34d3a0f22d0a,An ink stone that I can put in charcoal as a pen and ink.,一个砚台，我可以放入木炭当做笔墨。
+translate-0d6f4122-0081-490a-9738-d2db658b6f4f,skim stones,打水漂
+translate-0f5656a8-28e7-4e69-a63f-cf3ed14b82d9,Dismantling,拆除
+translate-108f8245-c8df-4b99-83ca-03310ae323b2,"The buns with meat, delicious!",有肉的包子，好吃！
+translate-130bed11-f721-46e8-83ec-3cf0fde1b707,A mill that can grind things faster and with less effort.,一座磨坊，可以更快的磨东西，还不费力。
+translate-16e03336-1ed0-438f-a844-89bc5591d5f8,Planting sugar cane,种植甘蔗
+translate-18210e9f-c3cd-40dc-ab85-35928b22a6f8,A steamer for steaming things.,一个蒸笼，用于蒸东西。
 translate-1880225c-f776-47d5-bc56-8aae2c83d8de,Ink consumption is complete,墨水消耗完毕
-translate-19e48ed4-57f3-4634-b299-32f8f6ea0206,Insufficient sugar cane juice,甘蔗汁不够
-translate-2001eea8-0384-427f-9282-992c031fb9ef,Pumpkin lamp is finished,南瓜灯烧完了
-translate-231d1b66-d350-48c0-a835-ef96433267f9,Malt,麦芽汁量
-translate-24043dc0-c098-477d-81ba-f58f576f0c48,Roasted corn,烤玉米
-translate-2436d8da-8401-451c-917e-f6c816e62281,pumpkin,南瓜
-translate-247c5223-8c30-48e7-8de0-8ec5315295d0,Condor sancourse lamp,雕南瓜灯
-translate-2617a194-3cd5-4fee-88c9-067b3c07f549,Pumpkin lamp-empty,南瓜灯-空
-translate-26f320b1-fa34-46d1-940a-3ac1a1c65614,Need strawberry,需要草莓
-translate-28607278-ec71-45ea-ad60-2abb803f85c3,Turn to a fermentation barrel,转为发酵桶
-translate-2a961714-f2bd-451e-9430-ccd199c883ef,It requires higher woodworking skills,需要更高的木工技能
-translate-2f136fce-dd03-401a-ab1f-41ade178486e,Leaf band,树叶缠手带
-translate-320c3a67-efc4-478d-aea1-b7aa6c54645f,"A picture, very beautiful","一张画,很好看"
-translate-347085f3-42e2-4d39-ae56-99775f9a627d,"I have raw corn, I should bake it.","生的玉米,我应该把它烤熟。"
-translate-35e416fa-2203-4739-b2c9-dc0e12c16cc2,"A pumpkin bush, I can pick pumpkin here.","一片南瓜丛,我可以在这里采摘南瓜。"
-translate-37ef4dd9-af6d-4f6b-bf99-f5b800d79906,"One of the fat house foods, super delicious!","肥宅食品之一,超好吃！"
-translate-393e8f8a-8df0-4f4d-8879-92a358afda68,Sofia's Spirit is the god of balancing and wisdom.,"索菲娅之灵,是司掌平衡与智慧的神灵。"
-translate-399dadee-1e3d-49bf-9b41-bc43f6e7106b,Ferry barrel (not filled),发酵桶（未装满）
-translate-3b069e1e-a633-4364-8f84-64318085f01b,Sofia's Spirit,索菲娅之灵
-translate-3fb6e7a4-a40f-45b0-b832-c976d07d2d3f,"A sugarcane, you can take the juice","一根甘蔗,可以拿去榨汁"
-translate-425ecd39-b7a7-4758-a318-26ead31e169d,Drink with stones (it will consume stones),用石头打水漂（会消耗石头）
-translate-46324736-360d-4563-a381-134a5d309b8c,Oil palm grows,油棕长出来了
-translate-470950a3-058d-495b-ac43-5c345d2e173c,Delicious fruit juice,美味的果汁
-translate-472ce8de-7a37-45de-a8a0-58dce8ff3c2f,The Spirit of Gauluo,迦楼罗之灵
+translate-19e48ed4-57f3-4634-b299-32f8f6ea0206,Not enough sugar cane juice,甘蔗汁不够
+translate-2001eea8-0384-427f-9282-992c031fb9ef,The pumpkin lantern is burnt out,南瓜灯烧完了
+translate-231d1b66-d350-48c0-a835-ef96433267f9,Amount of wort,麦芽汁量
+translate-24043dc0-c098-477d-81ba-f58f576f0c48,Roasted Corn,烤玉米
+translate-2436d8da-8401-451c-917e-f6c816e62281,Pumpkin,南瓜
+translate-247c5223-8c30-48e7-8de0-8ec5315295d0,Carved pumpkin lamp,雕南瓜灯
+translate-2617a194-3cd5-4fee-88c9-067b3c07f549,Pumpkin lantern-empty,南瓜灯-空
+translate-26f320b1-fa34-46d1-940a-3ac1a1c65614,Need strawberries,需要草莓
+translate-28607278-ec71-45ea-ad60-2abb803f85c3,Conversion to fermentation barrels,转为发酵桶
+translate-2a961714-f2bd-451e-9430-ccd199c883ef,Higher carpentry skills required,需要更高的木工技能
+translate-2f136fce-dd03-401a-ab1f-41ade178486e,Leaf Wrap Hand Band,树叶缠手带
+translate-320c3a67-efc4-478d-aea1-b7aa6c54645f,A painting that looks good,一张画，很好看
+translate-347085f3-42e2-4d39-ae56-99775f9a627d,"Raw corn, I should have roasted it.",生的玉米，我应该把它烤熟。
+translate-35e416fa-2203-4739-b2c9-dc0e12c16cc2,A pumpkin bush where I can pick pumpkins.,一片南瓜丛，我可以在这里采摘南瓜。
+translate-37ef4dd9-af6d-4f6b-bf99-f5b800d79906,"One of the fatty food, super delicious!",肥宅食品之一，超好吃！
+translate-393e8f8a-8df0-4f4d-8879-92a358afda68,"The Spirit of Sophia, a deity of balance and wisdom.",索菲娅之灵，是司掌平衡与智慧的神灵。
+translate-399dadee-1e3d-49bf-9b41-bc43f6e7106b,Fermentation drum (not filled),发酵桶（未装满）
+translate-3b069e1e-a633-4364-8f84-64318085f01b,Spirit of Sophia,索菲娅之灵
+translate-3fb6e7a4-a40f-45b0-b832-c976d07d2d3f,A sugar cane that can be taken for juicing,一根甘蔗，可以拿去榨汁
+translate-425ecd39-b7a7-4758-a318-26ead31e169d,Hit the water with a stone (will consume the stone),用石头打水漂（会消耗石头）
+translate-46324736-360d-4563-a381-134a5d309b8c,The oil palm is growing,油棕长出来了
+translate-470950a3-058d-495b-ac43-5c345d2e173c,Delicious juices,美味的果汁
+translate-472ce8de-7a37-45de-a8a0-58dce8ff3c2f,Spirit of Calvary,迦楼罗之灵
 translate-490a22f3-df4a-4342-816c-63c56d98ae2e,Bedding (cotton),床上用品（棉）
-translate-4b331e14-f3ba-4d2f-94a6-28b033210326,"One of the caves in the valley, I can use it as a shelter.","一处在溪谷中的洞穴,我可以把这里作为一个庇护所。"
-translate-4b5f0398-f089-4e2c-8e4e-afa49afaca9f,Bedding (hemp),床上用品（麻）
-translate-4c4ebf29-e5a2-484f-b05a-87ca51eabdb8,I should wait for it to ferment.,我应该等待它发酵完成。
+translate-4b331e14-f3ba-4d2f-94a6-28b033210326,A cave in a stream valley that I could use as a shelter.,一处在溪谷中的洞穴，我可以把这里作为一个庇护所。
+translate-4b5f0398-f089-4e2c-8e4e-afa49afaca9f,Bedding (linen),床上用品（麻）
+translate-4c4ebf29-e5a2-484f-b05a-87ca51eabdb8,I should wait for it to finish fermenting.,我应该等待它发酵完成。
 translate-4d9e7b77-6536-4037-9c0e-19f48bb5fd80,Small oil palm tree,小油棕树
-translate-513b358a-2e05-417b-a609-ee13af3f6d05,A piece of sugarcane cluster can cut sugarcane.,"一片甘蔗丛,可以砍伐甘蔗。"
-translate-516ab8b8-26a5-4af8-8347-5f9a38ca0fb2,A kind of hemp grass can easily extract fiber from it.,"一种麻草,可以从中方便的提取纤维。"
-translate-53733e7e-fcd2-453a-a1fb-7d65fd913e63,Learning trap,学习陷阱
-translate-5465b957-636f-485d-9b2d-6ddd80a1a3ff,"Strawberry fruit juice, delicious!","草莓果汁,好喝的！"
-translate-553229c0-2f44-422b-b5e0-b0ce63139625,Learn drumming,学习击鼓
-translate-5539fe94-998a-4a6d-94d9-166b95876bdc,Steamed powder and steamed meat,蒸粉蒸肉
-translate-554a79f4-de71-4bb7-8cdc-ebaaf8e41a57,Water God,水神信物
-translate-55c342d8-9295-432e-ba36-2de46e2dd165,Cotton,种植棉花
-translate-5618c71b-b28b-4894-be96-0fc85ea93fa5,Manila Ma,马尼拉麻丛
-translate-5875a96b-f867-4ef6-b1ae-554b6b5150e4,Powder made of cocoa beans.,可可豆磨成的粉。
-translate-5a4d6200-a5c7-4ac2-8682-dafdc36a5e70,Oil brown,油棕
-translate-5b3f49d2-dd43-4aa8-804e-081b6747a808,Plant wheat,种植小麦
+translate-513b358a-2e05-417b-a609-ee13af3f6d05,A sugarcane bush where you can cut sugarcane.,一片甘蔗丛，可以砍伐甘蔗。
+translate-516ab8b8-26a5-4af8-8347-5f9a38ca0fb2,A hemp grass from which fiber can be easily extracted.,一种麻草，可以从中方便的提取纤维。
+translate-53733e7e-fcd2-453a-a1fb-7d65fd913e63,Learning Traps,学习陷阱
+translate-5465b957-636f-485d-9b2d-6ddd80a1a3ff,"Strawberry juice, yummy!",草莓果汁，好喝的！
+translate-553229c0-2f44-422b-b5e0-b0ce63139625,Learn to play the drums,学习击鼓
+translate-5539fe94-998a-4a6d-94d9-166b95876bdc,Steamed Pork with Vermicelli,蒸粉蒸肉
+translate-554a79f4-de71-4bb7-8cdc-ebaaf8e41a57,Water god token,水神信物
+translate-55c342d8-9295-432e-ba36-2de46e2dd165,Growing cotton,种植棉花
+translate-5618c71b-b28b-4894-be96-0fc85ea93fa5,Manila hemp bush,马尼拉麻丛
+translate-5875a96b-f867-4ef6-b1ae-554b6b5150e4,Cocoa beans ground into a powder.,可可豆磨成的粉。
+translate-5a4d6200-a5c7-4ac2-8682-dafdc36a5e70,Oil Palm,油棕
+translate-5b3f49d2-dd43-4aa8-804e-081b6747a808,Growing wheat,种植小麦
 translate-5ca3d558-58e2-4d8d-97cd-23b73d3dce28,Sugarcane field,甘蔗田
-translate-5ecf72af-234f-4ba7-895f-3c0fbe07d897,Painting,作画
-translate-604b4727-91d3-4f65-8657-c5779c21cf58,The Spirit of the Titan is the god of the power of the earth.,"泰坦之灵,是司掌大地之力的神灵。"
-translate-6071b77f-21ff-4c12-bc6f-3f1061b86c1c,Hidden canyon,隐秘峡谷
-translate-626b1193-7ada-4f88-a622-5cfef72d6d89,"A feather pen can be used for writing and painting, but you have to dip in ink first.","一只羽毛笔,可以用来写字、作画,不过得先蘸取墨水。"
-translate-66e7e656-3c04-4c45-856c-43c1b4498c5c,Pumpkin,需要南瓜
-translate-67182101-e89b-48e7-a72f-274d9dd2eb78,Steamed bun,馒头
+translate-5ecf72af-234f-4ba7-895f-3c0fbe07d897,Paintings,作画
+translate-604b4727-91d3-4f65-8657-c5779c21cf58,"The Spirit of Titan, a deity who is in charge of the power of the earth.",泰坦之灵，是司掌大地之力的神灵。
+translate-6071b77f-21ff-4c12-bc6f-3f1061b86c1c,Hidden Canyon,隐秘峡谷
+translate-626b1193-7ada-4f88-a622-5cfef72d6d89,"A quill pen that can be used to write and draw, but it has to be dipped in ink first.",一只羽毛笔，可以用来写字、作画，不过得先蘸取墨水。
+translate-66e7e656-3c04-4c45-856c-43c1b4498c5c,Need pumpkin,需要南瓜
+translate-67182101-e89b-48e7-a72f-274d9dd2eb78,Buns,馒头
 translate-678d4d80-80f2-43e0-a545-d118aa9d17fe,Planting corn,种植玉米
-translate-69c9c374-f43a-4236-8c3e-e60b7d129a6a,Waves ~,浪起~
-translate-6aa2e28b-22ed-49d0-ab5a-a89d45fa3783,You are good at casting stone posters and starting to unlock the stone.,"你擅长投石索,开局解锁投石索。"
-translate-6c0a5a3b-8ea2-4b42-99f4-490c8723e092,Kaiputon's Spirit,耐普图隆之灵
-translate-6cefe35c-09c3-40ee-8ef4-56df0773d660,Balanced magic is full,平衡魔法点满了
-translate-6d6e8db0-0bf1-4aa6-8ee9-fdc98df4c627,Laisin spirit,利维亚桑之灵
-translate-6ec23c53-a2d9-4dba-9118-81bb9fd62ef1,A piece of Manila cluster can collect Manila.,"一片马尼拉麻丛,可以采集马尼拉麻。"
-translate-6f595bb7-1fd9-427f-85b4-ed6f07ebdc6f,Hold up,拿起
+translate-69c9c374-f43a-4236-8c3e-e60b7d129a6a,Surf's up~,浪起~
+translate-6aa2e28b-22ed-49d0-ab5a-a89d45fa3783,You are good at throwing ropes and unlocking them in the opening game.,你擅长投石索，开局解锁投石索。
+translate-6c0a5a3b-8ea2-4b42-99f4-490c8723e092,Spirit of Neptune,耐普图隆之灵
+translate-6cefe35c-09c3-40ee-8ef4-56df0773d660,Balance magic point is full,平衡魔法点满了
+translate-6d6e8db0-0bf1-4aa6-8ee9-fdc98df4c627,Spirit of Leviathan,利维亚桑之灵
+translate-6ec23c53-a2d9-4dba-9118-81bb9fd62ef1,A manila hemp bush where manila hemp can be collected.,一片马尼拉麻丛，可以采集马尼拉麻。
+translate-6f595bb7-1fd9-427f-85b4-ed6f07ebdc6f,Pick up,拿起
 translate-75d4529a-8271-48bf-9265-379c89355038,Popcorn,爆米花
-translate-76c3fc9e-97b1-4a34-b949-97fed8685883,Need mud piles,需要泥堆
-translate-79c945f2-fef0-4906-b0c1-484ca7bbdbc4,Plant pumpkin,种植南瓜
-translate-7b152c74-56bf-432f-aa12-c75feb171cbc,Feather pen,羽毛笔
-translate-7baf388b-fe13-422d-ad14-cd1c9e4e5eff,The food made of flour is full but not delicious.,"面粉做成的食物,管饱但不好吃。"
-translate-7c153f6b-dad3-4b3f-bad8-b1774a38a9f3,pumpkin lantern,南瓜灯
-translate-7d49f64d-ecc8-4fdf-b92f-374e14f3b5c1,"You are a realistic person, you will not find cotton or rapeseed, but you will find hemp and oil palm.","你是一个写实派的人,你不会发现棉花或油菜,而会发现麻和油棕。"
-translate-7d8679f4-79aa-41ee-bc19-774c340639cf,Balance magic point,平衡魔法点
-translate-7e8c4991-a0df-456f-a2ea-0c0519ad3a3a,Pave the bed,铺床
-translate-7ea529e5-15c2-44aa-8c96-dbb10b8e355e,Magic point,土魔法点
+translate-76c3fc9e-97b1-4a34-b949-97fed8685883,Need mud pile,需要泥堆
+translate-79c945f2-fef0-4906-b0c1-484ca7bbdbc4,Growing pumpkins,种植南瓜
+translate-7b152c74-56bf-432f-aa12-c75feb171cbc,Quill,羽毛笔
+translate-7baf388b-fe13-422d-ad14-cd1c9e4e5eff,The food made of flour is filling but not tasty.,面粉做成的食物，管饱但不好吃。
+translate-7c153f6b-dad3-4b3f-bad8-b1774a38a9f3,Pumpkin Lamp,南瓜灯
+translate-7d49f64d-ecc8-4fdf-b92f-374e14f3b5c1,"You are a realist, you will not find cotton or rape, but hemp and oil palm.",你是一个写实派的人，你不会发现棉花或油菜，而会发现麻和油棕。
+translate-7d8679f4-79aa-41ee-bc19-774c340639cf,Balance Magic Points,平衡魔法点
+translate-7e8c4991-a0df-456f-a2ea-0c0519ad3a3a,Make the bed,铺床
+translate-7ea529e5-15c2-44aa-8c96-dbb10b8e355e,Earth magic points,土魔法点
 translate-8218455a-51f5-4d9e-bfc1-bcf468a81246,Reduce loneliness,降低孤独感
 translate-848e0a17-4f57-44d0-aa6c-d638767fa5d6,painting,画
-translate-84f12c72-b75e-4ef5-ad1b-0b6c6019e658,Steamed bun,蒸馒头
-translate-855349ba-f623-423f-b7af-2feeef7927b6,Dip in ink,蘸取墨水
+translate-84f12c72-b75e-4ef5-ad1b-0b6c6019e658,Steamed Buns,蒸馒头
+translate-855349ba-f623-423f-b7af-2feeef7927b6,Ink dipping,蘸取墨水
 translate-85888c08-56ff-4510-a515-1de68617dd75,Steamed pumpkin.,蒸熟的南瓜。
 translate-86906fa6-0ce1-49d4-b170-ecc2d3fc4b68,Carved pumpkin lamp,雕刻南瓜灯
-translate-885641c1-9e8c-440c-bbae-833331489e12,Manila Mada,马尼拉麻田
+translate-885641c1-9e8c-440c-bbae-833331489e12,Manila Asada,马尼拉麻田
 translate-8867d379-4520-4528-85d8-2e7464285a63,Insufficient power,电力不足
-translate-88778e6f-c24c-43c5-aea2-ed82ffa916f6,Rape,种植油菜
-translate-888873b0-b89d-4306-9c6f-b499c2f3aecb,Uncured pumpkin powder steamed meat,未烹饪的南瓜粉蒸肉
-translate-89b2c0ac-ab66-4a37-ad56-265cb7387b0f,place,放置
-translate-8a5eb41f-1821-4e7b-ad20-392d1a7e7607,Oil palm oil,油棕油
-translate-8acf67ac-dc21-4429-9733-98eb3a31ead5,Germ,采集杂菌
-translate-8bfaf8ae-d7a6-4720-9766-4c47f24a371a,Grind,研磨
-translate-8cf0025e-b042-4459-ab47-f5d55c61388e,Mud,挖泥巴
-translate-8e8d1c8c-4363-43c4-866d-1ac618044c8a,Candle,放入蜡烛
-translate-94210c1e-81cf-44fa-879b-9332df047f36,Steamed the pumpkin to eat!,蒸南瓜吃完了！
-translate-95683e8b-cf1d-4c3c-afbb-159bf800c8e1,Stones,投石精通
-translate-958449c5-bc3f-4d0d-a56c-8d876429ad23,Strawberry juice,草莓果汁
-translate-95f9b72c-b59a-4e27-91c7-780902b3dac6,steamed stuffed bun,包子
-translate-96798ac2-ec33-471d-923b-baf8cb56f6eb,"A stalemate, now I need to grind charcoal.","一个砚台,现在我需要把木炭磨碎。"
-translate-967e96ca-7d17-4c6f-9a37-2e6a1cff441c,"Sugar cane juice, I should get it on the fire and roast it.","甘蔗汁,我应该把它拿到火上去烤。"
-translate-9814f58d-c9fa-4ba8-91c6-4485c293e193,Strawberry,种植草莓
-translate-9b870db6-5330-4333-a3d4-1e63f6789b43,Cooking popcorn,烹饪爆米花
-translate-a0c721a2-bff2-43da-b63d-ab1a920c595a,Make a feather pen,制作羽毛笔
+translate-88778e6f-c24c-43c5-aea2-ed82ffa916f6,Growing oilseed rape,种植油菜
+translate-888873b0-b89d-4306-9c6f-b499c2f3aecb,Uncooked pumpkin vermicelli,未烹饪的南瓜粉蒸肉
+translate-89b2c0ac-ab66-4a37-ad56-265cb7387b0f,Placement,放置
+translate-8a5eb41f-1821-4e7b-ad20-392d1a7e7607,Oil Palm Oil,油棕油
+translate-8acf67ac-dc21-4429-9733-98eb3a31ead5,Collection of miscellaneous bacteria,采集杂菌
+translate-8bfaf8ae-d7a6-4720-9766-4c47f24a371a,Grinding,研磨
+translate-8cf0025e-b042-4459-ab47-f5d55c61388e,Mud digging,挖泥巴
+translate-8e8d1c8c-4363-43c4-866d-1ac618044c8a,Put in the candle,放入蜡烛
+translate-94210c1e-81cf-44fa-879b-9332df047f36,Steamed pumpkin is finished!,蒸南瓜吃完了！
+translate-95683e8b-cf1d-4c3c-afbb-159bf800c8e1,Stone casting proficiency,投石精通
+translate-958449c5-bc3f-4d0d-a56c-8d876429ad23,Strawberry Juice,草莓果汁
+translate-95f9b72c-b59a-4e27-91c7-780902b3dac6,Buns,包子
+translate-96798ac2-ec33-471d-923b-baf8cb56f6eb,"An ink stone, now I need to grind up the charcoal.",一个砚台，现在我需要把木炭磨碎。
+translate-967e96ca-7d17-4c6f-9a37-2e6a1cff441c,"Sugar cane juice, I should take it to the fire and roast it.",甘蔗汁，我应该把它拿到火上去烤。
+translate-9814f58d-c9fa-4ba8-91c6-4485c293e193,Growing strawberries,种植草莓
+translate-9b870db6-5330-4333-a3d4-1e63f6789b43,Cooking Popcorn,烹饪爆米花
+translate-a0c721a2-bff2-43da-b63d-ab1a920c595a,Making a quill,制作羽毛笔
 translate-a0d25c3c-d7be-4ab7-aa5f-8e98d7a7220d,Need palm leaves,需要棕榈叶
-translate-a378bfa5-9ff3-4d5b-aff1-b1de25ad34d5,Mill,磨坊
-translate-a3c56fe5-2100-4fc4-a567-1861c9b5b87e,"A small tree, it grows into oil palm trees.","一棵小树,它会长成油棕树的。"
-translate-a4102778-27be-4b7d-aa86-f80893b8151e,Transform,改造
-translate-a4c20444-f0f3-4cfd-ab2c-4b4d2a4704c5,Pray,祈求信物
-translate-a651be15-5e56-4204-8b90-d3222ea00e54,Steamed bun,蒸包子
+translate-a378bfa5-9ff3-4d5b-aff1-b1de25ad34d5,Mills,磨坊
+translate-a3c56fe5-2100-4fc4-a567-1861c9b5b87e,"A small tree, which will grow into an oil palm tree.",一棵小树，它会长成油棕树的。
+translate-a4102778-27be-4b7d-aa86-f80893b8151e,Retrofitting,改造
+translate-a4c20444-f0f3-4cfd-ab2c-4b4d2a4704c5,Praying for tokens,祈求信物
+translate-a651be15-5e56-4204-8b90-d3222ea00e54,Steamed buns,蒸包子
 translate-a6bbb5ac-0135-4f94-83a2-f480470e2105,Oil palm growth,油棕生长
-translate-a6d4c91a-c892-47bc-b571-27369c471f13,） 的 (with charcoal),砚台（有木炭的）
-translate-a7271395-b531-42e3-adeb-e557f7c28719,Pour empty and turn back to the barrel,倒空并转回木桶
-translate-a7f21b99-8783-44a0-a092-5fd39e6f4fe6,Pray for a slate,祈求燧石板
-translate-a9b86b53-fa49-44d1-8252-359857793a56,"Chocolate, delicious!","巧克力,好吃的！"
+translate-a6d4c91a-c892-47bc-b571-27369c471f13,Inkstone (with charcoal),砚台（有木炭的）
+translate-a7271395-b531-42e3-adeb-e557f7c28719,Empty and turn back the barrel,倒空并转回木桶
+translate-a7f21b99-8783-44a0-a092-5fd39e6f4fe6,Praying for flint plates,祈求燧石板
+translate-a9b86b53-fa49-44d1-8252-359857793a56,"Chocolate, delicious!",巧克力，好吃的！
 translate-ab581dd4-fb5c-4d23-b40f-6b310042ca5b,Cocoa beans,可可豆
-translate-ab59fa8d-334e-4934-9080-8c19368befc7,Magic point,火魔法点
-translate-ac2d9e90-623e-43cd-be22-f1bfd7e50d39,Hemp,种植麻草
-translate-acd7b2ad-a774-4d73-af0b-f9f200eaa12d,You are good at casting stones.,你擅长投石。
-translate-ad0ec4ac-c7d2-43a2-9c8b-6311eb836b61,Pumpkin,蒸南瓜
+translate-ab59fa8d-334e-4934-9080-8c19368befc7,Fire Magic Points,火魔法点
+translate-ac2d9e90-623e-43cd-be22-f1bfd7e50d39,Planting hemp grass,种植麻草
+translate-acd7b2ad-a774-4d73-af0b-f9f200eaa12d,You are good at stone throwing.,你擅长投石。
+translate-ad0ec4ac-c7d2-43a2-9c8b-6311eb836b61,Steamed pumpkin,蒸南瓜
 translate-ae1a07f5-68a9-4f94-b4ae-bdb38accbe24,Pumpkin bush,南瓜丛
 translate-ae23d3e0-2dda-4ecf-afaa-f811f14d4a28,Surfing,冲浪术
-translate-af8b8c42-065f-444f-bd68-8608d5306891,Finish,烧完了
-translate-b0bc908e-fec3-486a-921d-0094fdf2a6a6,Feather pen (with ink),羽毛笔（有墨水的）
+translate-af8b8c42-065f-444f-bd68-8608d5306891,Burnt out,烧完了
+translate-b0bc908e-fec3-486a-921d-0094fdf2a6a6,Quill pen (with ink),羽毛笔（有墨水的）
 translate-b1a5e901-bfcd-4c8e-a2e5-620f607f128e,Steamer,蒸笼
-translate-b433f06c-e652-4608-a347-e27b884884c9,I can pick oil brown here,我可以在这里采摘油棕
-translate-b55293b4-6a79-4d2b-b71a-e81b5f48c55c,Cocoa beans,种植可可豆
-translate-b5ad6737-b1de-4614-893c-83cb6ca7aa40,Draw wisdom,汲取智慧
-translate-b635d1ee-affd-46b4-8809-4e501ea37154,"A fermented barrel can turn the malt juice into wheat wine, but I have to fill the malt juice first.","一个发酵桶,可以把麦芽汁变成麦酒,不过我得先装满麦芽汁。"
-translate-b733d2e8-3251-42c0-8a00-147af9013d75,"Sweet sugar cane juice, can be drunk or refined.","甜甜的甘蔗汁,可以喝,也可以炼糖。"
-translate-bd06f720-9f27-4190-b3c9-dc0fb7814405,Grind into a flour,磨成面粉
-translate-bdbf5b29-37d2-4b49-9f93-88ea5ccee91e,I should take it to cook.,我应该把它拿去烹饪。
-translate-bf6ca745-48ee-4a6f-9144-cfd4e267fab4,lay down,放下
-translate-c117a6e6-5fc1-47ac-9ff9-8ee127247799,Water magic point,水魔法点
-translate-c15bf408-d20b-402d-92be-d92624bda038,The Spirit of Galo Luo is the Holy Spirit of the Palm Storm.,"迦楼罗之灵,是司掌风暴的圣灵。"
-translate-c37cf2f0-7c23-4455-bdda-d7d829066bc7,的 水 (with ink),砚台（有墨水的）
-translate-c4e2aa1d-0ae1-4ffd-9d5b-efe88b69cb6d,Oil brown,种植油棕
-translate-c6239fb9-dfac-4ec7-aee4-bf93ad2ff609,Tadping,砚台
+translate-b433f06c-e652-4608-a347-e27b884884c9,I can pick oil palm here,我可以在这里采摘油棕
+translate-b55293b4-6a79-4d2b-b71a-e81b5f48c55c,Growing cocoa beans,种植可可豆
+translate-b5ad6737-b1de-4614-893c-83cb6ca7aa40,Drawing Wisdom,汲取智慧
+translate-b635d1ee-affd-46b4-8809-4e501ea37154,"A fermentation barrel that turns wort into ale, but I have to fill it first.",一个发酵桶，可以把麦芽汁变成麦酒，不过我得先装满麦芽汁。
+translate-b733d2e8-3251-42c0-8a00-147af9013d75,Sweet sugar cane juice for drinking or making sugar.,甜甜的甘蔗汁，可以喝，也可以炼糖。
+translate-bd06f720-9f27-4190-b3c9-dc0fb7814405,Milling into flour,磨成面粉
+translate-bdbf5b29-37d2-4b49-9f93-88ea5ccee91e,I should have taken it to cooking.,我应该把它拿去烹饪。
+translate-bf6ca745-48ee-4a6f-9144-cfd4e267fab4,Put down,放下
+translate-c117a6e6-5fc1-47ac-9ff9-8ee127247799,Water magic points,水魔法点
+translate-c15bf408-d20b-402d-92be-d92624bda038,"The Spirit of Calvary, the Holy Spirit who rules the storms.",迦楼罗之灵，是司掌风暴的圣灵。
+translate-c37cf2f0-7c23-4455-bdda-d7d829066bc7,Inkstone (with ink),砚台（有墨水的）
+translate-c4e2aa1d-0ae1-4ffd-9d5b-efe88b69cb6d,Planting oil palm,种植油棕
+translate-c6239fb9-dfac-4ec7-aee4-bf93ad2ff609,ink stone,砚台
 translate-c62eb87e-250e-4020-9caf-4302f32c53c3,Cocoa bean field,可可豆田
 translate-c77af919-7eac-4cab-9b64-9e7b5c7022ef,Oil palm tree,油棕树
-translate-c7fa1e78-4462-43f9-8842-9453484ae24e,Be proficient in stones,投石索精通
-translate-c81d4a63-7318-4036-bb8f-7388abfe4fd4,I should steam it.,我应该把它拿去蒸熟。
-translate-c9919851-ac3a-45cb-aee4-d0eef15447a9,Cotton,装填棉花
+translate-c7fa1e78-4462-43f9-8842-9453484ae24e,Throwing stones for proficiency,投石索精通
+translate-c81d4a63-7318-4036-bb8f-7388abfe4fd4,I should have taken it and steamed it.,我应该把它拿去蒸熟。
+translate-c9919851-ac3a-45cb-aee4-d0eef15447a9,Filling cotton,装填棉花
 translate-ca68f517-989b-4190-9e10-c5e0856d05fc,I can pick cocoa beans here.,我可以在这里采摘可可豆。
-translate-cb40c401-5177-469e-9755-72ee3d228970,Oil palm tree,油棕树田
-translate-cc4053b1-f92b-4367-b3dd-818e70395a6d,sugar cane,甘蔗
-translate-cc7df19f-03cd-41f9-8a8a-59fffa81c708,Need sugarcane,需要甘蔗
-translate-cce83776-1923-4a1e-a57e-728baa2b54df,Cocoa bean,可可豆丛
-translate-cf6f7da9-0dd1-4688-96b3-bf9c7cc386cf,Uncured popcorn,未烹饪的爆米花
-translate-cf870f00-1c54-493e-95e8-ed0a5015f8c8,"A crop that can squeeze oil is not edible, but it will not be bad.","一种可榨油的作物,并不可食用,但不会坏。"
-translate-d1053395-d2b1-4a15-9f4a-34eae3b133a8,Need oil brown,需要油棕
-translate-d162fb00-1cb7-41fa-a2e4-12c0756bd7f1,Sacrifice,献祭骨头
+translate-cb40c401-5177-469e-9755-72ee3d228970,Oil palm tree field,油棕树田
+translate-cc4053b1-f92b-4367-b3dd-818e70395a6d,Sugar cane,甘蔗
+translate-cc7df19f-03cd-41f9-8a8a-59fffa81c708,Need sugar cane,需要甘蔗
+translate-cce83776-1923-4a1e-a57e-728baa2b54df,Cocoa bean bush,可可豆丛
+translate-cf6f7da9-0dd1-4688-96b3-bf9c7cc386cf,Uncooked popcorn,未烹饪的爆米花
+translate-cf870f00-1c54-493e-95e8-ed0a5015f8c8,"A crop that can be extracted for oil and is not edible, but does not go bad.",一种可榨油的作物，并不可食用，但不会坏。
+translate-d1053395-d2b1-4a15-9f4a-34eae3b133a8,Need oil palm,需要油棕
+translate-d162fb00-1cb7-41fa-a2e4-12c0756bd7f1,Sacrificial Bones,献祭骨头
 translate-d2b09705-c21c-4666-be20-faac0cd3d2c2,Xianghe Valley,祥和溪谷
-translate-d56584b5-7841-4f5d-b80b-b71e617dfbaf,Sugar,炼糖
-translate-d6101760-5c1c-490e-b80d-6a0056078abd,Charcoal,放入木炭
-translate-d7ab240d-5aca-40fc-a11c-9c68da98c956,A feather pen can be used for writing and painting.,"一只羽毛笔,可以用来写字、作画。"
-translate-d89e4b3a-bb01-417a-a16d-10a9e3448a6b,Realist,写实派
-translate-d9f4099c-1ea3-43ee-9a6a-26431c70217e,Put in malt,装入麦芽汁
-translate-dabf5636-aff3-4205-baa7-d1736a87787c,The cocoa beans from the cocoa beans can make chocolate.,"从可可豆丛上摘下的可可豆,可以制作巧克力。"
-translate-db72c86d-15ec-4149-a6ee-3c278216d9b7,"An empty pumpkin lamp, I should put a lit candle.","一个空的南瓜灯,我应该放入一个点燃的蜡烛。"
-translate-db85fa21-d361-4209-9895-650b44ed2dec,Need wind magic points,需要风魔法点
-translate-db8f25de-3dad-4fbf-8396-49e1280c8ebd,Xigu Cave,溪谷洞穴
-translate-dc234b2a-90ab-4422-9245-312e6f0be1db,Sacrifice,献祭羽毛
-translate-dcf505ae-3c00-46fa-8225-e0ad007ccf8d,Stoneman,学习石工
-translate-de484208-7e79-487e-99bd-429b8bae2e0b,Need higher cooking skills,需要更高的烹饪技能
+translate-d56584b5-7841-4f5d-b80b-b71e617dfbaf,Refining sugar,炼糖
+translate-d6101760-5c1c-490e-b80d-6a0056078abd,Add charcoal,放入木炭
+translate-d7ab240d-5aca-40fc-a11c-9c68da98c956,A feather pen for writing and drawing.,一只羽毛笔，可以用来写字、作画。
+translate-d89e4b3a-bb01-417a-a16d-10a9e3448a6b,Realistic school,写实派
+translate-d9f4099c-1ea3-43ee-9a6a-26431c70217e,Fill with wort,装入麦芽汁
+translate-dabf5636-aff3-4205-baa7-d1736a87787c,Cocoa beans picked from the cocoa bush to make chocolate.,从可可豆丛上摘下的可可豆，可以制作巧克力。
+translate-db72c86d-15ec-4149-a6ee-3c278216d9b7,"An empty pumpkin light, I should put in a lit candle.",一个空的南瓜灯，我应该放入一个点燃的蜡烛。
+translate-db85fa21-d361-4209-9895-650b44ed2dec,Requires wind magic points,需要风魔法点
+translate-db8f25de-3dad-4fbf-8396-49e1280c8ebd,Stream Valley Cave,溪谷洞穴
+translate-dc234b2a-90ab-4422-9245-312e6f0be1db,Sacrificial Feather,献祭羽毛
+translate-dcf505ae-3c00-46fa-8225-e0ad007ccf8d,Study Masonry,学习石工
+translate-de484208-7e79-487e-99bd-429b8bae2e0b,Higher culinary skills required,需要更高的烹饪技能
 translate-de5182eb-3fd9-484b-9564-878dbf7d5a17,Fermentation progress,发酵进度
-translate-dfc9b035-5849-4cef-badd-30de28b80239,The barrel is full!,桶满啦！
-translate-e037e029-1917-40ab-a669-ddf5ca206a32,surf,冲浪
+translate-dfc9b035-5849-4cef-badd-30de28b80239,The bucket is full!,桶满啦！
+translate-e037e029-1917-40ab-a669-ddf5ca206a32,Surfing,冲浪
 translate-e13de8cd-59fd-46b2-ad31-cb5274cbf0bc,Need cocoa beans,需要可可豆
-translate-e1f16a10-90e0-44f2-80e2-531bb5f8791d,cocoa powder,可可粉
-translate-e26273f7-64f5-49ae-9e4e-8d9b71d2727d,A pumpkin has a lot of use.,"一个南瓜,有蛮多的用途。"
-translate-e3df8ec4-9a3e-47a8-b4f6-74c2a8cf44d1,Remaining time of water gods,水神信物剩余时间
-translate-e50b1b6b-ef89-4080-9287-d8b264b4b6a4,Pumpkin powder is finished!,南瓜粉蒸肉吃完了！
-translate-e5625e54-e3d8-458d-948b-387543e2adae,Need water magic points,需要水魔法点
-translate-e6a8127f-f539-4d8a-9e0c-d321d4f74b04,Food made from flour is full but not delicious.,"由面粉做成的食物,管饱但不好吃。"
-translate-e9455c0d-ec05-4f8d-a150-84f01a1e8a78,Wind Magic Point,风魔法点
-translate-eab1e199-83a2-4002-b096-1302528ff9a6,Oil made of oil brown,油棕榨成的油
+translate-e1f16a10-90e0-44f2-80e2-531bb5f8791d,Cocoa powder,可可粉
+translate-e26273f7-64f5-49ae-9e4e-8d9b71d2727d,A pumpkin that has quite a few uses.,一个南瓜，有蛮多的用途。
+translate-e3df8ec4-9a3e-47a8-b4f6-74c2a8cf44d1,Time left for the water god token,水神信物剩余时间
+translate-e50b1b6b-ef89-4080-9287-d8b264b4b6a4,Pumpkin vermicelli is finished!,南瓜粉蒸肉吃完了！
+translate-e5625e54-e3d8-458d-948b-387543e2adae,Requires water magic points,需要水魔法点
+translate-e6a8127f-f539-4d8a-9e0c-d321d4f74b04,Food made from flour is filling but not tasty.,由面粉做成的食物，管饱但不好吃。
+translate-e9455c0d-ec05-4f8d-a150-84f01a1e8a78,Wind Magic Points,风魔法点
+translate-eab1e199-83a2-4002-b096-1302528ff9a6,Oil extracted from oil palm,油棕榨成的油
 translate-eaec31c3-1409-4405-aa43-9cfb5c24830a,Ink volume,墨水量
-translate-ebd813dd-944b-4ad4-a0bf-c9cd7bed7ffe,Gold worker,学习金工
-translate-ee7ebd71-f234-41a6-9154-98b22984b152,The Spirit of Livia San is the god of the ocean. (Dedicated the shark's jaw to obtain water magic points),"利维亚桑之灵,是司掌海洋的神灵。（献上鲨鱼下颚以获得水魔法点数）"
-translate-ef26ce91-a023-48d8-a625-ce78dd5e3049,Fermentation complete,发酵完成
+translate-ebd813dd-944b-4ad4-a0bf-c9cd7bed7ffe,Learn Metallurgy,学习金工
+translate-ee7ebd71-f234-41a6-9154-98b22984b152,"The Spirit of Leviathan, the deity in charge of the ocean. (Offer shark jaws to gain water magic points)",利维亚桑之灵，是司掌海洋的神灵。（献上鲨鱼下颚以获得水魔法点数）
+translate-ef26ce91-a023-48d8-a625-ce78dd5e3049,Fermentation completed,发酵完成
 translate-ef79b4fe-0b82-4943-8ef0-e8e12eeddc2d,It will grow oil brown again,它会再长出油棕的
-translate-ef99a515-3bde-4ba5-bc87-867fae3aca3e,chocolate,巧克力
-translate-f00c7c63-4a0f-4038-b73c-3a0a3a4a2e51,Wheat wine is fermented!,麦酒发酵好了！
-translate-f1812f09-3974-4c42-a43f-ba80e66cf02d,The small oil palm tree grows!,小油棕树长成了！
+translate-ef99a515-3bde-4ba5-bc87-867fae3aca3e,Chocolate,巧克力
+translate-f00c7c63-4a0f-4038-b73c-3a0a3a4a2e51,The ale is fermenting!,麦酒发酵好了！
+translate-f1812f09-3974-4c42-a43f-ba80e66cf02d,The little oil palm tree grows!,小油棕树长成了！
 translate-f263b80c-6799-49cd-a98b-d2490093a241,Sugar cane juice,甘蔗汁
-translate-f6f8cc77-a493-48c3-b4c7-953c7745e362,A pumpkin lamp with candles-can provide me with light,一个有蜡烛的南瓜灯-能给我提供光亮
-translate-fa9da7ff-0b27-4da6-a097-2a1a18bb21e1,Good -looking pumpkin lamp,好看的南瓜灯
-translate-fba04b21-c059-46a9-83e5-95406669ef4d,Sugar cane,甘蔗丛
-translate-fbe71879-282a-4474-8ed2-2dac15504b94,There is already ink in a tower.,"一个砚台,里面已经有墨水了。"
+translate-f6f8cc77-a493-48c3-b4c7-953c7745e362,A pumpkin lamp with candles - can give me light,一个有蜡烛的南瓜灯-能给我提供光亮
+translate-fa9da7ff-0b27-4da6-a097-2a1a18bb21e1,Good-looking pumpkin lights,好看的南瓜灯
+translate-fba04b21-c059-46a9-83e5-95406669ef4d,Sugarcane bush,甘蔗丛
+translate-fbe71879-282a-4474-8ed2-2dac15504b94,An inkstone with ink already in it.,一个砚台，里面已经有墨水了。
 translate-fdd11ead-b8c3-418c-a8b9-b7a36d2308b8,Life magic point is full,生命魔法点已满
-translate-fe47d236-9c59-4c8a-beb2-8faf6cd0dc8c,Steamed steamed bun,没蒸的馒头
-translate-fe638379-42fe-4f8d-bbd2-0fc6e4731d70,Grind dried beans,碾磨干豆
-WaterSpirit_CardInteractions[0].ActionName,Fangruxiantuan,FangruXiantuan
-WaterSpirit_DismantleActions[1].ActionName,Learn swimming,学习游泳
-XiaoMaiCong_CardName,Youcai,Youcai
-XiaoMaiTian_CardName,Xiaomaitian,XiaoMaiTian
-YouZongYou_CardName,Caiyou,Caiyou
-YuMiCong_CardName,Yumicong,YuMiCong
-YuMiTian_CardName,Youcaitian,YouCaiTian
-ZFZLQ_DismantleActions[0].ActionName,Daoshui,Daoshui
+translate-fe47d236-9c59-4c8a-beb2-8faf6cd0dc8c,Unsteamed buns,没蒸的馒头
+translate-fe638379-42fe-4f8d-bbd2-0fc6e4731d70,Grinded dry beans,碾磨干豆
+WaterSpirit_DismantleActions[1].ActionName,Learn to swim,学习游泳
+GuilMod_YouCai_CardName,Oilseed rape,油菜
+GrindingIntoPowder,Grinding the material into powder,更多水果_榨汁

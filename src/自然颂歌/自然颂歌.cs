@@ -7,22 +7,43 @@ using UnityEngine;
 
 namespace 自然颂歌;
 
-[BepInPlugin("Plugin.Nature", "Nature", "1.0.0")]
+[BepInPlugin("Plugin.Nature", "Nature", "2.0.0")]
 public class 自然颂歌 : BaseUnityPlugin
 {
-	public static bool 种田返还 = true;
+    /// <summary>
+    /// Farming
+    /// </summary>
+    public static bool 种田返还 = true;
 
-	public static bool 叶子不腐 = true;
+    /// <summary>
+    /// Leaves are not rotten
+    /// </summary>
+    public static bool 叶子不腐 = true;
 
-	public static bool 棕榈不腐 = true;
+    /// <summary>
+    /// Palm is not rotten
+    /// </summary>
+    public static bool 棕榈不腐 = true;
 
-	public static bool 猴子救星 = true;
+    /// <summary>
+    /// Monkey savior
+    /// </summary>
+    public static bool 猴子救星 = true;
 
-	public static bool 蜜蜂静音 = true;
+    /// <summary>
+    /// bee mute 
+    /// </summary>
+    public static bool 蜜蜂静音 = true;
 
-	public static bool 去除减益 = true;
+    /// <summary>
+    /// remove debuff
+    /// </summary>
+    public static bool 去除减益 = true;
 
-	public static int 南瓜时间 = 3;
+    /// <summary>
+    /// pumpkin time
+    /// </summary>
+    public static int 南瓜时间 = 3;
 
 	private static readonly string blank = "a913214948a94d2897846870889f4d11";
 
@@ -52,8 +73,10 @@ public class 自然颂歌 : BaseUnityPlugin
 			localizedString.ParentObjectID = (是否通电 ? 石磨磨坊[0] : 石磨磨坊[1]);
 			localizedString.LocalizationKey = "Guil-更多水果_榨汁";
 			LocalizedString localizedString2 = localizedString;
+
 			localizedString = default(LocalizedString);
 			localizedString.DefaultText = "将材料磨成粉";
+			localizedString.LocalizationKey = "GrindingIntoPowder";
 			localizedString.ParentObjectID = (是否通电 ? 石磨磨坊[0] : 石磨磨坊[1]);
 			LocalizedString desc = localizedString;
 			CardOnCardAction cardOnCardAction = new CardOnCardAction(localizedString2, desc, (!是否通电) ? 1 : 0);
@@ -87,13 +110,13 @@ public class 自然颂歌 : BaseUnityPlugin
 
 	private void Awake()
 	{
-		种田返还 = base.Config.Bind("Nature Setting", "种田返还", defaultValue: true, "原版作物成熟后是否会返还田地，为true时会返还，默认为true（PS：mod的如果想返还，把田的名字改为CropPlotXXX即可）").Value;
-		叶子不腐 = base.Config.Bind("Nature Setting", "叶子不腐", defaultValue: true, "叶子是否会腐败，为true时不会腐败，默认为true").Value;
-		棕榈不腐 = base.Config.Bind("Nature Setting", "棕榈不腐", defaultValue: true, "棕榈叶是否会腐败，为true时不会腐败，默认为true").Value;
-		猴子救星 = base.Config.Bind("Nature Setting", "猴子救星", defaultValue: true, "是否启用猴子救星（受伤的猴子、猴子朋友不咬人），为true时启用，默认为true").Value;
-		蜜蜂静音 = base.Config.Bind("Nature Setting", "蜜蜂静音", defaultValue: true, "是否启用蜜蜂静音，为true时启用，默认为true").Value;
-		南瓜时间 = base.Config.Bind("Nature Setting", "南瓜时间", 3, "南瓜灯用一根蜡烛可以持续的时间，单位是天，默认为3天").Value;
-		去除减益 = base.Config.Bind("Nature Setting", "去除减益", defaultValue: true, "去除技能训练减益").Value;
+		种田返还 = base.Config.Bind("Nature Setting", "种田返还", defaultValue: true, "原版作物成熟后是否会返还田地，为true时会返还，默认为true（PS：mod的如果想返还，把田的名字改为CropPlotXXX即可）. [Whether the original crop will be returned to the field after maturity, true will be returned, the default is true (PS: mod if you want to return, the name of the field can be changed to CropPlotXXX).]").Value;
+		叶子不腐 = base.Config.Bind("Nature Setting", "叶子不腐", defaultValue: true, "叶子是否会腐败，为true时不会腐败，默认为true [If or not the leaf will rot, true will not rot, default is true ]").Value;
+		棕榈不腐 = base.Config.Bind("Nature Setting", "棕榈不腐", defaultValue: true, "棕榈叶是否会腐败，为true时不会腐败，默认为true [ If or not the palm leaves will rot, true will not rot, default is true]").Value;
+		猴子救星 = base.Config.Bind("Nature Setting", "猴子救星", defaultValue: true, "是否启用猴子救星（受伤的猴子、猴子朋友不咬人），为true时启用，默认为true [Whether to enable monkey savior (injured monkeys, monkey friends don't bite), true when enabled, default is true]").Value;
+		蜜蜂静音 = base.Config.Bind("Nature Setting", "蜜蜂静音", defaultValue: true, "是否启用蜜蜂静音，为true时启用，默认为true [Whether to enable bee mute, true when enabled, default is true]").Value;
+		南瓜时间 = base.Config.Bind("Nature Setting", "南瓜时间", 3, "南瓜灯用一根蜡烛可以持续的时间，单位是天，默认为3天 [Pumpkin lantern with a candle can last the time in days, the default is 3 days]").Value;
+		去除减益 = base.Config.Bind("Nature Setting", "去除减益", defaultValue: true, "去除技能训练减益 [Removal of skill training deductions]").Value;
 		Harmony harmony = new Harmony(base.Info.Metadata.GUID);
 		BindingFlags bindingAttr = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic;
 		try
