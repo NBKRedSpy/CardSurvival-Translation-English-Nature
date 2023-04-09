@@ -45,82 +45,60 @@ public class 自然颂歌 : BaseUnityPlugin
 
 	private static void 添加研磨(CardData 研磨前, CardData 研磨后, bool 是否通电, int 产量 = 1)
 	{
-		//IL_001d: Unknown result type (might be due to invalid IL or missing references)
-		//IL_005d: Unknown result type (might be due to invalid IL or missing references)
-		//IL_005f: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0062: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0096: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0098: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0099: Unknown result type (might be due to invalid IL or missing references)
-		//IL_009a: Unknown result type (might be due to invalid IL or missing references)
-		//IL_00a2: Unknown result type (might be due to invalid IL or missing references)
-		//IL_00a8: Expected O, but got Unknown
-		//IL_00cf: Unknown result type (might be due to invalid IL or missing references)
-		//IL_00db: Unknown result type (might be due to invalid IL or missing references)
-		//IL_00e1: Expected O, but got Unknown
-		//IL_00f5: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0107: Unknown result type (might be due to invalid IL or missing references)
-		//IL_010c: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0119: Unknown result type (might be due to invalid IL or missing references)
-		//IL_011b: Unknown result type (might be due to invalid IL or missing references)
-		if (!(((Object)(object)研磨前 == (Object)null) | ((Object)(object)研磨后 == (Object)null)))
+		if (!((研磨前 == null) | (研磨后 == null)))
 		{
-			LocalizedString val = default(LocalizedString);
-			val.DefaultText = "研磨";
-			val.ParentObjectID = (是否通电 ? 石磨磨坊[0] : 石磨磨坊[1]);
-			val.LocalizationKey = "Guil-更多水果_榨汁";
-			LocalizedString val2 = val;
-			val = default(LocalizedString);
-			val.DefaultText = "将材料磨成粉";
-			val.ParentObjectID = (是否通电 ? 石磨磨坊[0] : 石磨磨坊[1]);
-			LocalizedString val3 = val;
-			CardOnCardAction val4 = new CardOnCardAction(val2, val3, (!是否通电) ? 1 : 0);
-			Array.Resize(ref val4.CompatibleCards.TriggerCards, 1);
-			val4.CompatibleCards.TriggerCards[0] = 研磨前;
-			val4.GivenCardChanges.ModType = (CardModifications)3;
-			((CardAction)val4).StackCompatible = true;
-			CardsDropCollection val5 = new CardsDropCollection();
-			val5.CollectionName = "产出";
-			val5.CollectionWeight = 1;
-			CardDrop val6 = default(CardDrop);
-			val6.DroppedCard = 研磨后;
-			val6.Quantity = new Vector2Int(产量, 产量);
-			CardDrop[] value = (CardDrop[])(object)new CardDrop[1] { val6 };
-			Traverse.Create((object)val5).Field("DroppedCards").SetValue((object)value);
-			((CardAction)val4).ProducedCards = (CardsDropCollection[])(object)new CardsDropCollection[1] { val5 };
-			CardData val7 = utc(石磨磨坊[1]);
-			CardData val8 = utc(石磨磨坊[0]);
+			LocalizedString localizedString = default(LocalizedString);
+			localizedString.DefaultText = "研磨";
+			localizedString.ParentObjectID = (是否通电 ? 石磨磨坊[0] : 石磨磨坊[1]);
+			localizedString.LocalizationKey = "Guil-更多水果_榨汁";
+			LocalizedString localizedString2 = localizedString;
+			localizedString = default(LocalizedString);
+			localizedString.DefaultText = "将材料磨成粉";
+			localizedString.ParentObjectID = (是否通电 ? 石磨磨坊[0] : 石磨磨坊[1]);
+			LocalizedString desc = localizedString;
+			CardOnCardAction cardOnCardAction = new CardOnCardAction(localizedString2, desc, (!是否通电) ? 1 : 0);
+			Array.Resize(ref cardOnCardAction.CompatibleCards.TriggerCards, 1);
+			cardOnCardAction.CompatibleCards.TriggerCards[0] = 研磨前;
+			cardOnCardAction.GivenCardChanges.ModType = CardModifications.Destroy;
+			cardOnCardAction.StackCompatible = true;
+			CardsDropCollection cardsDropCollection = new CardsDropCollection();
+			cardsDropCollection.CollectionName = "产出";
+			cardsDropCollection.CollectionWeight = 1;
+			CardDrop cardDrop = default(CardDrop);
+			cardDrop.DroppedCard = 研磨后;
+			cardDrop.Quantity = new Vector2Int(产量, 产量);
+			CardDrop[] value = new CardDrop[1] { cardDrop };
+			Traverse.Create(cardsDropCollection).Field("DroppedCards").SetValue(value);
+			cardOnCardAction.ProducedCards = new CardsDropCollection[1] { cardsDropCollection };
+			CardData cardData = utc(石磨磨坊[1]);
+			CardData cardData2 = utc(石磨磨坊[0]);
 			if (!是否通电)
 			{
-				Array.Resize(ref val7.CardInteractions, val7.CardInteractions.Length + 1);
-				val7.CardInteractions[val7.CardInteractions.Length - 1] = val4;
+				Array.Resize(ref cardData.CardInteractions, cardData.CardInteractions.Length + 1);
+				cardData.CardInteractions[cardData.CardInteractions.Length - 1] = cardOnCardAction;
 			}
 			else
 			{
-				Array.Resize(ref val8.CardInteractions, val8.CardInteractions.Length + 1);
-				val8.CardInteractions[val8.CardInteractions.Length - 1] = val4;
+				Array.Resize(ref cardData2.CardInteractions, cardData2.CardInteractions.Length + 1);
+				cardData2.CardInteractions[cardData2.CardInteractions.Length - 1] = cardOnCardAction;
 			}
 		}
 	}
 
 	private void Awake()
 	{
-		//IL_0114: Unknown result type (might be due to invalid IL or missing references)
-		//IL_011a: Expected O, but got Unknown
-		//IL_0132: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0138: Expected O, but got Unknown
-		种田返还 = ((BaseUnityPlugin)this).Config.Bind<bool>("Nature Setting", "种田返还", true, "原版作物成熟后是否会返还田地，为true时会返还，默认为true（PS：mod的如果想返还，把田的名字改为CropPlotXXX即可）").Value;
-		叶子不腐 = ((BaseUnityPlugin)this).Config.Bind<bool>("Nature Setting", "叶子不腐", true, "叶子是否会腐败，为true时不会腐败，默认为true").Value;
-		棕榈不腐 = ((BaseUnityPlugin)this).Config.Bind<bool>("Nature Setting", "棕榈不腐", true, "棕榈叶是否会腐败，为true时不会腐败，默认为true").Value;
-		猴子救星 = ((BaseUnityPlugin)this).Config.Bind<bool>("Nature Setting", "猴子救星", true, "是否启用猴子救星（受伤的猴子、猴子朋友不咬人），为true时启用，默认为true").Value;
-		蜜蜂静音 = ((BaseUnityPlugin)this).Config.Bind<bool>("Nature Setting", "蜜蜂静音", true, "是否启用蜜蜂静音，为true时启用，默认为true").Value;
-		南瓜时间 = ((BaseUnityPlugin)this).Config.Bind<int>("Nature Setting", "南瓜时间", 3, "南瓜灯用一根蜡烛可以持续的时间，单位是天，默认为3天").Value;
-		去除减益 = ((BaseUnityPlugin)this).Config.Bind<bool>("Nature Setting", "去除减益", true, "去除技能训练减益").Value;
-		Harmony val = new Harmony(((BaseUnityPlugin)this).Info.Metadata.GUID);
+		种田返还 = base.Config.Bind("Nature Setting", "种田返还", defaultValue: true, "原版作物成熟后是否会返还田地，为true时会返还，默认为true（PS：mod的如果想返还，把田的名字改为CropPlotXXX即可）").Value;
+		叶子不腐 = base.Config.Bind("Nature Setting", "叶子不腐", defaultValue: true, "叶子是否会腐败，为true时不会腐败，默认为true").Value;
+		棕榈不腐 = base.Config.Bind("Nature Setting", "棕榈不腐", defaultValue: true, "棕榈叶是否会腐败，为true时不会腐败，默认为true").Value;
+		猴子救星 = base.Config.Bind("Nature Setting", "猴子救星", defaultValue: true, "是否启用猴子救星（受伤的猴子、猴子朋友不咬人），为true时启用，默认为true").Value;
+		蜜蜂静音 = base.Config.Bind("Nature Setting", "蜜蜂静音", defaultValue: true, "是否启用蜜蜂静音，为true时启用，默认为true").Value;
+		南瓜时间 = base.Config.Bind("Nature Setting", "南瓜时间", 3, "南瓜灯用一根蜡烛可以持续的时间，单位是天，默认为3天").Value;
+		去除减益 = base.Config.Bind("Nature Setting", "去除减益", defaultValue: true, "去除技能训练减益").Value;
+		Harmony harmony = new Harmony(base.Info.Metadata.GUID);
 		BindingFlags bindingAttr = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic;
 		try
 		{
-			HarmonyMethod val2 = new HarmonyMethod(typeof(自然颂歌).GetMethod("SomePatch"));
+			HarmonyMethod postfix = new HarmonyMethod(typeof(自然颂歌).GetMethod("SomePatch"));
 			MethodInfo method = typeof(GameLoad).GetMethod("LoadMainGameData", bindingAttr);
 			if (method == null)
 			{
@@ -128,70 +106,43 @@ public class 自然颂歌 : BaseUnityPlugin
 			}
 			if (method != null)
 			{
-				val.Patch((MethodBase)method, (HarmonyMethod)null, val2, (HarmonyMethod)null, (HarmonyMethod)null, (HarmonyMethod)null);
+				harmony.Patch(method, null, postfix);
 			}
 		}
 		catch (Exception ex)
 		{
-			Debug.LogWarningFormat("{0} {1}", new object[2]
-			{
-				"GameLoadLoadOptionsPostfix",
-				ex.ToString()
-			});
+			Debug.LogWarningFormat("{0} {1}", "GameLoadLoadOptionsPostfix", ex.ToString());
 		}
-		((BaseUnityPlugin)this).Logger.LogInfo((object)"Plugin 自然颂歌 is loaded!");
+		base.Logger.LogInfo("Plugin 自然颂歌 is loaded!");
 	}
 
 	public static void SomePatch()
 	{
-		//IL_01f4: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0271: Unknown result type (might be due to invalid IL or missing references)
-		//IL_027e: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0282: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0287: Unknown result type (might be due to invalid IL or missing references)
-		//IL_02ac: Unknown result type (might be due to invalid IL or missing references)
-		//IL_030e: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0315: Expected O, but got Unknown
-		//IL_0342: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0349: Expected O, but got Unknown
-		//IL_063c: Unknown result type (might be due to invalid IL or missing references)
-		//IL_064e: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0653: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0660: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0662: Unknown result type (might be due to invalid IL or missing references)
 		for (int i = 0; i < GameLoad.Instance.DataBase.AllData.Count; i++)
 		{
 			if (GameLoad.Instance.DataBase.AllData[i] is CardData)
 			{
-				Dictionary<string, CardData> dictionary = card_dict;
-				string name = ((Object)GameLoad.Instance.DataBase.AllData[i]).name;
-				UniqueIDScriptable obj = GameLoad.Instance.DataBase.AllData[i];
-				dictionary[name] = (CardData)(object)((obj is CardData) ? obj : null);
-				string name2 = ((Object)GameLoad.Instance.DataBase.AllData[i]).name;
-				bool flag = name2.IndexOf("CropPlot") >= 0;
-				bool flag2 = name2.EndsWith("田");
-				bool flag3 = name2.EndsWith("Empty");
-				bool flag4 = name2.IndexOf("better") >= 0;
+				card_dict[GameLoad.Instance.DataBase.AllData[i].name] = GameLoad.Instance.DataBase.AllData[i] as CardData;
+				string text = GameLoad.Instance.DataBase.AllData[i].name;
+				bool flag = text.IndexOf("CropPlot") >= 0;
+				bool flag2 = text.EndsWith("田");
+				bool flag3 = text.EndsWith("Empty");
+				bool flag4 = text.IndexOf("better") >= 0;
 				if ((flag || flag2) && !flag3 && !flag4)
 				{
-					List<CardData> list = cropPlots;
-					UniqueIDScriptable obj2 = GameLoad.Instance.DataBase.AllData[i];
-					list.Add((CardData)(object)((obj2 is CardData) ? obj2 : null));
+					cropPlots.Add(GameLoad.Instance.DataBase.AllData[i] as CardData);
 				}
 			}
 			if (GameLoad.Instance.DataBase.AllData[i] is GameStat)
 			{
-				Dictionary<string, GameStat> dictionary2 = stat_dict;
-				string name3 = ((Object)GameLoad.Instance.DataBase.AllData[i]).name;
-				UniqueIDScriptable obj3 = GameLoad.Instance.DataBase.AllData[i];
-				dictionary2[name3] = (GameStat)(object)((obj3 is GameStat) ? obj3 : null);
+				stat_dict[GameLoad.Instance.DataBase.AllData[i].name] = GameLoad.Instance.DataBase.AllData[i] as GameStat;
 			}
 		}
 		if (种田返还)
 		{
 			if (card_dict.TryGetValue("RicePaddy", out var value) && card_dict.TryGetValue("RicePaddyEmpty", out var value2))
 			{
-				value.Progress.OnFull.ReceivingCardChanges.ModType = (CardModifications)2;
+				value.Progress.OnFull.ReceivingCardChanges.ModType = CardModifications.Transform;
 				value.Progress.OnFull.ReceivingCardChanges.TransformInto = value2;
 			}
 			if (card_dict.TryGetValue("CropPlotEmpty", out var value3))
@@ -199,9 +150,9 @@ public class 自然颂歌 : BaseUnityPlugin
 				foreach (CardData cropPlot in cropPlots)
 				{
 					DurabilityStat progress = cropPlot.Progress;
-					if (progress != null && progress.OnFull?.ReceivingCardChanges.ModType == (CardModifications?)3)
+					if (progress != null && progress.OnFull?.ReceivingCardChanges.ModType == CardModifications.Destroy)
 					{
-						cropPlot.Progress.OnFull.ReceivingCardChanges.ModType = (CardModifications)2;
+						cropPlot.Progress.OnFull.ReceivingCardChanges.ModType = CardModifications.Transform;
 						cropPlot.Progress.OnFull.ReceivingCardChanges.TransformInto = value3;
 					}
 				}
@@ -209,53 +160,53 @@ public class 自然颂歌 : BaseUnityPlugin
 		}
 		if (card_dict.TryGetValue("PalmFronds", out var value4) && 棕榈不腐)
 		{
-			DurabilityStat spoilageTime = new DurabilityStat(false, 0);
+			DurabilityStat spoilageTime = new DurabilityStat(_Active: false, 0);
 			value4.SpoilageTime = spoilageTime;
 		}
 		if (card_dict.TryGetValue("LeavesFresh", out var value5) && 叶子不腐)
 		{
-			DurabilityStat spoilageTime2 = new DurabilityStat(false, 0);
+			DurabilityStat spoilageTime2 = new DurabilityStat(_Active: false, 0);
 			value5.SpoilageTime = spoilageTime2;
 		}
 		if (猴子救星)
 		{
 			if (card_dict.TryGetValue("MacaqueWounded", out var value6))
 			{
-				((CardAction)value6.CardInteractions[0]).ProducedCards[1].CollectionWeight = 0;
-				((CardAction)value6.CardInteractions[1]).ProducedCards[1].CollectionWeight = 0;
-				((CardAction)value6.DismantleActions[1]).ProducedCards[1].CollectionWeight = 0;
+				value6.CardInteractions[0].ProducedCards[1].CollectionWeight = 0;
+				value6.CardInteractions[1].ProducedCards[1].CollectionWeight = 0;
+				value6.DismantleActions[1].ProducedCards[1].CollectionWeight = 0;
 			}
 			if (card_dict.TryGetValue("MacaqueFriend", out var value7))
 			{
-				List<CardsDropCollection> list2 = new List<CardsDropCollection>(((CardAction)value7.CardInteractions[0]).ProducedCards);
-				list2.RemoveAt(1);
-				((CardAction)value7.CardInteractions[0]).ProducedCards = list2.ToArray();
-				list2 = new List<CardsDropCollection>(((CardAction)value7.CardInteractions[1]).ProducedCards);
-				list2.RemoveAt(1);
-				((CardAction)value7.CardInteractions[1]).ProducedCards = list2.ToArray();
-				list2 = new List<CardsDropCollection>(((CardAction)value7.CardInteractions[6]).ProducedCards);
-				list2.RemoveAt(1);
-				((CardAction)value7.CardInteractions[6]).ProducedCards = list2.ToArray();
-				list2 = new List<CardsDropCollection>(((CardAction)value7.DismantleActions[0]).ProducedCards);
-				list2.RemoveAt(1);
-				((CardAction)value7.DismantleActions[0]).ProducedCards = list2.ToArray();
+				List<CardsDropCollection> list = new List<CardsDropCollection>(value7.CardInteractions[0].ProducedCards);
+				list.RemoveAt(1);
+				value7.CardInteractions[0].ProducedCards = list.ToArray();
+				list = new List<CardsDropCollection>(value7.CardInteractions[1].ProducedCards);
+				list.RemoveAt(1);
+				value7.CardInteractions[1].ProducedCards = list.ToArray();
+				list = new List<CardsDropCollection>(value7.CardInteractions[6].ProducedCards);
+				list.RemoveAt(1);
+				value7.CardInteractions[6].ProducedCards = list.ToArray();
+				list = new List<CardsDropCollection>(value7.DismantleActions[0].ProducedCards);
+				list.RemoveAt(1);
+				value7.DismantleActions[0].ProducedCards = list.ToArray();
 			}
 		}
 		if (蜜蜂静音)
 		{
 			CardData fromID = UniqueIDScriptable.GetFromID<CardData>("0a2f6fa8b61d1ff4c8796ea73c78c114");
-			if ((Object)(object)fromID != (Object)null)
+			if (fromID != null)
 			{
 				fromID.Ambience.BackgroundSound = null;
 			}
 		}
 		CardData fromID2 = UniqueIDScriptable.GetFromID<CardData>(blank);
-		if (Object.op_Implicit((Object)(object)fromID2))
+		if ((bool)fromID2)
 		{
 			for (int j = 0; j < seas.Count; j++)
 			{
 				CardData fromID3 = UniqueIDScriptable.GetFromID<CardData>(seas[j]);
-				if (Object.op_Implicit((Object)(object)fromID3))
+				if ((bool)fromID3)
 				{
 					Array.Resize(ref fromID3.CardInteractions, fromID3.CardInteractions.Length + 1);
 					fromID3.CardInteractions[fromID3.CardInteractions.Length - 1] = fromID2.CardInteractions[0];
@@ -264,26 +215,26 @@ public class 自然颂歌 : BaseUnityPlugin
 		}
 		foreach (string light in lights)
 		{
-			CardData val = utc(light);
-			if ((Object)(object)val != (Object)null)
+			CardData cardData = utc(light);
+			if (cardData != null)
 			{
-				((OptionalFloatValue)val.FuelCapacity).FloatValue = 南瓜时间 * 96;
-				val.FuelCapacity.MaxValue = 南瓜时间 * 96;
+				cardData.FuelCapacity.FloatValue = 南瓜时间 * 96;
+				cardData.FuelCapacity.MaxValue = 南瓜时间 * 96;
 			}
 		}
-		CardData val2 = utc("ceceb95e1f68491cb264b697b8e88dc9");
-		if ((Object)(object)val2 != (Object)null)
+		CardData cardData2 = utc("ceceb95e1f68491cb264b697b8e88dc9");
+		if (cardData2 != null)
 		{
 			foreach (string item in 石磨磨坊)
 			{
-				CardData val3 = utc(item);
-				if ((Object)(object)val3 != (Object)null)
+				CardData cardData3 = utc(item);
+				if (cardData3 != null)
 				{
-					CardDrop val4 = default(CardDrop);
-					val4.DroppedCard = val2;
-					val4.Quantity = new Vector2Int(1, 1);
-					CardDrop[] value8 = (CardDrop[])(object)new CardDrop[1] { val4 };
-					Traverse.Create((object)((CardAction)val3.CardInteractions[2]).ProducedCards[0]).Field("DroppedCards").SetValue((object)value8);
+					CardDrop cardDrop = default(CardDrop);
+					cardDrop.DroppedCard = cardData2;
+					cardDrop.Quantity = new Vector2Int(1, 1);
+					CardDrop[] value8 = new CardDrop[1] { cardDrop };
+					Traverse.Create(cardData3.CardInteractions[2].ProducedCards[0]).Field("DroppedCards").SetValue(value8);
 				}
 			}
 		}
