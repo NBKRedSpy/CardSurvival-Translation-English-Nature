@@ -164,7 +164,7 @@ namespace 自然颂歌
                     UnityEngine.Debug.LogWarningFormat("{0} {1}", "GameLoadLoadOptionsPostfix", ex.ToString());
                 }
 
-		    base.Logger.LogInfo("Plugin 自然颂歌 is loaded!");
+            Logger.LogInfo("Plugin 自然颂歌 is loaded!");
 	    }
 
             //[HarmonyPostfix]
