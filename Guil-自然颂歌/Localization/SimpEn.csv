@@ -1,137 +1,110 @@
-EarthSpirit_CardName,1,1
-GJFZQ_CardInteractions[1].RequiredReceivingDurabilities.FailMessage,1,1
-Bp_Qiuqian_CardDescription,A chair to sit on.,A chair to sit on.
-MuTong_CardDescription,A chair to sit on.,A chair to sit on.
-Mianbei_CardDescription,A copper axe. A proper axe!,A copper axe. A proper axe!
-Bp_Zhengfa_CardDescription,A device to store food and make it last longer.,A device to store food and make it last longer.
-Event_FSS_CardName,A Goat!,A Goat!
-GoodBed_CardDescription,A nice and comfortable wooden bed. My back will thank me.,A nice and comfortable wooden bed. My back will thank me.
-MuTong_CardDescription,A sealed container strong enough to hold acids.,A sealed container strong enough to hold acids.
-Env_CaveValley_CardDescription,A small humid cave in the cliffs.,A small humid cave in the cliffs.
-ZhengfaZhilengqi_CardDescription,A wood machine which can make you cold.,A wood machine which can make you cold.
-ZhengfaZhilengqiOff_CardDescription,A wood machine which can make you cold.But it need water now.,A wood machine which can make you cold.But it need water now.
-GS_FB_GameName,Aloe Gel Protection,Aloe Gel Protection
-GS_FB_Statuses[0].GameName,Aloe Vera Applied,Aloe Vera Applied
-CaoMeiCong_CardDescription,An edible plant.,An edible plant.
-GuilMod_MianhuaCong_CardDescription,An edible plant.,An edible plant.
-GuilMod_Youcai_CardDescription,An edible plant.,An edible plant.
-XiaoMaiCong_CardDescription,An edible plant.,An edible plant.
-YuMiCong_CardDescription,An edible plant.,An edible plant.
-Pk_GodBless_PerkName,Bug Attractant,Bug Attractant
-Pk_GodBless_PerkDescription,Bugs love you.,Bugs love you.
-GuilMod_Bp_Caiyou_CardName,Caiyou,Caiyou
-GuilMod_Caiyou_CardName,Caiyou,Caiyou
-YouZongYou_CardName,Caiyou,Caiyou
-Env_CaveValley_CardName,Cave,Cave
-Cesspool_CardName,Cesspool,Cesspool
-Bp_Qiuqian_CardName,Chair,Chair
-MuTong_CardName,Chair,Chair
-Bp_zfzlq_CardName,Clay Pot Cooler,Clay Pot Cooler
-Bp_zfzlq_UnlockConditionsDesc,Clay Vase Needed,Clay Vase Needed
-Bp_Mianbei_UnlockConditionsDesc,Copper Axehead Needed,Copper Axehead Needed
-CaveValley_ExplorationResults[0].Action.ActionName,Copper Vein,Copper Vein
-WaterFall_CardDescription,Could go for a swim or try to get some fish with the right equipment.,Could go for a swim or try to get some fish with the right equipment.
-Mianbei_CardName,Crab,Crab
-XiaGuDongXueChuKou_CardName,Damp Cave,Damp Cave
-Qiuqian_DismantleActions[0].ActionName,Dang,Dang
-ZFZLQ_DismantleActions[0].ActionName,Daoshui,Daoshui
-XiaGuDongXueRuKou,Dark Cave,Dark Cave
-XiaGuDongXueChuKou_CardDescription,Deeper into the cave,Deeper into the cave
-CaveSpring_CardName,Dry Puddle,Dry Puddle
-Bp_Zhayao_CardName,Dynamite,Dynamite
-CaoMei_CardDescription,"Edible, tastes like lemon!","Edible, tastes like lemon!"
-XiaoMai_CardDescription,"Edible, tastes like lemon!","Edible, tastes like lemon!"
-Mianbei_CardDescription,"Edible, would taste better cooked.","Edible, would taste better cooked."
-GuilMod_ZhaixiadeYoucai_CardDescription,"Edible,can be grounded to oil in a bowl!","Edible,can be grounded to oil in a bowl!"
-XiaGuDongXueChuKou_DismantleActions[0].ActionName,Enter,Enter
-XiaGuDongXueChuKou_DismantleActions[0].FadeMessage,Entering the Cave...,Entering the Cave...
-Env_YinMiXiaGu_CardName,Env_SecretValley,Env_SecretValley
-GJFZQ_CardInteractions[1].ActionName,FangruXiantuan,FangruXiantuan
-WaterSpirit_CardInteractions[0].ActionName,FangruXiantuan,FangruXiantuan
-GJFZQ_CardInteractions[0].ActionName,FangruXianwei,FangruXianwei
-GJFZQ_CardInteractions[2].ActionName,FangruZonglv,FangruZonglv
-FireSpirit_CardName,FireSpirit,FireSpirit
-GJFZQ_DismantleActions[0].ActionName,Get Cord,Get Cord
-GJFZQ_DismantleActions[1].ActionName,Get Cord,Get Cord
-GJFZQ_DismantleActions[2].ActionName,Get Cord,Get Cord
-GJFZQ_DismantleActions[3].ActionName,Get Cord,Get Cord
-GJFZQ_CardName,GJFSJ,GJFSJ
-GJZBJ_CardName,GJFSJ,GJFSJ
-GJFZQ_CardName,GJFZQ,GJFZQ
-GJZBJ_CardName,GJZBJ,GJZBJ
-MuTong_CardName,Glazed Vase,Glazed Vase
-GodBless_GameName,GS_GodBless,GS_GodBless
-GuilMod_Caiyou_DismantleAction,Handle,Handle
-FireSpirit_DismantleActions[0].ActionName,Harvest,Harvest
-RicePlant_CardInteractions[0].ActionName,Harvest,Harvest
-GJFZQ_FuelCapacity.CardStatName,Health,Health
-Bp_HHY_CardName,HeiHuoYao,HeiHuoYao
-HHY_CardName,HeiHuoYao,HeiHuoYao
-GS_FB_Description,"Helps treat and prevent backpain, hand and foot damage, sunburn and bugbites","Helps treat and prevent backpain, hand and foot damage, sunburn and bugbites"
-GJFZQ_SpoilageTime.CardStatName,Hunger,Hunger
-Bp_Zhengfa_BlueprintFinishedLog.LogText,I built a clay pot cooler.,I built a clay pot cooler.
-Bp_Qiuqian_BlueprintFinishedLog.LogText,I built myself a comfy chair.,I built myself a comfy chair.
-GJFZQ_CardDescription,I can turn fibers into cord here.,I can turn fibers into cord here.
-GJZBJ_CardDescription,I can turn fibers into cord here.,I can turn fibers into cord here.
-CaveWood_CardDescription,I could get tropical almonds from here.,I could get tropical almonds from here.
-Bp_GJFSJ_BlueprintFinishedLog.LogText,I crafted a nice wooden spindle.,I crafted a nice wooden spindle.
-Bp_GJZBJ_BlueprintFinishedLog.LogText,I crafted a nice wooden spindle.,I crafted a nice wooden spindle.
-Bp_HHY_BlueprintFinishedLog.LogText,I made some dynamite!,I made some dynamite!
-Mianhua_CardDescription,I should be able to extract fibers out of it.,I should be able to extract fibers out of it.
-Cesspool_CardDescription,I should use a shovel to clean it up.,I should use a shovel to clean it up.
-CaveSpring_CardDescription,I should wait for it to refill.,I should wait for it to refill.
-XiaGuDongXueRuKou_CardDescription,Into another cave,Into another cave
-CaoMeiTian_CardName,Lemon Grass Crop Plot,Lemon Grass Crop Plot
-CaoMei_CardName,Lemongrass,Lemongrass
-CaoMeiCong_CardName,Lemongrass,Lemongrass
-XiaoMai_CardName,Lemongrass,Lemongrass
-Bp_HHY_CardDescription,Make things go BOOM!,Make things go BOOM!
-Mianhua_CardName,Mianhua,Mianhua
-GuilMod_MianhuaCong_CardName,MianhuaCong,MianhuaCong
-MianhuaTian_CardName,MianhuaTian,MianhuaTian
-GJFZQ_CardInteractions[0].RequiredReceivingDurabilities.FailMessage,Not hungry yet.,Not hungry yet.
-GJFZQ_CardInteractions[2].RequiredReceivingDurabilities.FailMessage,Not hungry yet.,Not hungry yet.
-GJFZQ_CardInteractions[1].RequiredReceivingDurabilities.FailMessage,Not hungry yet.,Not hungry yet.
-GuilMod_Bp_Caiyou_CardDescription,oil made by youcai.,oil made by youcai.
-YouZongYou_CardDescription,oil made by youcai.,oil made by youcai.
-HHY_CardDescription,Perfect for wood crafts.,Perfect for wood crafts.
-Qiuqian_CardDescription,Qiuqian,Qiuqian
-Qiuqian_CardName,Qiuqian,Qiuqian
-WaterFall_CardName,Sea,Sea
-CaveValley_ExplorationResults[1].Action.ActionName,Shaft,Shaft
-Event_FSS_CardDescription,Should I try to catch it?,Should I try to catch it?
-FireSpirit_CardDescription,Someone has scratched markings on the walls of the cave. There are 96 scratches. Probably representing days...,Someone has scratched markings on the walls of the cave. There are 96 scratches. Probably representing days...
-KaoYuMi_CardDescription,"Tasty, could try roasting them too.","Tasty, could try roasting them too."
-GJFZQ_UsageDurability.CardStatName,Thirst,Thirst
-Path_JungleHighlandsToSecretValley_CardDescription,This should take me deeper into the jungle.\n\n<b>(only cards on my hand row will be carried)</b>,This should take me deeper into the jungle.\n\n<b>(only cards on my hand row will be carried)</b>
-Event_FSS_DismantleActions[0].ActionName,Throw Rock at it,Throw Rock at it
-Path_JungleHighlandsToSecretValley_DismantleActions[0].FadeMessage,Travelling to the Jungle...,Travelling to the Jungle...
-KaoYuMi_CardName,Tropical Almond Kernels,Tropical Almond Kernels
-YuMi_CardName,Tropical Almond Kernels,Tropical Almond Kernels
-CaveWood_CardName,Tropical Almond Tree,Tropical Almond Tree
-Event_FSS_DismantleActions[1].ActionName,Use Spear,Use Spear
-FireSpirit_DismantleActions[1].ActionName,Use Spear,Use Spear
-GoodBed_CardName,Wooden Bed,Wooden Bed
-XiaoMaiTian_CardName,XiaoMaiTian,XiaoMaiTian
-GuilMod_Youcai_CardName,Youcai,Youcai
-XiaoMaiCong_CardName,Youcai,Youcai
-YuMiTian_CardName,YouCaiTian,YouCaiTian
-GJFZQ_CardDescription,Your grandfather is sick. You should provide him with food and drink.,Your grandfather is sick. You should provide him with food and drink.
-GJZBJ_CardDescription,Your grandfather is sick. You should provide him with food and drink.,Your grandfather is sick. You should provide him with food and drink.
-YuMiCong_CardName,YuMiCong,YuMiCong
-ZhengfaZhilengqi_CardName,ZFZLQ,ZFZLQ
-ZFZLQ_FuelCapacity.OnZero.ActionDescription,ZFZLQ is out of water!,ZFZLQ is out of water!
-GuilMod_Bp_Caiyou_UnlockConditionsDesc,Zhaixiadeyoucai Needed.,Zhaixiadeyoucai Needed.
-translate-564cbbf2-cddd-40e9-afac-cd7bee2fbdad,Insufficient earth magic points,土魔法点不足
+Bp_GJFSJ_BlueprintFinishedLog.LogText,I made a premium spinning machine.,我做了一台高级纺纱机。
+Bp_GJZBJ_BlueprintFinishedLog.LogText,I made an advanced loom.,我做了一台高级织布机。
+Bp_HHY_BlueprintFinishedLog.LogText,I made some black powder!,我做了一些黑火药！
+Bp_HHY_CardDescription,"One sulfur, two nitrous, three charcoal, and a little sugar Daivan!",一硫二硝三木炭，加点白糖大伊万！
+Bp_HHY_CardName,Black Dynamite,黑火药
+Bp_Mianbei_UnlockConditionsDesc,Higher textile skills required,需要更高的纺织技能
+Bp_Qiuqian_BlueprintFinishedLog.LogText,I made a swing.,我做了一座秋千。
+Bp_Qiuqian_CardDescription,"A swing, you can swing to play.",一座秋千，可以荡秋千玩。
+Bp_Qiuqian_CardName,Swings,秋千
 Bp_ShiMo_CardDescription,A stone mill to grind things.,一台石磨，可以碾磨东西。
 Bp_ShiMo_CardName,Stone Mill,石磨
 Bp_ShiMo_UnlockConditionsDesc,Higher masonry skills required,需要更高的石工技能
+Bp_zfzlq_CardName,Evaporative coolers,蒸发制冷器
+Bp_zfzlq_UnlockConditionsDesc,Need large pieces of cloth,需要大块的布
+Bp_Zhayao_CardName,Dynamite (black powder),炸药（黑火药）
+Bp_Zhengfa_BlueprintFinishedLog.LogText,I made an evaporative cooler.,我做了一台蒸发制冷器。
+Bp_Zhengfa_CardDescription,A wooden evaporative cooler to cool down the temperature.,一个木制的蒸发制冷器，可以降温。
+CaoMei_CardDescription,Palatable fruit with stress-reducing effects.,可口的水果，有降低压力的功效。
+CaoMei_CardName,Strawberry,草莓
+CaoMeiCong_CardDescription,A strawberry bush for picking strawberries.,一片草莓丛，可以采摘草莓。
+CaoMeiCong_CardName,Strawberry bushes,草莓丛
+CaoMeiTian_CardName,Strawberry field,草莓田
+CaveSpring_CardDescription,A mountain spring with a spring eye is gushing out mountain water.,一汪有泉眼的山泉，正涌出着山泉水。
+CaveSpring_CardName,Mountain Springs,山泉
+CaveValley_ExplorationResults[0].Action.ActionName,Copper Vein,Copper Vein
+CaveValley_ExplorationResults[1].Action.ActionName,Shaft,Shaft
+CaveWood_CardDescription,A rotten wood with mushrooms growing on it.,一根朽木，上面长有蘑菇。
+CaveWood_CardName,rotten wood,朽木
+EarthSpirit_CardName,Spirit of Titan,泰坦之灵
+Env_CaveValley_CardDescription,A cave in a canyon that might reveal something new.,一处在峡谷中的洞穴，或许能发现点新东西。
+Env_CaveValley_CardName,Canyon Cave,峡谷洞穴
+Env_YinMiXiaGu_CardName,Hidden Canyon,隐秘峡谷
+Event_FSS_CardDescription,"Ifrit has appeared, tell it your prayers.",伊弗利特显现了，向它诉说你的祈愿吧。
+Event_FSS_CardName,Ifrit descends,伊弗利特降临
+Event_FSS_DismantleActions[0].ActionName,Pray for Destruction,祈愿破坏
+Event_FSS_DismantleActions[1].ActionName,Praying Spear Art,祈愿矛术
+FireSpirit_CardDescription,"The Spirit of Ifrit, a deity who is in charge of the power of fire.",伊弗利特之灵，是司掌火焰之力的神灵。
+FireSpirit_CardName,Spirit of Ifrit,伊弗利特之灵
+FireSpirit_DismantleActions[0].ActionName,Presenting the Flame Trail,献上火焰之痕
+FireSpirit_DismantleActions[1].ActionName,Pray for blessing,祈求庇佑
+GJFZQ_CardDescription,"This is an advanced spinning machine that can weave palm leaves, spin fine threads, or ball of yarn.",这是一台高级纺纱机，可以编织棕榈叶、纺织细线或线团。
+GJFZQ_CardDescription,"This is an advanced spinning machine that can weave palm leaves, spin fine threads, or ball of yarn.",这是一台高级纺纱机，可以编织棕榈叶、纺织细线或线团。
+GJFZQ_CardInteractions[0].ActionName,Put in fiber,放入纤维
+GJFZQ_CardInteractions[0].RequiredReceivingDurabilities.FailMessage,Enough fiber has been released,已经放够了纤维
+GJFZQ_CardInteractions[1].ActionName,Put in the yarn,放入线团
+GJFZQ_CardInteractions[1].RequiredReceivingDurabilities.FailMessage,Enough thread has been put in the ball,已经放够了线团
+GJFZQ_CardInteractions[1].RequiredReceivingDurabilities.FailMessage,Enough thread has been put in the ball,已经放够了线团
+GJFZQ_CardInteractions[2].ActionName,Put in palm,放入棕榈
+GJFZQ_CardInteractions[2].RequiredReceivingDurabilities.FailMessage,Already put enough palm leaves,已经放够了棕榈叶
+GJFZQ_CardName,Advanced Spinning Machine,高级纺纱机
+GJFZQ_CardName,Advanced Spinning Machine,高级纺纱机
+GJFZQ_DismantleActions[0].ActionName,Spinning fine threads,纺织细线
+GJFZQ_DismantleActions[1].ActionName,Spinning thread ball,纺织线团
+GJFZQ_DismantleActions[2].ActionName,Braided Palm,编织棕榈
+GJFZQ_DismantleActions[3].ActionName,Spinning Rope,纺织绳子
+GJFZQ_FuelCapacity.CardStatName,Thread capacity,线团容量
+GJFZQ_SpoilageTime.CardStatName,Fiber capacity,纤维容量
+GJFZQ_UsageDurability.CardStatName,Palm leaf capacity,棕榈叶容量
+GJZBJ_CardDescription,This is an advanced loom that can weave all kinds of cloth.,这是一台高级织布机，可以织各种布。
+GJZBJ_CardDescription,This is an advanced loom that can weave all kinds of cloth.,这是一台高级织布机，可以织各种布。
+GJZBJ_CardName,Advanced loom,高级织布机
+GJZBJ_CardName,Advanced loom,高级织布机
+GodBless_GameName,Blessing of the spirits,众灵庇佑
+GoodBed_CardDescription,The bed with bedding is super comfortable!,铺设有床上用品的床，超舒服！
+GoodBed_CardName,Comfortable bed,舒服的床
+GrindingIntoPowder,Grinding the material into powder,更多水果_榨汁
+GS_FB_Description,Vulcan blesses you and you recover from your burns faster.,火神庇佑着你，你的烧伤恢复更快。
+GS_FB_GameName,Vulcan blessing,火神庇佑
+GS_FB_Statuses[0].GameName,Vulcan blessing,火神庇佑
 GS_动力_Description,Power supplied by various devices can be supplied to other devices.,由各种设备提供的动力，可以供给其他设备。
 GS_动力_GameName,Power,动力
 GS_动力_Statuses[0].GameName,Motivated!,有动力了！
+GuilMod_Bp_Caiyou_CardDescription,"The oil milled from rape is an important food ingredient, and it doesn't evaporate or go rancid!",由油菜碾磨成的油，是一种重要的食物材料，而且它不会蒸发和变质！
+GuilMod_Bp_Caiyou_CardName,Canola Oil,菜油
+GuilMod_Bp_Caiyou_UnlockConditionsDesc,Oilseed rape that needs to be picked,需要摘下的油菜
+GuilMod_Caiyou_CardName,Canola Oil,菜油
+GuilMod_Caiyou_DismantleAction,Processing,处理
+GuilMod_MianhuaCong_CardDescription,A cotton bush where you can collect cotton.,一片棉花丛，可以采集棉花。
+GuilMod_MianhuaCong_CardName,Cotton Bush,棉花丛
+GuilMod_Youcai_CardDescription,The beautiful rape bush is an edible crop that can be extracted for oil.,美丽的油菜丛，是一种可榨油的可食用作物。
+GuilMod_Youcai_CardName,Oleander bush,油菜丛
+GuilMod_YouCai_CardName,Oleander bush,油菜丛
+GuilMod_ZhaixiadeYoucai_CardDescription,"Edible, can be crushed into vegetable oil in a bowl!",可食用，可以在碗中被碾成菜油！
+HHY_CardDescription,"One sulfur, two nitrous, three charcoal, and a little sugar Daivan!",一硫二硝三木炭，加点白糖大伊万！
+HHY_CardName,Black Dynamite,黑火药
+KaoYuMi_CardDescription,"Roasted corn, yum!",烤熟的玉米，好吃！
+KaoYuMi_CardName,Roasted Corn,烤玉米
+Mianbei_CardDescription,A comfortable quilt that can be laid on a wooden bed.,舒服的棉被，可以铺设在木床上。
+Mianbei_CardDescription,A comfortable quilt that can be laid on a wooden bed.,舒服的棉被，可以铺设在木床上。
+Mianbei_CardName,Bedding,床上用品
 Mianfen_CardName,Flour,面粉
+Mianhua_CardDescription,White and clean cotton for instant fiber extraction.,白洁的棉花，可以瞬间提取纤维。
+Mianhua_CardName,Cotton,棉花
+MianhuaTian_CardName,Cotton field,棉花田
 MoFang_CardDescription,"A mill to grind things. Compared to a stone mill, it is more efficient and less laborious.",一座磨坊，可以碾磨东西。相较石磨，它效率更高且不费力。
 MoFang_CardName,Mills,磨坊
+MuTong_CardDescription,A barrel that can be used for liquids.,一个木桶，可以用来装液体。
+MuTong_CardDescription,A barrel that can be used for liquids.,一个木桶，可以用来装液体。
+MuTong_CardName,barrel,木桶
+MuTong_CardName,barrel,木桶
+Path_JungleHighlandsToSecretValley_CardDescription,This leads to a peaceful stream valley. <b>(Only the hand can be taken away)</b>,这里通向一处祥和的溪谷。<b>（只有手牌可以带走）</b>
+Path_JungleHighlandsToSecretValley_DismantleActions[0].FadeMessage,Enter the Valley of the Stream ......,进入溪谷……
+Pk_GodBless_PerkDescription,Bringing the spirit of all things together to fight against natural disasters.,携万物之灵，共抗天灾。
+Pk_GodBless_PerkName,Blessing of the spirits,众灵庇佑
+Qiuqian_CardDescription,"A swing, you can swing to play.",一座秋千，可以荡秋千玩。
+Qiuqian_CardName,Swings,秋千
+Qiuqian_DismantleActions[0].ActionName,Swinging,荡秋千
 ShiMo_CardDescription,A stone mill to grind things.,一台石磨，可以碾磨东西。
 ShiMo_CardInteractions[0].ActionName,Milling flour,碾磨面粉
 ShiMo_CardName,Stone Mill,石磨
@@ -199,6 +172,7 @@ translate-5539fe94-998a-4a6d-94d9-166b95876bdc,Steamed Pork with Vermicelli,蒸�
 translate-554a79f4-de71-4bb7-8cdc-ebaaf8e41a57,Water god token,水神信物
 translate-55c342d8-9295-432e-ba36-2de46e2dd165,Growing cotton,种植棉花
 translate-5618c71b-b28b-4894-be96-0fc85ea93fa5,Manila hemp bush,马尼拉麻丛
+translate-564cbbf2-cddd-40e9-afac-cd7bee2fbdad,Insufficient earth magic points,土魔法点不足
 translate-5875a96b-f867-4ef6-b1ae-554b6b5150e4,Cocoa beans ground into a powder.,可可豆磨成的粉。
 translate-5a4d6200-a5c7-4ac2-8682-dafdc36a5e70,Oil Palm,油棕
 translate-5b3f49d2-dd43-4aa8-804e-081b6747a808,Growing wheat,种植小麦
@@ -341,6 +315,29 @@ translate-fbe71879-282a-4474-8ed2-2dac15504b94,An inkstone with ink already in i
 translate-fdd11ead-b8c3-418c-a8b9-b7a36d2308b8,Life magic point is full,生命魔法点已满
 translate-fe47d236-9c59-4c8a-beb2-8faf6cd0dc8c,Unsteamed buns,没蒸的馒头
 translate-fe638379-42fe-4f8d-bbd2-0fc6e4731d70,Grinded dry beans,碾磨干豆
-WaterSpirit_DismantleActions[1].ActionName,Learn to swim,学习游泳
-GuilMod_YouCai_CardName,Oilseed rape,油菜
-GrindingIntoPowder,Grinding the material into powder,更多水果_榨汁
+WaterFall_CardDescription,"A waterfall with a stream to collect water (drinking water is not safe!) , dredging, forking fish, and I should be able to build a waterwheel nearby.",一处带有溪流的瀑布，可以收集水（饮水并不安全！）、挖泥、叉鱼，我应该可以在附近修建水车。
+WaterFall_CardName,Waterfall with stream,带溪流的瀑布
+WaterSpirit_CardInteractions[0].ActionName,Offering shark jaws,献上鲨鱼下颚
+WaterSpirit_DismantleActions[1].ActionName,Close to the Ocean,亲近海洋
+XiaGuDongXueChuKou_CardDescription,Leaving the cave,离开洞穴
+XiaGuDongXueChuKou_CardName,Hidden Canyon,隐秘峡谷
+XiaGuDongXueChuKou_DismantleActions[0].ActionName,Leave,离开
+XiaGuDongXueChuKou_DismantleActions[0].FadeMessage,Leaving the cave,离开洞穴
+XiaGuDongXueRuKou,Stream Valley Cave,溪谷洞穴
+XiaGuDongXueRuKou_CardDescription,Enter the cave,进入洞穴
+XiaoMai_CardDescription,"The wheat that I cut, I should grind it into flour",割下的小麦，我应该把它磨成面粉
+XiaoMai_CardName,Wheat,小麦
+XiaoMaiCong_CardDescription,"A wheat bush, I can cut wheat",一片小麦丛，我可以割小麦
+XiaoMaiCong_CardName,Wheat bush,小麦丛
+XiaoMaiTian_CardName,Wheat field,小麦田
+YouZongYou_CardDescription,The oil extracted from the oil palm can be processed as ordinary oil.,由油棕榨成的油，可以处理为普通的油。
+YouZongYou_CardName,Oil Palm Oil,油棕油
+YuMi_CardName,Raw corn,生玉米
+YuMiCong_CardDescription,A corn bush where I can gather corn,一片玉米丛，我可以采集玉米
+YuMiCong_CardName,Corn bush,玉米丛
+YuMiTian_CardName,Corn field,玉米田
+ZFZLQ_DismantleActions[0].ActionName,Pour out the water.,把水倒掉
+ZFZLQ_FuelCapacity.OnZero.ActionDescription,The evaporative cooler is out of water!,蒸发制冷器没水啦！
+ZhengfaZhilengqi_CardDescription,A wooden evaporative cooler to cool down the temperature.,一个木制的蒸发制冷器，可以降温。
+ZhengfaZhilengqi_CardName,Evaporative coolers,蒸发制冷器
+ZhengfaZhilengqiOff_CardDescription,"A wooden evaporative cooler, but it now strikes without water.",一个木制的蒸发制冷器，但它现在没水罢工了。
